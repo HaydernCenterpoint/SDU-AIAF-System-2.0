@@ -250,7 +250,7 @@ jobs:
 
       - name: Upload Brev debug bundle on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: brev-debug-bundle
           path: brev-debug-bundle/
@@ -258,7 +258,7 @@ jobs:
 
       - name: Upload test logs
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: e2e-brev-logs
           path: /tmp/brev-e2e-*.log
