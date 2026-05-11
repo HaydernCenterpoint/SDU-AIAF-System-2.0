@@ -68,7 +68,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: install-log
           path: /tmp/nemoclaw-e2e-install.log
@@ -169,7 +169,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: install-log-cloud-experimental
           path: /tmp/nemoclaw-e2e-cloud-experimental-install.log
@@ -202,7 +202,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: install-log-messaging-providers
           path: /tmp/nemoclaw-e2e-install.log
@@ -237,7 +237,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: install-log-token-rotation
           path: /tmp/nemoclaw-e2e-install.log
@@ -263,7 +263,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: sandbox-survival-install-log
           path: /tmp/nemoclaw-e2e-install.log
@@ -294,7 +294,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: hermes-e2e-install-log
           path: /tmp/nemoclaw-e2e-hermes-install.log
@@ -325,7 +325,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: skip-permissions-install-log
           path: /tmp/nemoclaw-e2e-install.log
@@ -354,7 +354,7 @@ jobs:
 
       - name: Upload test log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: sandbox-operations-test-log
           path: test-sandbox-operations-*.log
@@ -382,7 +382,7 @@ jobs:
 
       - name: Upload test log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: inference-routing-test-log
           path: test-inference-routing-*.log
@@ -410,7 +410,7 @@ jobs:
 
       - name: Upload test log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: network-policy-test-log
           path: test-network-policy-*.log
@@ -438,7 +438,7 @@ jobs:
 
       - name: Upload test log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: deployment-services-test-log
           path: test-deployment-services-*.log
@@ -466,7 +466,7 @@ jobs:
 
       - name: Upload test log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: diagnostics-test-log
           path: test-diagnostics-*.log
@@ -494,7 +494,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: snapshot-commands-install-log
           path: /tmp/nemoclaw-e2e-install.log
@@ -522,7 +522,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: shields-config-install-log
           path: /tmp/nemoclaw-e2e-shields-install.log
@@ -550,7 +550,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: rebuild-openclaw-install-log
           path: /tmp/nemoclaw-e2e-install.log
@@ -579,7 +579,7 @@ jobs:
 
       - name: Upload install logs on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: upgrade-stale-sandbox-logs
           path: |
@@ -609,7 +609,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: rebuild-hermes-install-log
           path: /tmp/nemoclaw-e2e-install.log
@@ -651,7 +651,7 @@ jobs:
 
       - name: Upload install log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: gpu-e2e-install-log
           path: /tmp/nemoclaw-gpu-e2e-install.log
@@ -659,7 +659,7 @@ jobs:
 
       - name: Upload test log on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: gpu-e2e-test-log
           path: /tmp/nemoclaw-gpu-e2e-test.log
