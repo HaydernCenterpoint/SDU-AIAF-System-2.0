@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "id": "user-demo-001",
+      "studentId": "demo001",
+      "email": "demo@saodo.edu.vn",
+      "fullName": "Demo User",
+      "dateOfBirth": "2003-01-01",
+      "faculty": "Cong nghe thong tin",
+      "phone": "0900000001",
+      "createdAt": "2026-05-05T07:29:03.777Z",
+      "profileComplete": true,
+      "role": "student",
+      "status": "active",
+      "password": "5b19c9ed48ca5b0ce3870574499f3a72:21672429d92515be081e60dd10b981c6a2b51acae6363757e40f31d2c97744ce4954222bfd6e637fcb8fa023ccbf44cc99ff948e28ebb04141da65ef59822bd0"
+    },
+    {
+      "id": "user-1775114868924",
+      "studentId": "2024001",
+      "password": "1b890c2e6162b00cfebf543963151068:1e27c6735511555bb1ad962077748eeee59fc9bf3ec2b953a0bf11766ac26ef8f26ba08ddc6b9b985c65ad167527256bb778fc7869877df59de1666f5de30a63",
+      "email": "test@saodo.edu.vn",
+      "fullName": "Nguyen Van A",
+      "dateOfBirth": "2003-05-15",
+      "faculty": "Cong nghe thong tin",
+      "phone": "0912345678",
+      "createdAt": "2026-04-02T07:27:48.924Z",
+      "profileComplete": true
+    },
+    {
+      "id": "user-1775117132224",
+      "studentId": "2024002",
+      "password": "6aaf4ec89f78ece85853e73e1d5e63ef:51f6c2097da457177f7409a55e78afd691a4ed30f9a0a469904a49975ce276e806fbdbb133ab261f10f3ff1afbfd1a576cde88013686afcd4d5e80ea7b2af808",
+      "email": "test2@saodo.edu.vn",
+      "fullName": "Tran Thi B",
+      "dateOfBirth": "2003-08-20",
+      "faculty": "Ke toan",
+      "phone": "0987654321",
+      "createdAt": "2026-04-02T08:05:32.224Z",
+      "profileComplete": true
+    },
+    {
+      "id": "user-1775899170204",
+      "studentId": "SV2024001",
+      "password": "02aef5035199677616e6a3096150c920:0edfd51c18c0e24ea26d0565de19e44972cb1712c1648594bb11e32d29b38de5ff910580f50732ac19cf12591fc4abd9bcd3c730090f688e294b5c8def9596cb",
+      "email": "sv2024001@saodo.edu.vn",
+      "fullName": "Nguyen Van An",
+      "dateOfBirth": "2004-05-15",
+      "faculty": "Cong nghe thong tin",
+      "phone": "0912345678",
+      "createdAt": "2026-04-11T09:19:30.204Z",
+      "profileComplete": true
+    },
+    {
+      "id": "user-1777339564601",
+      "studentId": "2200286",
+      "email": "2200286@sv.saodo.edu.vn",
+      "fullName": "Sinh viên 2200286",
+      "dateOfBirth": "2004-01-01",
+      "faculty": "Công nghệ thông tin",
+      "phone": "0900000000",
+      "createdAt": "2026-04-28T01:26:04.601Z",
+      "profileComplete": true,
+      "role": "student",
+      "status": "active",
+      "password": "4181ec7a7fa037edee4c4c44da6c43f2:7ff619e64517b5a19c5f363b1e556f6bf0fc6625719ffc7d68ecb3c912c392e64f65bab0d4ced0b1c628494fbaebda539e03ddd3ab17c9ac87f5eab1a5190584"
+    }
+  ],
+  "pendingRegistrations": [
+    {
+      "studentId": "2200286",
+      "password": "8fd5d9d0b8029fde1cb3591817046046:42f73c18a4a69f4767cf774c835fcf852d7601b0783292cc1ff50a3e8307e6a63fb7fcb92c6fd01c45cf7cc5e3800567cbf41dcb293c94258c630985cd5f5056",
+      "email": "datmkjkl@gmail.com",
+      "createdAt": "2026-04-02T09:16:51.935Z"
+    },
+    {
+      "studentId": "TEST123",
+      "password": "f2d15ca1df0282e9337963c40d325024:44317d0d66edbc598e4058ce224e716218914c3b2d60802542c43a20062c61a6fd3adfce8678055142b6d79ee1386f4dc40e885a3b2146208619fb90940001c6",
+      "email": "test123@saodo.edu.vn",
+      "createdAt": "2026-04-02T09:20:24.724Z"
+    }
+  ],
+  "resetTokens": [
+    {
+      "token": "7d8035804507256f0f86f36f1252b112f1032d22bd4af16ad18d3a657bfc8140",
+      "userId": "user-1775114868924",
+      "createdAt": "2026-04-02T07:27:48.925Z",
+      "expiresAt": "2026-04-09T07:27:48.925Z"
+    },
+    {
+      "token": "c80ee517e314c5a46050f14cdf391ff83599e8f6e84ca6fbed271084e8c3dc39",
+      "userId": "user-1775114868924",
+      "createdAt": "2026-04-02T07:28:05.014Z",
+      "expiresAt": "2026-04-09T07:28:05.014Z"
+    },
+    {
+      "token": "f99a26d32db15942337d1e0fdf08b41b11f4313ec429def46745ab96d68f8267",
+      "userId": "user-1775117132224",
+      "createdAt": "2026-04-02T08:05:32.225Z",
+      "expiresAt": "2026-04-09T08:05:32.225Z"
+    },
+    {
+      "token": "70adcdf9d31e51b2769490e0426274cb0ae211620c3d99ac230d73f0efaaea33",
+      "userId": "user-1775899170204",
+      "createdAt": "2026-04-11T09:19:30.205Z",
+      "expiresAt": "2026-04-18T09:19:30.205Z"
+    },
+    {
+      "token": "31a414142408c52f6f31ff357e726239b278a971fa910fa111d31ea4b8e8fded",
+      "userId": "user-1775899170204",
+      "createdAt": "2026-04-11T09:20:56.036Z",
+      "expiresAt": "2026-04-18T09:20:56.036Z"
+    },
+    {
+      "token": "8260cbb9f05144dfd328c04823c9e7e0a0072e6aeddc31ca78fdcc8d9035d16f",
+      "userId": "user-1775899170204",
+      "createdAt": "2026-04-11T09:29:55.921Z",
+      "expiresAt": "2026-04-18T09:29:55.921Z"
+    },
+    {
+      "token": "539fb8410794bf32e72955ff5e6065f2617cb329099f30c719f835d4d90d7ec6",
+      "userId": "user-1775899170204",
+      "createdAt": "2026-04-11T18:05:34.719Z",
+      "expiresAt": "2026-04-18T18:05:34.719Z"
+    },
+    {
+      "token": "47655911c1d372cf77676f0c7bc391096db7045745c322d5e17e8284c5199857",
+      "userId": "user-1775899170204",
+      "createdAt": "2026-04-11T18:07:30.514Z",
+      "expiresAt": "2026-04-18T18:07:30.514Z"
+    },
+    {
+      "token": "b3c778289b8591374d73f9a5847e95a35bbe4349d2ae1509e2743d07ee487439",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T01:26:14.274Z",
+      "expiresAt": "2026-05-05T01:26:14.274Z"
+    },
+    {
+      "token": "f4793f8613be721345f0c0e2efa2225cfce6baaf203ff43ac992dd46edd1547d",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T01:34:27.708Z",
+      "expiresAt": "2026-05-05T01:34:27.708Z"
+    },
+    {
+      "token": "2beba7c7246e72b9feb5072afa693f6a25b6a498b83df1f455f4f3ae0472aabf",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T01:39:25.384Z",
+      "expiresAt": "2026-05-05T01:39:25.384Z"
+    },
+    {
+      "token": "553274f71a06c311ef50c514718e2ddfb668b5780a841542768148ccc68b0bb7",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T01:39:26.111Z",
+      "expiresAt": "2026-05-05T01:39:26.111Z"
+    },
+    {
+      "token": "c72a644bb9aaefb8570bbac7f9fa4a83b824a51054e402ff8a38636278d47d2c",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T01:39:32.241Z",
+      "expiresAt": "2026-05-05T01:39:32.241Z"
+    },
+    {
+      "token": "8a9363b094de2357590b85405a32615bf341acd15d66edb27c68122913424f25",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T06:06:47.970Z",
+      "expiresAt": "2026-05-05T06:06:47.970Z"
+    },
+    {
+      "token": "34446e3bb6b4928724e15ca28516f0b5d617f66fa9ad98c4ede55dc8665078b1",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T07:29:02.267Z",
+      "expiresAt": "2026-05-05T07:29:02.267Z"
+    },
+    {
+      "token": "fa9896ab39213170c2285dee98c98a0d160b4b57d2ea530cc616fc529cf3e79f",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T07:52:18.068Z",
+      "expiresAt": "2026-05-05T07:52:18.068Z"
+    },
+    {
+      "token": "c6476316fe55499403dd24296697d6507ee1489d003dd31cf1ab2637285b7467",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T07:52:27.130Z",
+      "expiresAt": "2026-05-05T07:52:27.130Z"
+    },
+    {
+      "token": "01fa56b9fbd4df4438c9d97e5669bb833643edb83234bea0d92b9781a1f66b32",
+      "userId": "user-1777339564601",
+      "createdAt": "2026-04-28T07:52:50.112Z",
+      "expiresAt": "2026-05-05T07:52:50.112Z"
+    }
+  ]
+}

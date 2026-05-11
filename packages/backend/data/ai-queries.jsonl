@@ -1,0 +1,5 @@
+{"userId":"demo-sdu-001","assistantType":"study","conversationId":"5805829c-6bae-4d86-bf9b-f6b4c88058b1","latencyMs":622,"status":"success","createdAt":"2026-05-05T05:25:49.396Z"}
+{"userId":"user-1777962799221","assistantType":"health","conversationId":"c11c7391-36d0-479d-96ca-d72e797ce156","latencyMs":9743,"status":"success","createdAt":"2026-05-05T06:33:28.978Z"}
+{"userId":"demo-sdu-001","assistantType":"career","conversationId":"9a4bf3fb-b668-425d-8ec1-98048d92d919","latencyMs":30012,"status":"success","createdAt":"2026-05-05T08:16:52.264Z"}
+{"userId":"demo-sdu-001","assistantType":"career","conversationId":"9a4bf3fb-b668-425d-8ec1-98048d92d919","latencyMs":30012,"status":"success","createdAt":"2026-05-05T08:17:50.448Z"}
+{"userId":"demo-sdu-001","assistantType":"career","conversationId":"9a4bf3fb-b668-425d-8ec1-98048d92d919","latencyMs":2467,"status":"success","createdAt":"2026-05-05T08:17:57.618Z"}

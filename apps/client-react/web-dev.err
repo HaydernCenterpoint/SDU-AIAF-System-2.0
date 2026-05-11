@@ -1,0 +1,260 @@
+ ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/sdu/dashboard'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/sdu/dashboard'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/sdu/dashboard'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/sdu/dashboard'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/sdu/dashboard'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/sdu/dashboard'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\cache\webpack\client-development-fallback\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\datmk\\OneDrive\\Desktop\\Workspace\\NemoClaw\\apps\\client-react\\.next\\routes-manifest.json'
+}

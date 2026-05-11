@@ -1,0 +1,129 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e85]:
+    - complementary [ref=e86]:
+      - generic [ref=e88]:
+        - img "Logo Trường THPT Nguyễn Thị Duệ" [ref=e90]
+        - generic [ref=e91]:
+          - heading "Trường THPT Nguyễn Thị Duệ" [level=2] [ref=e92]
+          - paragraph [ref=e93]: Cổng nội bộ THPT
+      - navigation "Điều hướng Student OS" [ref=e94]:
+        - generic [ref=e95]:
+          - button "Tổng quan" [ref=e96] [cursor=pointer]:
+            - img [ref=e98]
+            - text: Tổng quan
+          - button "Học tập" [ref=e100] [cursor=pointer]:
+            - img [ref=e102]
+            - text: Học tập
+          - button "Tài liệu" [ref=e104] [cursor=pointer]:
+            - img [ref=e106]
+            - text: Tài liệu
+          - button "Chat AI" [ref=e108] [cursor=pointer]:
+            - img [ref=e110]
+            - text: Chat AI
+        - generic [ref=e112]:
+          - button "Lịch & Nhắc nhở" [ref=e113] [cursor=pointer]:
+            - img [ref=e115]
+            - text: Lịch & Nhắc nhở
+          - button "Cộng đồng" [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - text: Cộng đồng
+      - generic [ref=e121]:
+        - paragraph [ref=e122]: Hôm nay
+        - paragraph [ref=e123]: Mở Tổng quan để xem lịch học, cộng đồng và nhắc nhở của trường.
+    - main [ref=e124]:
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: ⌕
+          - generic [ref=e130]: Tìm thông báo, tài liệu, sinh hoạt lớp...
+          - generic [ref=e131]: ⌘ K
+        - generic [ref=e132]:
+          - button "Thông báo" [ref=e134] [cursor=pointer]
+          - button "Học sinh 2025324AK02 Học sinh ⌄" [ref=e136] [cursor=pointer]:
+            - generic [ref=e138]:
+              - paragraph [ref=e139]: Học sinh 2025324AK02
+              - paragraph [ref=e140]: Học sinh
+            - generic [ref=e141]: ⌄
+      - generic [ref=e144]:
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - paragraph [ref=e150]: Portal THPT Nguyễn Thị Duệ
+            - heading "Học sinh 2025324AK02, hôm nay cần giữ nhịp học tập rõ ràng." [level=1] [ref=e151]
+            - paragraph [ref=e152]: Xem nhanh lịch học, tài liệu, thông báo và các nhắc nhở nội bộ trong một khung điều phối riêng cho THPT.
+          - generic [ref=e153]:
+            - paragraph [ref=e154]: Tổng quan
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - paragraph [ref=e157]: Tiết học hôm nay
+                - paragraph [ref=e158]: "5"
+              - generic [ref=e159]:
+                - paragraph [ref=e160]: Nhắc nhở đang mở
+                - paragraph [ref=e161]: "2"
+              - generic [ref=e162]:
+                - paragraph [ref=e163]: Tài liệu mới
+                - paragraph [ref=e164]: "3"
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - paragraph [ref=e169]: Lịch học
+                - heading "Tiết học sắp tới" [level=2] [ref=e170]
+              - generic [ref=e171]: 4 mục
+            - generic [ref=e172]:
+              - article [ref=e173]:
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - paragraph [ref=e176]: Toán
+                    - paragraph [ref=e177]: Chính khóa · Thứ 2
+                  - generic [ref=e178]: 07:00 - 07:45
+                - paragraph [ref=e179]: P.12A1
+              - article [ref=e180]:
+                - generic [ref=e181]:
+                  - generic [ref=e182]:
+                    - paragraph [ref=e183]: Ngữ văn
+                    - paragraph [ref=e184]: Chính khóa · Thứ 2
+                  - generic [ref=e185]: 07:55 - 08:40
+                - paragraph [ref=e186]: P.12A1
+              - article [ref=e187]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - paragraph [ref=e190]: Tiếng Anh
+                    - paragraph [ref=e191]: Chính khóa · Thứ 2
+                  - generic [ref=e192]: 08:50 - 09:35
+                - paragraph [ref=e193]: P.12A1
+              - article [ref=e194]:
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - paragraph [ref=e197]: Vật lí
+                    - paragraph [ref=e198]: Tăng cường · Thứ 3
+                  - generic [ref=e199]: 13:30 - 14:15
+                - paragraph [ref=e200]: P.12A1
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - paragraph [ref=e203]: Thông báo nội bộ
+              - generic [ref=e204]:
+                - generic [ref=e205]: Cập nhật lịch trực tuần cho giáo viên chủ nhiệm.
+                - generic [ref=e206]: Học sinh truyền thông theo dõi mục cộng đồng để đăng bài sự kiện.
+                - generic [ref=e207]: Ban giám hiệu có thể xem toàn bộ thống kê tại khu quản trị.
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - paragraph [ref=e211]: Tài liệu
+                  - heading "Cần xem tiếp" [level=2] [ref=e212]
+                - generic [ref=e213]: 3 tệp
+              - generic [ref=e214]:
+                - article [ref=e215]:
+                  - paragraph [ref=e216]: Đề cương ôn tập Toán 12
+                  - paragraph [ref=e217]: PDF - 1.8 MB
+                  - paragraph [ref=e218]: Khối 12 - học kỳ II
+                - article [ref=e219]:
+                  - paragraph [ref=e220]: Ngữ liệu phân tích Văn học
+                  - paragraph [ref=e221]: DOCX - 0.9 MB
+                  - paragraph [ref=e222]: Tổ Ngữ văn
+                - article [ref=e223]:
+                  - paragraph [ref=e224]: Bộ đề tiếng Anh chuyên đề
+                  - paragraph [ref=e225]: PDF - 2.1 MB
+                  - paragraph [ref=e226]: Phụ trách bởi tổ Ngoại ngữ
+    - button "Mở AI Companion" [ref=e228] [cursor=pointer]: AI
+  - button "Open Next.js Dev Tools" [ref=e80] [cursor=pointer]:
+    - img [ref=e81]
+  - alert [ref=e84]: Portal THPT Nguyễn Thị Duệ

@@ -1,0 +1,194 @@
+/* ── SchoolAdminDashboard ──────────────────────────────── */
+
+.headerCard {
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px 32px;
+  border: 1px solid #e8ecf2;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.headerBadge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 8px;
+  background: var(--admin-primary-soft);
+  color: var(--admin-primary);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.headerTitle {
+  margin-top: 10px;
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #1a1f36;
+}
+
+.headerSub {
+  margin-top: 4px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #8792a8;
+}
+
+/* ── Stat cards ── */
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.statCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 22px 24px;
+  border: 1px solid #e8ecf2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+}
+
+.statIcon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: var(--admin-primary-soft);
+}
+
+.statLabel {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #8792a8;
+}
+
+.statValue {
+  margin-top: 2px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #1a1f36;
+}
+
+/* ── Chart ── */
+.chartCard {
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px 32px;
+  border: 1px solid #e8ecf2;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.sectionTitle {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #1a1f36;
+  margin-bottom: 16px;
+}
+
+.barChart {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  height: 160px;
+  padding-top: 12px;
+}
+
+.barGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.bar {
+  width: 100%;
+  max-width: 64px;
+  border-radius: 10px 10px 4px 4px;
+  transition: height 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.barLabel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #8792a8;
+  text-align: center;
+}
+
+/* ── Logs ── */
+.logsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.logCard {
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px 28px;
+  border: 1px solid #e8ecf2;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.logList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.logItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #f7f8fc;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.logDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--admin-primary);
+  flex-shrink: 0;
+}
+
+.emptyState {
+  padding: 16px;
+  border-radius: 12px;
+  background: #f7f8fc;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #8792a8;
+  text-align: center;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .statGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .logsGrid {
+    grid-template-columns: 1fr;
+  }
+}

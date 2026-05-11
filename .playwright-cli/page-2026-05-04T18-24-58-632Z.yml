@@ -1,0 +1,49 @@
+- main [ref=e2]:
+  - region "Chọn đơn vị đăng nhập" [ref=e3]:
+    - button "Chọn Trường THPT Nguyễn Thị Duệ" [disabled] [ref=e4]:
+      - text: Nguyễn Thị Duệ
+      - generic [ref=e6]:
+        - img "Logo Nguyễn Thị Duệ" [ref=e8]
+        - paragraph [ref=e9]: Đơn vị giáo dục phổ thông
+        - heading "Trường THPT Nguyễn Thị Duệ" [level=1] [ref=e10]
+        - paragraph [ref=e11]: Cổng truy cập học tập, quản lý lớp học và dịch vụ số dành cho nhà trường
+    - button "Chọn Trường Đại học Sao Đỏ" [disabled] [ref=e12]:
+      - text: Sao Đỏ University
+      - generic [ref=e14]:
+        - img "Logo Sao Đỏ" [ref=e16]
+        - paragraph [ref=e17]: Đơn vị giáo dục đại học
+        - heading "Trường Đại học Sao Đỏ" [level=1] [ref=e18]:
+          - text: Trường Đại học
+          - text: Sao Đỏ
+        - paragraph [ref=e19]: Cổng đăng nhập tập trung cho đào tạo, quản lý sinh viên và các tiện ích học thuật
+  - generic [ref=e23]:
+    - paragraph [ref=e24]: Đơn vị giáo dục đại học
+    - heading [level=2] [ref=e25]: Đăng nhập
+    - paragraph [ref=e26]:
+      - strong [ref=e27]: Trường Đại học Sao Đỏ
+      - text: · Tiếp tục với đúng đơn vị đã chọn để vào hệ thống.
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - text: Tên đăng nhập hoặc Email
+        - textbox [ref=e30]:
+          - /placeholder: Nhập tài khoản của bạn
+      - generic [ref=e31]:
+        - text: Mật khẩu
+        - textbox [ref=e32]:
+          - /placeholder: Nhập mật khẩu
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - checkbox [ref=e35]
+        - text: Ghi nhớ đăng nhập
+      - link [ref=e36] [cursor=pointer]:
+        - /url: /forgot-password
+        - text: Quên mật khẩu?
+    - generic [ref=e37]:
+      - button [disabled] [ref=e38]: Đăng nhập
+      - button [ref=e39]: Quay lại chọn đơn vị
+    - paragraph [ref=e40]:
+      - text: Chưa có tài khoản?
+      - link [ref=e41] [cursor=pointer]:
+        - /url: /register
+        - text: Đăng ký ngay
+    - paragraph [ref=e42]: Kết nối được bảo vệ. Vui lòng không chia sẻ tài khoản hoặc mật khẩu cho người khác.

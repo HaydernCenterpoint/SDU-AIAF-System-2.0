@@ -1,0 +1,1249 @@
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module './vendor-chunks/zod.js'
+Require stack:
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\pages\_document.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\require.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\load-components.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\utils.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\options.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\swc\index.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\server\config.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\cli\next-test.js
+- C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\bin\next] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}

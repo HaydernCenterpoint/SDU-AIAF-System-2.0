@@ -1,0 +1,755 @@
+<!--
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# Register/Login UI Sync Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Make `/register` visually match the Sao Do login page while keeping registration behavior unchanged.
+
+**Architecture:** Replace the generic `AuthFrame` wrapper on the register page with a small register-specific split layout and CSS module. Keep all form schema, React Hook Form wiring, auth context calls, account-type copy, school routing, and navigation logic in `page.tsx` unchanged.
+
+**Tech Stack:** Next.js 15 App Router, React 19, TypeScript, React Hook Form, Zod, CSS Modules, existing Sao Do image/logo assets.
+
+---
+
+## File Structure
+
+- Modify: `apps/client-react/src/app/register/page.tsx`
+  - Remove `AuthFrame` usage.
+  - Import `BrandMark` and the new CSS module.
+  - Wrap the existing form in a login-style split layout.
+  - Preserve all existing form state, validation, submit logic, field names, and links.
+- Create: `apps/client-react/src/app/register/RegisterPage.module.css`
+  - Own the register-only visual shell, brand image panel, card, fields, button, mobile layout, and reduced-motion behavior.
+  - Reuse the login page's visual language without importing or changing `SchoolPortalLogin.module.css`, because that file also drives the animated school-selection flow.
+- Create: `apps/client-react/test/register-page-ui.test.mjs`
+  - Lock the registration page structure to the login-style shell before changing production UI code.
+  - Verify the CSS module includes the Sao Do background image, split layout, serif title language, red gradient button, and mobile breakpoint.
+
+## Task 0: Add Failing UI Structure Test
+
+**Files:**
+- Create: `apps/client-react/test/register-page-ui.test.mjs`
+
+- [ ] **Step 1: Write the failing test**
+
+Add this file:
+
+```js
+// SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+// SPDX-License-Identifier: Apache-2.0
+
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import test from 'node:test';
+import { fileURLToPath } from 'node:url';
+
+const rootDir = join(dirname(fileURLToPath(import.meta.url)), '..');
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+test('register page uses the login-matched visual shell', async () => {
+  const pageSource = await readFile(join(rootDir, 'src/app/register/page.tsx'), 'utf8');
+
+  assert.match(pageSource, /RegisterPage\.module\.css/);
+  assert.match(pageSource, /BrandMark/);
+  assert.doesNotMatch(pageSource, /AuthFrame/);
+
+  for (const token of [
+    'styles.page',
+    'styles.brandPanel',
+    'styles.formPanel',
+    'styles.card',
+    'styles.primaryButton',
+    'Kết nối được bảo vệ',
+  ]) {
+    assert.match(pageSource, new RegExp(escapeRegExp(token)));
+  }
+});
+
+test('register CSS mirrors the Sao Do login visual language', async () => {
+  const cssSource = await readFile(join(rootDir, 'src/app/register/RegisterPage.module.css'), 'utf8');
+
+  assert.match(cssSource, /bg-sao-do/);
+  assert.match(cssSource, /grid-template-columns:\s*minmax\(380px,\s*49vw\)\s*1fr/);
+  assert.match(cssSource, /font-family:\s*Georgia/);
+  assert.match(cssSource, /linear-gradient\(135deg,\s*var\(--register-red-main\),\s*var\(--register-red-deep\)\)/);
+  assert.match(cssSource, /@media \(max-width: 1080px\)/);
+});
+```
+
+- [ ] **Step 2: Run the test and verify it fails for the expected reason**
+
+Run:
+
+```bash
+node --test test/register-page-ui.test.mjs
+```
+
+Working directory: `apps/client-react`
+
+Expected: FAIL because `page.tsx` still uses `AuthFrame` and `RegisterPage.module.css` does not exist yet.
+
+## Task 1: Add Register Page Styles
+
+**Files:**
+- Create: `apps/client-react/src/app/register/RegisterPage.module.css`
+
+- [ ] **Step 1: Create the CSS module**
+
+Add this file:
+
+```css
+.page {
+  --register-red-deep: #79091f;
+  --register-red-main: #b4233d;
+  --register-red-bright: #e14a5f;
+  --register-gold: #f7d428;
+  --register-paper: #fffdf8;
+  --register-ink: #121826;
+  --register-muted: #667085;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(380px, 49vw) 1fr;
+  overflow: hidden;
+  background: var(--register-paper);
+  color: var(--register-ink);
+  font-family: "Be Vietnam Pro", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.brandPanel {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+  color: #fff;
+}
+
+.brandPanel::before,
+.brandPanel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.brandPanel::before {
+  z-index: -2;
+  background-image: url("/assets/images/bg-sao-do.png");
+  background-image: image-set(
+    url("/assets/images/bg-sao-do.webp") type("image/webp"),
+    url("/assets/images/bg-sao-do.png") type("image/png")
+  );
+  background-position: center;
+  background-size: cover;
+  filter: saturate(0.98) contrast(1.04);
+}
+
+.brandPanel::after {
+  z-index: -1;
+  background:
+    radial-gradient(circle at 72% 20%, rgba(255, 116, 134, 0.38), transparent 24rem),
+    radial-gradient(circle at 42% 42%, rgba(255, 211, 128, 0.12), transparent 20rem),
+    linear-gradient(180deg, rgba(31, 3, 14, 0.46), rgba(103, 17, 35, 0.68) 58%, rgba(21, 5, 15, 0.88));
+  mix-blend-mode: multiply;
+}
+
+.stars {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 16% 20%, rgba(255, 255, 255, 0.84) 0 1px, transparent 1.7px),
+    radial-gradient(circle at 39% 30%, rgba(255, 232, 178, 0.68) 0 1px, transparent 1.8px),
+    radial-gradient(circle at 68% 16%, rgba(255, 255, 255, 0.7) 0 1px, transparent 1.7px),
+    radial-gradient(circle at 84% 34%, rgba(255, 211, 128, 0.55) 0 1px, transparent 1.7px);
+  background-size: 120px 120px, 190px 190px, 250px 250px, 330px 330px;
+  opacity: 0.62;
+}
+
+.brandContent {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: clamp(34px, 4.6vw, 64px) clamp(64px, 7vw, 108px) clamp(34px, 4.6vw, 64px) clamp(34px, 4.6vw, 64px);
+}
+
+.brandHeader {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.schoolName {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", "Be Vietnam Pro", serif;
+  font-size: clamp(1.08rem, 2vw, 1.72rem);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+  text-shadow: 0 12px 30px rgba(0, 0, 0, 0.34);
+}
+
+.greeting {
+  max-width: 680px;
+  margin: auto 0;
+  padding: clamp(40px, 8vh, 92px) 0 clamp(28px, 5vh, 58px);
+}
+
+.hello {
+  margin: 0 0 10px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: clamp(1.5rem, 2.6vw, 2.45rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.studentName {
+  margin: 0;
+  color: #fffdf8;
+  background: linear-gradient(135deg, #fffdf8 12%, var(--register-gold) 52%, #ffd8df 88%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: Georgia, "Times New Roman", "Be Vietnam Pro", serif;
+  font-size: clamp(3rem, 6.4vw, 6.7rem);
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: -0.07em;
+  line-height: 0.96;
+  text-shadow: 0 20px 50px rgba(0, 0, 0, 0.24);
+  -webkit-text-fill-color: transparent;
+}
+
+.studentInfo {
+  display: grid;
+  gap: 8px;
+  margin-top: 22px;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: clamp(1rem, 1.35vw, 1.28rem);
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  line-height: 1.32;
+  text-shadow: 0 12px 30px rgba(0, 0, 0, 0.34);
+}
+
+.address {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.86rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.5;
+  backdrop-filter: blur(16px);
+}
+
+.brandWave {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: -62px;
+  width: 124px;
+  height: 100%;
+  filter: drop-shadow(0 0 28px rgba(255, 253, 248, 0.45));
+  pointer-events: none;
+}
+
+.brandWave path {
+  fill: var(--register-paper);
+}
+
+.formPanel {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: clamp(24px, 5vw, 72px);
+  background:
+    radial-gradient(circle at 20% 16%, rgba(21, 95, 209, 0.09), transparent 28%),
+    radial-gradient(circle at 88% 82%, rgba(180, 35, 61, 0.08), transparent 30%),
+    linear-gradient(135deg, #fffdf8, #f7f8fc);
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  width: min(100%, 510px);
+  border: 1px solid rgba(16, 24, 40, 0.08);
+  border-radius: 32px;
+  padding: clamp(26px, 4.3vw, 48px);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 28px 90px rgba(16, 24, 40, 0.16);
+  backdrop-filter: blur(10px);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  background: linear-gradient(90deg, var(--register-red-main), var(--register-red-deep));
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  right: -90px;
+  top: -90px;
+  width: 220px;
+  height: 220px;
+  border-radius: 999px;
+  background: rgba(180, 35, 61, 0.12);
+  pointer-events: none;
+}
+
+.card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.mobileLogo {
+  display: none;
+  margin-bottom: 24px;
+}
+
+.title {
+  margin: 0 0 12px;
+  color: var(--register-ink);
+  font-family: Georgia, "Times New Roman", Inter, serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+.subtitle {
+  margin: 0 0 24px;
+  color: var(--register-muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.65;
+}
+
+.errorBox {
+  margin-bottom: 18px;
+  border: 1px solid rgba(180, 35, 61, 0.22);
+  border-radius: 18px;
+  padding: 12px 14px;
+  background: rgba(180, 35, 61, 0.08);
+  color: var(--register-red-main);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.form {
+  display: grid;
+  gap: 16px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 9px;
+  color: #344054;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  border: 1px solid rgba(16, 24, 40, 0.12);
+  border-radius: 18px;
+  padding: 15px 16px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--register-ink);
+  font-size: 0.98rem;
+  font-weight: 700;
+  transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.field input:focus,
+.field select:focus {
+  border-color: var(--register-red-main);
+  background: #fff;
+  box-shadow: 0 0 0 5px rgba(180, 35, 61, 0.13);
+}
+
+.field input::placeholder {
+  color: #98a2b3;
+}
+
+.helperText,
+.fieldError {
+  margin: 7px 0 0;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.helperText {
+  color: #778193;
+}
+
+.fieldError {
+  color: var(--register-red-main);
+}
+
+.passwordGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.primaryButton {
+  width: 100%;
+  border: 0;
+  border-radius: 18px;
+  padding: 15px 18px;
+  color: #fff;
+  background: radial-gradient(circle at 20% 10%, rgba(255, 255, 255, 0.24), transparent 32%), linear-gradient(135deg, var(--register-red-main), var(--register-red-deep));
+  box-shadow: 0 18px 36px rgba(180, 35, 61, 0.28);
+  font-size: 0.98rem;
+  font-weight: 900;
+  transition: transform 180ms ease, box-shadow 180ms ease, opacity 180ms ease;
+}
+
+.primaryButton:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 22px 42px rgba(180, 35, 61, 0.34);
+}
+
+.primaryButton:disabled {
+  opacity: 0.55;
+}
+
+.loginNote,
+.securityNote {
+  text-align: center;
+  color: #778193;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.loginNote {
+  margin: 18px 0 0;
+}
+
+.loginLink {
+  color: var(--register-red-main);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.loginLink:hover {
+  color: var(--register-red-deep);
+}
+
+.securityNote {
+  margin: 14px 0 0;
+}
+
+@media (max-width: 1080px) {
+  .page {
+    grid-template-columns: 1fr;
+    overflow: auto;
+  }
+
+  .brandPanel {
+    display: none;
+  }
+
+  .formPanel {
+    min-height: 100vh;
+    padding: 24px 16px;
+  }
+
+  .mobileLogo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .card {
+    border-radius: 26px;
+    padding: 26px 20px;
+  }
+
+  .passwordGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .primaryButton {
+    transition: none;
+  }
+}
+```
+
+- [ ] **Step 2: Run a syntax/build sanity check after adding CSS**
+
+Run:
+
+```bash
+npm run build
+```
+
+Working directory: `apps/client-react`
+
+Expected: The build may still show the old registration UI, but CSS parsing should not fail.
+
+## Task 2: Move Register Markup Into the Login-Style Shell
+
+**Files:**
+- Modify: `apps/client-react/src/app/register/page.tsx`
+- Use: `apps/client-react/src/app/register/RegisterPage.module.css`
+
+- [ ] **Step 1: Replace imports**
+
+Change the imports at the top of `page.tsx` from:
+
+```tsx
+import { AuthFrame } from '@/components/AuthFrame';
+import { useAuth } from '@/contexts/AuthContext';
+import { ACCOUNT_TYPE_OPTIONS, DEFAULT_ACCOUNT_TYPE, getAccountTypeCopy } from '@/lib/account-types';
+```
+
+to:
+
+```tsx
+import { BrandMark } from '@/components/BrandMark';
+import { useAuth } from '@/contexts/AuthContext';
+import { ACCOUNT_TYPE_OPTIONS, DEFAULT_ACCOUNT_TYPE, getAccountTypeCopy } from '@/lib/account-types';
+import styles from './RegisterPage.module.css';
+```
+
+- [ ] **Step 2: Replace the JSX returned by `RegisterPage`**
+
+Keep all code above `return` unchanged. Replace only the current `return (` block with:
+
+```tsx
+  return (
+    <main className={styles.page}>
+      <aside className={styles.brandPanel} aria-label="Thông tin Trường Đại học Sao Đỏ">
+        <span className={styles.stars} aria-hidden="true" />
+        <div className={styles.brandContent}>
+          <div className={styles.brandHeader}>
+            <BrandMark tone="light" size="md" />
+          </div>
+
+          <div className={styles.greeting}>
+            <p className={styles.hello}>Xin chào,</p>
+            <h1 className={styles.studentName}>Sinh viên 2200286</h1>
+            <div className={styles.studentInfo}>
+              <span>DK13-CNTT1</span>
+              <span>Khoa Công nghệ thông tin</span>
+            </div>
+          </div>
+
+          <address className={styles.address}>
+            Địa chỉ: 24 Thái Học 2, phường Sao Đỏ, thành phố Chí Linh, tỉnh Hải Dương
+          </address>
+        </div>
+        <svg className={styles.brandWave} viewBox="0 0 92 100" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M34.8,0 C56,18 56,34 43.5,50 C31,66 31,82 34.8,100 L92,100 L92,0 Z" />
+        </svg>
+      </aside>
+
+      <section className={styles.formPanel}>
+        <div className={styles.card}>
+          <div className={styles.mobileLogo}>
+            <BrandMark size="lg" />
+          </div>
+
+          <h2 className={styles.title}>Tạo tài khoản</h2>
+          <p className={styles.subtitle}>{accountTypeCopy.registerSubtitle}</p>
+
+          {error && <div className={styles.errorBox}>{error}</div>}
+
+          <form onSubmit={onSubmit} className={styles.form}>
+            <div className={styles.field}>
+              <label htmlFor="accountType">Loại tài khoản</label>
+              <select id="accountType" {...registerField('accountType')}>
+                {ACCOUNT_TYPE_OPTIONS.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className={styles.field}>
+              <label htmlFor="fullName">Họ và tên</label>
+              <input
+                id="fullName"
+                type="text"
+                {...registerField('fullName')}
+                placeholder="Nguyễn Văn An"
+                autoComplete="name"
+              />
+              {errors.fullName?.message && <p className={styles.fieldError}>{errors.fullName.message}</p>}
+            </div>
+
+            <div className={styles.field}>
+              <label htmlFor="studentCode">{accountTypeCopy.codeLabel}</label>
+              <input
+                id="studentCode"
+                type="text"
+                {...registerField('studentCode')}
+                onChange={(event) => setValue('studentCode', event.target.value.toUpperCase(), { shouldDirty: true, shouldValidate: true })}
+                placeholder={accountTypeCopy.codePlaceholder}
+                autoComplete="username"
+              />
+              {errors.studentCode?.message && <p className={styles.fieldError}>{errors.studentCode.message}</p>}
+            </div>
+
+            <div className={styles.field}>
+              <label htmlFor="major">{accountTypeCopy.majorLabel}</label>
+              <input
+                id="major"
+                type="text"
+                {...registerField('major')}
+                placeholder={accountTypeCopy.majorPlaceholder}
+                autoComplete="organization-title"
+              />
+              {errors.major?.message && <p className={styles.fieldError}>{errors.major.message}</p>}
+            </div>
+
+            <div className={styles.field}>
+              <label htmlFor="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                {...registerField('email')}
+                placeholder="sinhvien@saodo.edu.vn"
+                autoComplete="email"
+              />
+              {errors.email?.message ? (
+                <p className={styles.fieldError}>{errors.email.message}</p>
+              ) : (
+                <p className={styles.helperText}>Dùng để nhận thông báo và cấp lại mật khẩu.</p>
+              )}
+            </div>
+
+            <div className={styles.passwordGrid}>
+              <div className={styles.field}>
+                <label htmlFor="password">Mật khẩu</label>
+                <input
+                  id="password"
+                  type="password"
+                  {...registerField('password')}
+                  placeholder="Tối thiểu 6 ký tự"
+                  autoComplete="new-password"
+                />
+                {errors.password?.message && <p className={styles.fieldError}>{errors.password.message}</p>}
+              </div>
+              <div className={styles.field}>
+                <label htmlFor="confirmPassword">Xác nhận</label>
+                <input
+                  id="confirmPassword"
+                  type="password"
+                  {...registerField('confirmPassword')}
+                  placeholder="Nhập lại"
+                  autoComplete="new-password"
+                />
+                {errors.confirmPassword?.message && <p className={styles.fieldError}>{errors.confirmPassword.message}</p>}
+              </div>
+            </div>
+
+            <button type="submit" disabled={isLoading || isSubmitting} className={styles.primaryButton}>
+              {isLoading || isSubmitting ? 'Đang xử lý...' : 'Tiếp tục'}
+            </button>
+          </form>
+
+          <p className={styles.loginNote}>
+            Đã có tài khoản?{' '}
+            <Link href="/login" className={styles.loginLink}>
+              Đăng nhập
+            </Link>
+          </p>
+          <p className={styles.securityNote}>Kết nối được bảo vệ. Vui lòng không chia sẻ tài khoản hoặc mật khẩu cho người khác.</p>
+        </div>
+      </section>
+    </main>
+  );
+```
+
+- [ ] **Step 3: Run TypeScript/build verification**
+
+Run:
+
+```bash
+npm run build
+```
+
+Working directory: `apps/client-react`
+
+Expected: PASS, including CSS module type resolution and production compile.
+
+## Task 3: Visual and Regression Check
+
+**Files:**
+- Inspect: `apps/client-react/src/app/register/page.tsx`
+- Inspect: `apps/client-react/src/app/register/RegisterPage.module.css`
+- Compare against: `apps/client-react/src/components/SchoolPortalLogin.tsx`
+- Compare against: `apps/client-react/src/components/SchoolPortalLogin.module.css`
+
+- [ ] **Step 1: Start the app locally**
+
+Run:
+
+```bash
+npm run dev
+```
+
+Working directory: `apps/client-react`
+
+Expected: Next.js dev server starts on `http://localhost:3000`.
+
+- [ ] **Step 2: Check `/register` visually**
+
+Open `http://localhost:3000/register` and verify:
+
+- Left side uses Sao Do campus image with a red overlay.
+- Right side uses a premium white rounded card with red top accent.
+- Inputs, select, button, footer link, and safety note visually match the login form language.
+- The registration form still shows all existing fields: account type, name, code, major, email, password, confirmation.
+
+- [ ] **Step 3: Check `/login` was not changed**
+
+Open `http://localhost:3000/login` and verify the login page still uses its existing school-selection/login flow.
+
+- [ ] **Step 4: Check responsive layout**
+
+Resize to a mobile width near `390px` and verify:
+
+- The image panel hides.
+- The card remains centered and usable.
+- Password and confirmation fields stack vertically.
+
+- [ ] **Step 5: Review git diff**
+
+Run:
+
+```bash
+git diff -- apps/client-react/src/app/register/page.tsx apps/client-react/src/app/register/RegisterPage.module.css
+```
+
+Expected: Only register page files changed for implementation. Do not commit unless the user explicitly asks.

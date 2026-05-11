@@ -1,0 +1,83 @@
+
+> saodo-assistant-client@1.0.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.5.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.4s (971 modules)
+ GET / 200 in 193ms
+ GET / 200 in 197ms
+ GET / 200 in 107ms
+ GET / 200 in 103ms
+ GET / 200 in 116ms
+ GET / 200 in 119ms
+ GET / 200 in 117ms
+ GET / 200 in 109ms
+ GET / 200 in 118ms
+ GET / 200 in 107ms
+ GET / 200 in 108ms
+ GET / 200 in 110ms
+ GET / 200 in 118ms
+ GET / 200 in 96ms
+ GET / 200 in 105ms
+ GET / 200 in 119ms
+ GET / 200 in 120ms
+ ✓ Compiled in 3.8s (994 modules)
+ GET / 200 in 620ms
+ GET / 200 in 118ms
+ GET / 200 in 109ms
+ GET / 200 in 123ms
+ GET / 200 in 103ms
+ GET / 200 in 93ms
+ GET / 200 in 109ms
+ GET / 200 in 104ms
+ GET / 200 in 107ms
+ GET / 200 in 105ms
+ GET / 200 in 107ms
+ ✓ Compiled in 1232ms (994 modules)
+ GET / 200 in 666ms
+ GET / 200 in 137ms
+ ✓ Compiled in 1285ms (994 modules)
+ GET / 200 in 648ms
+ GET / 200 in 103ms
+ GET / 200 in 100ms
+ GET / 200 in 105ms
+ GET / 200 in 115ms
+ GET / 200 in 121ms
+ GET / 200 in 90ms
+ GET / 200 in 133ms
+ GET / 200 in 128ms
+ GET / 200 in 137ms
+ GET / 200 in 135ms
+ GET / 200 in 134ms
+ GET / 200 in 136ms
+ GET / 200 in 143ms
+ GET / 200 in 128ms
+ GET / 200 in 135ms
+ GET / 500 in 3567ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1192ms (1331 modules)
+ GET / 200 in 1102ms
+ GET / 200 in 44ms
+ GET / 200 in 346ms
+ GET / 200 in 472ms
+ GET / 200 in 87ms
+ GET / 200 in 87ms
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.5.0.2:3000
+
+ ✓ Starting...
+
+   We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+   The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+   	- include was updated to add '.next-dev/types/**/*.ts'
+
+ ✓ Ready in 3.2s
+[?25h

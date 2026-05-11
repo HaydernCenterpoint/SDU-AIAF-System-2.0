@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "id": "g1",
+      "name": "CNTT K15 - Trao đổi",
+      "members": [],
+      "messages": [
+        {
+          "id": "msg-1777969132140",
+          "authorId": "demo-sdu-001",
+          "authorName": "Nguyễn Văn An",
+          "authorAvatar": null,
+          "authorRole": "sinh viên",
+          "content": "xin chào",
+          "createdAt": "2026-05-05T08:18:52.140Z"
+        }
+      ],
+      "creator": "Admin",
+      "createdAt": "2026-05-05T03:57:24.030Z"
+    },
+    {
+      "id": "g2",
+      "name": "CLB Lập trình SMC",
+      "members": [],
+      "messages": [
+        {
+          "id": "msg-1777956751774",
+          "authorId": "demo-sdu-001",
+          "authorName": "Nguyễn Văn An",
+          "authorAvatar": null,
+          "authorRole": "sinh viên",
+          "content": "hello",
+          "createdAt": "2026-05-05T04:52:31.774Z"
+        },
+        {
+          "id": "msg-1777963170523",
+          "authorId": "demo-sdu-001",
+          "authorName": "Nguyễn Văn An",
+          "authorAvatar": null,
+          "authorRole": "sinh viên",
+          "content": "abc xyz",
+          "createdAt": "2026-05-05T06:39:30.523Z"
+        }
+      ],
+      "creator": "Admin",
+      "createdAt": "2026-05-05T03:57:24.030Z"
+    },
+    {
+      "id": "g3",
+      "name": "Ôn thi cuối kỳ HK2",
+      "members": [],
+      "messages": [],
+      "creator": "Admin",
+      "createdAt": "2026-05-05T03:57:24.030Z"
+    },
+    {
+      "id": "g4",
+      "name": "Tìm việc part-time",
+      "members": [],
+      "messages": [],
+      "creator": "Admin",
+      "createdAt": "2026-05-05T03:57:24.030Z"
+    }
+  ]
+}

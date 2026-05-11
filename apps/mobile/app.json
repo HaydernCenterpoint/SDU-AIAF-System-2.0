@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Sao Đỏ",
+    "slug": "saodo-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#112641"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "vn.edu.saodo.assistant"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#112641"
+      },
+      "package": "vn.edu.saodo.assistant"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-notifications"
+    ]
+  }
+}

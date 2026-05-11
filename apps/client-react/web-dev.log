@@ -1,0 +1,56 @@
+
+> saodo-assistant-client@1.0.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.5.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 4.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 7.2s (1016 modules)
+ GET / 200 in 1726ms
+ GET / 200 in 68ms
+ GET / 200 in 62ms
+ GET / 200 in 113ms
+ ○ Compiling /sdu/login ...
+ ✓ Compiled /sdu/login in 1021ms (997 modules)
+ GET /sdu/login 200 in 1293ms
+ GET / 200 in 327ms
+ GET /sdu/login 200 in 139ms
+ GET /sdu/login 200 in 745ms
+ ○ Compiling /sdu/dashboard ...
+ ✓ Compiled /sdu/dashboard in 4.7s (1601 modules)
+ GET /sdu/dashboard 200 in 5087ms
+ GET / 200 in 468ms
+ GET /sdu/dashboard 200 in 132ms
+ GET /sdu/dashboard 200 in 38ms
+ ✓ Compiled in 1533ms (1601 modules)
+ GET /sdu/dashboard 200 in 335ms
+ GET / 200 in 338ms
+ ✓ Compiled in 1837ms (1601 modules)
+ GET /sdu/dashboard 200 in 289ms
+ GET / 200 in 292ms
+ ✓ Compiled in 2.3s (1601 modules)
+ GET / 200 in 270ms
+ GET /sdu/dashboard 200 in 273ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3s (1933 modules)
+ GET / 500 in 11635ms
+ GET / 500 in 839ms
+ GET /sdu/dashboard 500 in 10923ms
+ GET /sdu/dashboard 500 in 404ms
+ GET / 500 in 10926ms
+ GET / 500 in 405ms
+ GET /sdu/dashboard 500 in 1826ms
+ GET /sdu/dashboard 500 in 441ms
+ GET / 500 in 2162ms
+ GET / 500 in 511ms
+ GET /sdu/dashboard 500 in 1419ms
+ GET /sdu/dashboard 500 in 458ms
+ GET / 500 in 1256ms
+ GET / 500 in 360ms
+ GET / 500 in 1031ms
+ GET / 500 in 280ms
+[?25h

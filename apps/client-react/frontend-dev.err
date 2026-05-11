@@ -1,0 +1,46 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\package-lock.json
+
+ ⨯ Error: Could not find the module "C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '2033345513'
+}
+ ⨯ Error: Could not find the module "C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '187199336'
+}
+ ⨯ Error: Could not find the module "C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '187199336'
+}
+ ⨯ Error: Could not find the module "C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '187199336'
+}
+ ⨯ Error: Could not find the module "C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '2033345513'
+}
+ ⨯ Error: Could not find the module "C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '2033345513'
+}
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  digest: '1354006024'
+}
+ ⨯ Error: Could not find the module "C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '2033345513'
+}
+[TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  page: '/profile'
+}

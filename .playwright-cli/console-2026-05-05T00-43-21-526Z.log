@@ -1,0 +1,34 @@
+[     151ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[    1725ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   46582ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[   47670ms] [LOG] [Fast Refresh] done in 1088ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[   60457ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[   61224ms] [LOG] [Fast Refresh] done in 768ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  317338ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  321588ms] [LOG] [Fast Refresh] done in 4250ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  328807ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3600/ntd/profile:0
+[  329799ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:28004
+[  330087ms] TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js:25:42)
+    at Object.require (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:28541)
+    at globalThis.__next_require__ (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:29364)
+    at requireModule (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:318257)
+    at initializeModuleChunk (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:347649)
+    at getOutlinedModel (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:357408)
+    at <unknown> (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:365361)
+    at ResponseInstance._fromJSON (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:365452)
+    at JSON.parse (<anonymous>)
+    at initializeModelChunk (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:347040)
+    at resolveModelChunk (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:345328)
+    at processFullStringRow (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:384472)
+    at <unknown> (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:386875)
+    at processBinaryChunk (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:386947)
+    at progress (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:388475)
+[  330063ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[  330149ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3600/favicon.ico:0
+[  460115ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[  516262ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[  549632ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[  597516ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  665551ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  674003ms] [LOG] [Fast Refresh] done in 8453ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13

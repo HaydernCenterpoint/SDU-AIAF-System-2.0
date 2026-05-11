@@ -1,0 +1,153 @@
+'use client';
+
+import { useMemo, useState } from 'react';
+import { useAppStore } from '@/hooks/useAppStore';
+import { useAuthStore } from '@/hooks/useAuthStore';
+import type { SchoolSlug } from '@/lib/school-site';
+
+const fallbackSuggestions = [
+  'Hôm nay học môn gì?',
+  'Tóm tắt bài giảng CSDL',
+  'Tìm tài liệu Trí tuệ nhân tạo',
+];
+
+export function AICompanionWidget({ school = 'sdu', onOpenFullChat }: { school?: SchoolSlug; onOpenFullChat: () => void }) {
+  const { activeConversationId, conversationDetails, suggestions, sendMessage, setActiveConversation } = useAppStore();
+  const { token } = useAuthStore();
+  const [isOpen, setIsOpen] = useState(false);
+  const [input, setInput] = useState('');
+
+  const isNtd = school === 'ntd';
+
+  const primaryColor = isNtd ? '#4D97FF' : '#E31D1C';
+  const primaryDark = isNtd ? '#0F3460' : '#B71918';
+  const accentColor = isNtd ? '#FCDC62' : '#F7D428';
+
+  const conversationId = activeConversationId && activeConversationId !== 'new' ? activeConversationId : null;
+  const messages = conversationId ? conversationDetails[conversationId]?.messages ?? [] : [];
+  const quickSuggestions = useMemo(() => (suggestions.length > 0 ? suggestions.slice(0, 3) : fallbackSuggestions), [suggestions]);
+
+  const handleSend = (preset?: string) => {
+    const content = (preset ?? input).trim();
+    if (!content || !token) return;
+    const nextConversationId = conversationId ?? `c_${Date.now()}`;
+    if (!conversationId) setActiveConversation(nextConversationId);
+    setInput('');
+    sendMessage(token, nextConversationId, content);
+  };
+
+  const openFullChat = () => {
+    setIsOpen(false);
+    onOpenFullChat();
+  };
+
+  return (
+    <div className="fixed bottom-24 right-4 z-50 sm:bottom-6 sm:right-6">
+      {isOpen && (
+        <section aria-labelledby="ai-companion-title" className="mb-4 flex h-[min(520px,calc(100vh-8rem))] w-[min(380px,calc(100vw-2rem))] animate-enter flex-col overflow-hidden rounded-[28px] border border-[#D8E3FF] bg-white shadow-[0_28px_80px_rgba(37,99,235,0.22)]">
+          <header
+            className="flex items-center justify-between gap-3 px-4 py-3 text-white"
+            style={{ background: `linear-gradient(135deg, ${primaryDark} 0%, ${primaryColor} 100%)` }}
+          >
+            <div className="min-w-0">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-white/72">Chat nhanh</p>
+              <h2 id="ai-companion-title" className="truncate text-base font-black">AI Companion</h2>
+            </div>
+            <div className="flex items-center gap-2">
+              <button onClick={openFullChat} className="rounded-full bg-white/18 px-3 py-2 text-xs font-black text-white transition hover:bg-white/28" aria-label="Mở chat tổng">
+                ↗
+              </button>
+              <button onClick={() => setIsOpen(false)} className="rounded-full bg-white/18 px-3 py-2 text-xs font-black text-white transition hover:bg-white/28" aria-label="Thu nhỏ AI Companion">
+                −
+              </button>
+            </div>
+          </header>
+
+          <div className="flex-1 space-y-3 overflow-y-auto bg-[#F8FBFF] px-4 py-4">
+            {messages.length > 0 ? messages.slice(-6).map((message) => (
+              <div key={message.id} className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                <div
+                  className={`max-w-[86%] rounded-2xl px-3 py-2 text-sm font-semibold leading-6 shadow-sm ${
+                    message.role === 'user'
+                      ? 'text-white'
+                      : 'border border-border bg-white text-text'
+                  }`}
+                  style={message.role === 'user' ? { background: `linear-gradient(135deg, ${primaryDark} 0%, ${primaryColor} 100%)` } : {}}
+                >
+                  {message.content}
+                </div>
+              </div>
+            )) : (
+              <div className="rounded-3xl border border-[#E0E7FF] bg-white p-4 shadow-sm">
+                <div className="mb-3 flex items-center gap-3">
+                  <span
+                    className="flex h-12 w-12 items-center justify-center rounded-full text-xl font-black text-white"
+                    style={{ background: `linear-gradient(135deg, ${accentColor} 0%, ${primaryColor} 100%)` }}
+                  >
+                    AI
+                  </span>
+                  <div>
+                    <p className="text-sm font-black text-[#0F172A]">Mình có thể giúp gì?</p>
+                    <p className="text-xs font-semibold text-[#64748B]">Hỏi nhanh về lịch học, tài liệu, bài tập.</p>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {quickSuggestions.map((suggestion) => (
+                    <button
+                      key={suggestion}
+                      onClick={() => handleSend(suggestion)}
+                      className="rounded-full border border-[#D8E3FF] px-3 py-2 text-left text-xs font-bold text-[#53607D] transition hover:border-blue-dark hover:text-[#2563EB]"
+                    >
+                      {suggestion}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          <div className="border-t border-[#E0E7FF] bg-white p-3">
+            {!token && <p className="mb-2 text-xs font-bold text-red-500">Bạn cần đăng nhập để gửi tin nhắn.</p>}
+            <div
+              className="flex items-end gap-2 rounded-2xl border border-[#D8E3FF] bg-[#F8FBFF] p-2"
+              style={{ ['border-color' as string]: 'var(--ntd-primary-border, #D8E3FF)' }}
+            >
+              <textarea
+                value={input}
+                onChange={(event) => setInput(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' && !event.shiftKey) {
+                    event.preventDefault();
+                    handleSend();
+                  }
+                }}
+                placeholder="Nhập câu hỏi nhanh..."
+                aria-label="Nhập câu hỏi nhanh"
+                rows={1}
+                className="max-h-24 min-h-10 flex-1 resize-none bg-transparent px-2 py-2 text-sm font-semibold text-[#0F172A] outline-none placeholder:text-[#A0AEC5]"
+              />
+              <button
+                onClick={() => handleSend()}
+                disabled={!input.trim() || !token}
+                className="h-10 rounded-2xl px-4 text-sm font-black text-white shadow-sm disabled:opacity-45"
+                style={{ background: `linear-gradient(135deg, ${primaryDark} 0%, ${primaryColor} 100%)` }}
+              >
+                Gửi
+              </button>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <button
+        onClick={() => setIsOpen((value) => !value)}
+        className="student-os-orb-pulse flex h-16 w-16 items-center justify-center rounded-full text-lg font-black text-white shadow-card ring-8 ring-white/70 transition hover:scale-105"
+        style={{ background: `linear-gradient(135deg, ${primaryDark} 0%, ${primaryColor} 100%)` }}
+        aria-label={isOpen ? 'Đóng AI Companion' : 'Mở AI Companion'}
+        aria-expanded={isOpen}
+      >
+        AI
+      </button>
+    </div>
+  );
+}

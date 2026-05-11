@@ -1,0 +1,187 @@
+{
+  "documents": [
+    {
+      "id": "demo-ai-1",
+      "title": "Giáo trình Trí tuệ nhân tạo - Chương 1-4",
+      "description": "Tổng quan AI, tìm kiếm heuristic, biểu diễn tri thức và suy diễn cho môn Trí tuệ nhân tạo.",
+      "tags": [
+        "AI",
+        "CS405",
+        "giáo trình",
+        "ôn thi"
+      ],
+      "file": {
+        "originalName": "AI_chuong_1_4.pdf",
+        "mimeType": "application/pdf",
+        "size": 9332326
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@saodo.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-29T08:00:00.000Z",
+      "updatedAt": "2026-04-29T15:30:00.000Z"
+    },
+    {
+      "id": "demo-flutter-1",
+      "title": "Slide Lập trình Flutter: State management",
+      "description": "Provider, Riverpod, Bloc và cách tổ chức trạng thái cho bài thực hành Flutter giữa kỳ.",
+      "tags": [
+        "Flutter",
+        "mobile",
+        "state",
+        "thực hành"
+      ],
+      "file": {
+        "originalName": "flutter_state.pptx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        "size": 5662310
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@saodo.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-28T08:00:00.000Z",
+      "updatedAt": "2026-04-28T15:30:00.000Z"
+    },
+    {
+      "id": "demo-csdl-1",
+      "title": "Ngân hàng đề Cơ sở dữ liệu",
+      "description": "Tổng hợp câu hỏi SQL, chuẩn hóa dữ liệu, ERD và transaction để luyện thi cuối kỳ.",
+      "tags": [
+        "CSDL",
+        "SQL",
+        "ôn thi",
+        "đề cương"
+      ],
+      "file": {
+        "originalName": "ngan_hang_de_csdl.pdf",
+        "mimeType": "application/pdf",
+        "size": 3879731
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@saodo.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-27T08:00:00.000Z",
+      "updatedAt": "2026-04-27T15:30:00.000Z"
+    },
+    {
+      "id": "demo-pttk-1",
+      "title": "Bài tập lớn Phân tích thiết kế hệ thống",
+      "description": "Mẫu đặc tả yêu cầu, use case, activity diagram và checklist nộp bài theo nhóm.",
+      "tags": [
+        "PTTK",
+        "UML",
+        "bài tập lớn",
+        "nhóm"
+      ],
+      "file": {
+        "originalName": "bai_tap_lon_pttk.docx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 2726297
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@saodo.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-26T08:00:00.000Z",
+      "updatedAt": "2026-04-26T15:30:00.000Z"
+    },
+    {
+      "id": "demo-web-1",
+      "title": "Tài liệu thực hành Web API Node.js",
+      "description": "REST API, middleware xác thực, upload file và kiểm thử endpoint bằng Postman.",
+      "tags": [
+        "Web",
+        "Node.js",
+        "API",
+        "backend"
+      ],
+      "file": {
+        "originalName": "web_api_nodejs.pdf",
+        "mimeType": "application/pdf",
+        "size": 6396313
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@saodo.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-25T08:00:00.000Z",
+      "updatedAt": "2026-04-25T15:30:00.000Z"
+    },
+    {
+      "id": "demo-mang-1",
+      "title": "Lab Mạng máy tính: VLAN và định tuyến tĩnh",
+      "description": "Cấu hình VLAN, static route và kiểm tra ping trên Cisco Packet Tracer.",
+      "tags": [
+        "Mạng",
+        "VLAN",
+        "Packet Tracer",
+        "lab"
+      ],
+      "file": {
+        "originalName": "lab_vlan.pdf",
+        "mimeType": "application/pdf",
+        "size": 4508876
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@saodo.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-24T08:00:00.000Z",
+      "updatedAt": "2026-04-24T15:30:00.000Z"
+    },
+    {
+      "id": "demo-hdh-1",
+      "title": "Tóm tắt Hệ điều hành: Process, Thread, Deadlock",
+      "description": "Sơ đồ ôn tập tiến trình, luồng, đồng bộ và các dạng bài deadlock.",
+      "tags": [
+        "Hệ điều hành",
+        "deadlock",
+        "ôn tập"
+      ],
+      "file": {
+        "originalName": "he_dieu_hanh.pdf",
+        "mimeType": "application/pdf",
+        "size": 3040870
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@saodo.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-23T08:00:00.000Z",
+      "updatedAt": "2026-04-23T15:30:00.000Z"
+    },
+    {
+      "id": "demo-oop-1",
+      "title": "Bài tập OOP Java có lời giải",
+      "description": "Class, interface, kế thừa, đa hình và bài tập quản lý sinh viên.",
+      "tags": [
+        "Java",
+        "OOP",
+        "bài tập",
+        "lời giải"
+      ],
+      "file": {
+        "originalName": "oop_java.zip",
+        "mimeType": "application/zip",
+        "size": 11744051
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@saodo.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-22T08:00:00.000Z",
+      "updatedAt": "2026-04-22T15:30:00.000Z"
+    }
+  ]
+}

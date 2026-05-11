@@ -1,0 +1,38 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+name: saodo-assistant-demo
+
+services:
+  backend:
+    build:
+      context: ./packages/backend
+    image: saodo-assistant-backend:demo
+    container_name: saodo-assistant-backend
+    ports:
+      - "9191:9191"
+    environment:
+      PORT: "9191"
+      SAODO_AUTH_DB_PATH: /data/auth-db.json
+      SAODO_USER_DATA_PATH: /data/user-data.json
+      SAODO_AGENT_MODE: ${SAODO_AGENT_MODE:-auto}
+      NVIDIA_API_KEY: ${NVIDIA_API_KEY:-}
+      NVIDIA_API_URL: ${NVIDIA_API_URL:-https://integrate.api.nvidia.com/v1/chat/completions}
+      NVIDIA_MODEL: ${NVIDIA_MODEL:-deepseek-ai/deepseek-v4-pro}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      OPENROUTER_MODEL: ${OPENROUTER_MODEL:-google/gemma-4-26b-a4b-it:free}
+      OPENROUTER_SITE_URL: ${OPENROUTER_SITE_URL:-http://localhost:3000}
+      OPENROUTER_APP_NAME: ${OPENROUTER_APP_NAME:-Sao Do Assistant}
+    volumes:
+      - ./data-demo:/data
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:9191/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 10s
+      timeout: 3s
+      retries: 6

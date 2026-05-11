@@ -1,0 +1,16 @@
+
+> mobile@1.0.0 web
+> expo start --web
+
+Starting project at C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\mobile
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web Bundled 1311ms index.ts (560 modules)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 60ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 52ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console

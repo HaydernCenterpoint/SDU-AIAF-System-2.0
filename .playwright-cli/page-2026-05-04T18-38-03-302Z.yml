@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - region "Chọn đơn vị đăng nhập" [ref=e3]:
+      - button "Chọn Trường THPT Nguyễn Thị Duệ" [disabled]:
+        - generic: Nguyễn Thị Duệ
+        - generic:
+          - generic:
+            - img "Logo Nguyễn Thị Duệ"
+          - paragraph: Đơn vị giáo dục phổ thông
+          - heading "Trường THPT Nguyễn Thị Duệ" [level=1]
+          - paragraph: Cổng truy cập học tập, quản lý lớp học và dịch vụ số dành cho nhà trường
+      - button "Chọn Trường Đại học Sao Đỏ" [disabled]:
+        - generic: Sao Đỏ University
+        - generic:
+          - generic:
+            - img "Logo Sao Đỏ"
+          - paragraph: Đơn vị giáo dục đại học
+          - heading "Trường Đại học Sao Đỏ" [level=1]:
+            - text: Trường Đại học
+            - text: Sao Đỏ
+          - paragraph: Cổng đăng nhập tập trung cho đào tạo, quản lý sinh viên và các tiện ích học thuật
+  - alert [ref=e4]

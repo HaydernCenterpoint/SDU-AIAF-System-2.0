@@ -1,0 +1,1885 @@
+{
+  "demo-sdu-001": {
+    "conversations": [
+      {
+        "id": "c_1777971084404",
+        "title": "Hôm nay học môn gì?",
+        "updatedAt": "2026-05-05T09:03:07.980Z",
+        "messages": [
+          {
+            "id": "c543bc89-1686-485f-9898-94de0c84b98f",
+            "role": "user",
+            "content": "Hôm nay học môn gì?",
+            "createdAt": "2026-05-05T09:03:02.286Z"
+          },
+          {
+            "id": "64ce952e-d176-48f2-8308-648c31ffa133",
+            "role": "assistant",
+            "content": "Hôm nay bạn có các môn sau:\n\n- 08:00 - 09:30: Trí tuệ nhân tạo — Phòng A205\n- 10:00 - 11:30: Lập trình Flutter — Lab B103\n- 13:30 - 15:00: Hệ quản trị cơ sở dữ liệu — Phòng A302\n\nLưu ý: trong dữ liệu hiện có, Trí tuệ nhân tạo và Flutter đang bị lặp 2 lần. Mình chỉ liệt kê theo khung giờ học chính để bạn dễ theo dõi.\n\nNguồn:\n- Lịch học hôm nay\n- Danh sách môn học",
+            "createdAt": "2026-05-05T09:03:07.980Z",
+            "sources": [
+              {
+                "title": "Trí tuệ nhân tạo",
+                "type": "schedule"
+              },
+              {
+                "title": "Lập trình Flutter",
+                "type": "schedule"
+              },
+              {
+                "title": "Hệ quản trị cơ sở dữ liệu",
+                "type": "schedule"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_1777970861863",
+        "title": "Hello",
+        "updatedAt": "2026-05-05T08:51:16.149Z",
+        "messages": [
+          {
+            "id": "247d7728-cb89-456c-86ad-18009d01e125",
+            "role": "user",
+            "content": "Hello",
+            "createdAt": "2026-05-05T08:47:45.417Z"
+          },
+          {
+            "id": "00c29ad6-49bf-40c3-be9d-6904a4c6d753",
+            "role": "assistant",
+            "content": "Chào An 👋  \nMình có thể hỗ trợ lịch học, môn học, tài liệu hoặc nhắc việc học hôm nay. Bạn cần mình giúp gì?",
+            "createdAt": "2026-05-05T08:47:48.276Z",
+            "sources": []
+          },
+          {
+            "id": "23404024-4e5f-42b8-9d73-6db8139569f0",
+            "role": "user",
+            "content": "trường có những khoa nào",
+            "createdAt": "2026-05-05T08:51:11.995Z"
+          },
+          {
+            "id": "f8ac9ceb-273b-45c6-914b-8bb0894b76bb",
+            "role": "assistant",
+            "content": "Hiện tại mình chưa kết nối với nguồn thông tin chính thức của Trường Đại học Sao Đỏ, nên mình không thể liệt kê chính xác các khoa của trường để tránh sai thông tin.\n\nBạn có thể xem nhanh tại:\n- Website chính thức của trường\n- Mục “Cơ cấu tổ chức” hoặc “Các khoa/viện”\n- Fanpage hoặc phòng tuyển sinh của trường\n\nNếu bạn muốn, mình có thể giúp bạn soạn một tin nhắn ngắn để hỏi nhà trường.",
+            "createdAt": "2026-05-05T08:51:16.149Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777969678084",
+        "title": "Xin chào",
+        "updatedAt": "2026-05-05T08:29:50.018Z",
+        "messages": [
+          {
+            "id": "e9ee215c-9c40-4d42-9a13-72110bbd3b82",
+            "role": "user",
+            "content": "Xin chào",
+            "createdAt": "2026-05-05T08:28:05.274Z"
+          },
+          {
+            "id": "f8f4db4b-3d06-4e0e-b547-a84848453486",
+            "role": "assistant",
+            "content": "Xin chào An! Mình có thể hỗ trợ xem lịch học, tài liệu, môn học hoặc nhắc việc cho bạn. Bạn cần mình giúp gì?",
+            "createdAt": "2026-05-05T08:28:13.431Z",
+            "sources": []
+          },
+          {
+            "id": "be12f6a4-9b9d-4712-94ae-60cd8bf93e96",
+            "role": "user",
+            "content": "Hiện tại trường có bao nhiêu khoa",
+            "createdAt": "2026-05-05T08:28:31.640Z"
+          },
+          {
+            "id": "46bbfb12-f1f5-4d29-86ee-1e621ccbeaac",
+            "role": "assistant",
+            "content": "Mình chưa có dữ liệu chính thức về số lượng khoa của Trường Đại học Sao Đỏ, nên không thể xác nhận chính xác. Nếu bạn muốn, mình có thể giúp bạn tìm cách tra trên website/trang phòng đào tạo.",
+            "createdAt": "2026-05-05T08:28:37.210Z",
+            "sources": []
+          },
+          {
+            "id": "60286421-98a6-4e8b-aea3-512a040364e3",
+            "role": "user",
+            "content": "các tổ hợp xét tuyển của trường thì sao",
+            "createdAt": "2026-05-05T08:29:39.063Z"
+          },
+          {
+            "id": "80e90d1d-ff7c-41ea-854b-c9a4442005b0",
+            "role": "assistant",
+            "content": "Mình chưa có dữ liệu tuyển sinh chính thức của Trường Đại học Sao Đỏ, nên không thể xác nhận các tổ hợp xét tuyển để tránh bịa thông tin.\n\nBạn có thể tra nhanh ở:\n- Website tuyển sinh của trường\n- Fanpage tuyển sinh chính thức\n- Đề án/Thông báo tuyển sinh năm hiện tại của trường\n\nNếu muốn, mình có thể giúp bạn:\n1. Soạn mẫu tin nhắn hỏi phòng tuyển sinh  \n2. Liệt kê cách tự kiểm tra đúng tổ hợp theo ngành bạn quan tâm\n\nNguồn:\n- Chưa kết nối nguồn chính thức của trường.",
+            "createdAt": "2026-05-05T08:29:50.018Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777968916290",
+        "title": "Hôm nay học môn gì?",
+        "updatedAt": "2026-05-05T08:15:22.378Z",
+        "messages": [
+          {
+            "id": "eda1e73d-3ca1-4927-9bd4-1fdd6e7a684e",
+            "role": "user",
+            "content": "Hôm nay học môn gì?",
+            "createdAt": "2026-05-05T08:15:16.299Z"
+          },
+          {
+            "id": "482e7246-119e-4e4b-843f-c9f322a77e34",
+            "role": "assistant",
+            "content": "Hôm nay bạn học 3 môn:\n\n- **08:00 - 09:30**: Trí tuệ nhân tạo — **Phòng A205**\n- **10:00 - 11:30**: Lập trình Flutter — **Lab B103**\n- **13:30 - 15:00**: Hệ quản trị cơ sở dữ liệu — **Phòng A302**\n\n**Nguồn:** Lịch học hôm nay bạn đã cung cấp.",
+            "createdAt": "2026-05-05T08:15:22.378Z",
+            "sources": [
+              {
+                "title": "Trí tuệ nhân tạo",
+                "type": "schedule"
+              },
+              {
+                "title": "Lập trình Flutter",
+                "type": "schedule"
+              },
+              {
+                "title": "Hệ quản trị cơ sở dữ liệu",
+                "type": "schedule"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_1777961827404",
+        "title": "Tìm tài liệu Trí tuệ nhân tạo",
+        "updatedAt": "2026-05-05T06:17:38.442Z",
+        "messages": [
+          {
+            "id": "7286f032-352c-433f-8e78-d420104351f0",
+            "role": "user",
+            "content": "Tìm tài liệu Trí tuệ nhân tạo",
+            "createdAt": "2026-05-05T06:17:07.417Z"
+          },
+          {
+            "id": "47352df6-4832-4802-991a-749af07453b1",
+            "role": "assistant",
+            "content": "Hiện mình **chưa thấy tài liệu riêng cho môn Trí tuệ nhân tạo (CS301)** trong danh sách tài liệu hiện có.\n\nTài liệu đang có liên quan:\n- **Đề cương học phần - CS101** (không thấy ghi CS301)\n- **Slide bài giảng Flutter căn bản**\n- **Tài liệu Hệ quản trị CSDL**\n\nNếu bạn muốn, mình có thể:\n- tìm theo **tên môn/ mã học phần CS301** trong danh sách khác,\n- hoặc tóm tắt nhanh **môn Trí tuệ nhân tạo** theo lịch học hôm nay.\n\n**Nguồn:** Danh sách tài liệu hiện có; danh sách môn học CS301.",
+            "createdAt": "2026-05-05T06:17:15.926Z",
+            "sources": [
+              {
+                "title": "Đề cương học phần - CS101",
+                "type": "document"
+              },
+              {
+                "title": "Slide bài giảng Flutter căn bản",
+                "type": "document"
+              },
+              {
+                "title": "Tài liệu Hệ quản trị CSDL",
+                "type": "document"
+              }
+            ]
+          },
+          {
+            "id": "b400936b-d1e9-4b78-b0e9-8d3f4b32557f",
+            "role": "user",
+            "content": "Có thể tìm trên mạng được không",
+            "createdAt": "2026-05-05T06:17:33.340Z"
+          },
+          {
+            "id": "2c08ed4a-c31a-46ad-9800-74f6a48661ae",
+            "role": "assistant",
+            "content": "Hiện mình **chưa thể tìm web trực tiếp** trong cuộc trò chuyện này.\n\nBạn có thể:\n- gửi **từ khóa** bạn muốn tìm,\n- hoặc gửi **link/tài liệu** bạn tìm được, mình sẽ giúp **lọc, tóm tắt, và chọn tài liệu phù hợp** cho môn Trí tuệ nhân tạo.",
+            "createdAt": "2026-05-05T06:17:38.442Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777960629173",
+        "title": "Tóm tắt bài giảng CSDL",
+        "updatedAt": "2026-05-05T05:57:12.102Z",
+        "messages": [
+          {
+            "id": "023652ca-15fb-4772-afcb-43f222b23caf",
+            "role": "user",
+            "content": "Tóm tắt bài giảng CSDL",
+            "createdAt": "2026-05-05T05:57:11.696Z"
+          },
+          {
+            "id": "2554c0c7-3e24-4634-8558-f877621490e5",
+            "role": "assistant",
+            "content": "KRouter đang tạm thời không phản hồi, nên mình đang trả lời bằng dữ liệu nội bộ. Bạn vẫn có thể hỏi về lịch học, tài liệu, môn học và nhắc nhở, hoặc thử lại sau khi backend kết nối lại với KRouter.",
+            "createdAt": "2026-05-05T05:57:12.102Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777959213207",
+        "title": "Hôm nay học môn gì?",
+        "updatedAt": "2026-05-05T05:33:38.696Z",
+        "messages": [
+          {
+            "id": "1a40a274-c88b-442e-8b3d-59934e9cf095",
+            "role": "user",
+            "content": "Hôm nay học môn gì?",
+            "createdAt": "2026-05-05T05:33:33.221Z"
+          },
+          {
+            "id": "8aa03fc4-9bfa-4053-9383-eb2f3ac51d1d",
+            "role": "assistant",
+            "content": "Hôm nay bạn có các môn:\n\n- 08:00 - 09:30: Trí tuệ nhân tạo — Phòng A205\n- 10:00 - 11:30: Lập trình Flutter — Lab B103\n- 13:30 - 15:00: Hệ quản trị cơ sở dữ liệu — Phòng A302\n\nLưu ý: lịch hiện có đang bị lặp lại 2 ca:\n- 08:00 - 09:30: Trí tuệ nhân tạo\n- 10:00 - 11:30: Lập trình Flutter\n\nNếu bạn muốn, mình có thể sắp lại thành lịch gọn theo buổi sáng/chiều.\n\nNguồn:\n- Lịch học hôm nay\n- Danh sách môn học",
+            "createdAt": "2026-05-05T05:33:38.696Z",
+            "sources": [
+              {
+                "title": "Trí tuệ nhân tạo",
+                "type": "schedule"
+              },
+              {
+                "title": "Lập trình Flutter",
+                "type": "schedule"
+              },
+              {
+                "title": "Hệ quản trị cơ sở dữ liệu",
+                "type": "schedule"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_1777957889623",
+        "title": "Hôm nay học môn gì?",
+        "updatedAt": "2026-05-05T05:11:30.045Z",
+        "messages": [
+          {
+            "id": "4d27af11-18a5-47e1-8c6a-5e5d93ce793c",
+            "role": "user",
+            "content": "Hôm nay học môn gì?",
+            "createdAt": "2026-05-05T05:11:29.634Z"
+          },
+          {
+            "id": "c091f82e-2292-453e-9391-76ad79df073e",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Cả hai trường hiện dùng chung setup KRouter, nên để có câu trả lời AI hãy cấu hình `KROUTER_API_KEY` và bảo đảm backend đang chạy với `SAODO_AGENT_MODE=krouter`.",
+            "createdAt": "2026-05-05T05:11:30.045Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777957055647",
+        "title": "Hôm nay học môn gì?",
+        "updatedAt": "2026-05-05T04:57:35.877Z",
+        "messages": [
+          {
+            "id": "f11b608d-a55a-4676-87f0-01da2ec7306d",
+            "role": "user",
+            "content": "Hôm nay học môn gì?",
+            "createdAt": "2026-05-05T04:57:35.656Z"
+          },
+          {
+            "id": "7ab08cda-0ea5-4427-889e-27a757c70a23",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Cả hai trường hiện dùng chung setup KRouter, nên để có câu trả lời AI hãy cấu hình `KROUTER_API_KEY` và bảo đảm backend đang chạy với `SAODO_AGENT_MODE=krouter`.",
+            "createdAt": "2026-05-05T04:57:35.877Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777956795853",
+        "title": "Hôm nay học môn gì?",
+        "updatedAt": "2026-05-05T04:53:20.796Z",
+        "messages": [
+          {
+            "id": "fa92dcd5-5754-43c6-9241-1b170d2c9e7d",
+            "role": "user",
+            "content": "Hôm nay học môn gì?",
+            "createdAt": "2026-05-05T04:53:20.258Z"
+          },
+          {
+            "id": "5441f148-5cdc-4d0a-8d9c-fe65e286b4d2",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Cả hai trường hiện dùng chung setup KRouter, nên để có câu trả lời AI hãy cấu hình `KROUTER_API_KEY` và bảo đảm backend đang chạy với `SAODO_AGENT_MODE=krouter`.",
+            "createdAt": "2026-05-05T04:53:20.796Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777877446249",
+        "title": "phi có ngu ko",
+        "updatedAt": "2026-05-04T06:55:26.179Z",
+        "messages": [
+          {
+            "id": "de464a52-a219-461f-bc1c-ad6179684359",
+            "role": "user",
+            "content": "phi có ngu ko",
+            "createdAt": "2026-05-04T06:50:46.266Z"
+          },
+          {
+            "id": "19049030-689f-4cd1-bed9-a17ae61714f4",
+            "role": "assistant",
+            "content": "Mình không thể kết luận hay xúc phạm người khác như vậy.\n\nNếu bạn đang bực, nói rõ chuyện gì với “Phi”, mình có thể giúp bạn phân tích hoặc góp ý cách nói chuyện cho đỡ căng.",
+            "createdAt": "2026-05-04T06:50:51.036Z",
+            "sources": []
+          },
+          {
+            "id": "7b4ddb8f-2a10-497a-9eab-5863baf38927",
+            "role": "user",
+            "content": "đi chs ko",
+            "createdAt": "2026-05-04T06:51:20.622Z"
+          },
+          {
+            "id": "9600e733-a577-4c5d-b6dc-2028e843370d",
+            "role": "assistant",
+            "content": "Đi chứ 😄 Bạn cần mình giúp gì nào?",
+            "createdAt": "2026-05-04T06:51:24.051Z",
+            "sources": []
+          },
+          {
+            "id": "4487fa46-fd43-4080-81a2-e3236f1faac2",
+            "role": "user",
+            "content": "Cuối tuần ở quanh chí linh đi chơi ở đâu",
+            "createdAt": "2026-05-04T06:52:41.111Z"
+          },
+          {
+            "id": "19690330-ab8e-4ffb-ae23-08319b1924fe",
+            "role": "assistant",
+            "content": "Nếu quanh Chí Linh thì bạn có thể cân nhắc mấy kiểu này:\n\n- Đi cà phê chill, quán view đẹp trong trung tâm thành phố\n- Đi hồ/công viên dạo mát, chụp ảnh, ngồi nói chuyện\n- Rủ nhóm đi ăn vặt, nướng, lẩu buổi tối\n- Nếu thích yên tĩnh: tìm khu sinh thái, đồi thông, ngoại ô gần gần để đổi gió\n- Nếu muốn đi xa hơn chút: sang Hải Dương hoặc Uông Bí trong ngày cũng ổn\n\nNếu bạn muốn, mình có thể gợi ý theo kiểu:\n1. đi với người yêu  \n2. đi nhóm bạn  \n3. ngân sách dưới 200k  \n4. chỗ chụp ảnh đẹp quanh Chí Linh.",
+            "createdAt": "2026-05-04T06:52:49.503Z",
+            "sources": []
+          },
+          {
+            "id": "0dfcc002-e384-4105-aaf9-879d49eb4ed6",
+            "role": "user",
+            "content": "địa điểm chi tiết xem nào",
+            "createdAt": "2026-05-04T06:53:07.165Z"
+          },
+          {
+            "id": "87a6c175-b048-4e8b-958b-a56d16927974",
+            "role": "assistant",
+            "content": "Nếu quanh Chí Linh và muốn **đi cụ thể**, bạn có thể tham khảo mấy chỗ này:\n\n1. **Hồ Bến Tắm**  \n   - Hợp đi dạo, hóng gió, ngồi cà phê quanh khu đó  \n   - Đi đôi hoặc nhóm bạn đều ổn\n\n2. **Đền Cao An Phụ**  \n   - Hợp nếu muốn đi chỗ thoáng, có view đẹp, chụp ảnh  \n   - Nên đi chiều mát hoặc sáng sớm\n\n3. **Khu Côn Sơn – Kiếp Bạc**  \n   - Đi kiểu vãn cảnh, chill, đi bộ, chụp ảnh  \n   - Cuối tuần khá dễ đi, cũng hợp đổi gió\n\n4. **Sân golf Chí Linh – khu đường vào/ngoại vi**  \n   - Không nhất thiết vào chơi golf, quanh khu đó khá thoáng, đường đẹp  \n   - Hợp chạy xe, cafe ngắm cảnh\n\n5. **Khu trung tâm Sao Đỏ**  \n   - Dễ nhất nếu không muốn đi xa  \n   - Có thể làm combo: **cà phê + ăn vặt + dạo quanh hồ/công viên**\n\n6. **Phả Lại**  \n   - Nếu muốn đi xa hơn chút  \n   - Hợp ngồi nước, ngắm sông, ăn uống buổi chiều tối\n\nNếu thích, mình có thể gợi ý tiếp theo kiểu:\n- **đi với người yêu**\n- **đi nhóm bạn**\n- **ngân sách dưới 200k**\n- **lịch đi từ chiều đến tối**\n\n*Lưu ý: mình chưa kết nối dữ liệu địa điểm thời gian thực, nên bạn nên kiểm tra thêm giờ mở cửa/đường đi trên Google Maps trước khi đi.*",
+            "createdAt": "2026-05-04T06:53:18.174Z",
+            "sources": []
+          },
+          {
+            "id": "3107a512-f567-42a6-a7e0-6744c9a87211",
+            "role": "user",
+            "content": "phả lại có j đẹp ko",
+            "createdAt": "2026-05-04T06:53:52.069Z"
+          },
+          {
+            "id": "845f5f2a-41e1-49f5-8b1c-2736145f16e3",
+            "role": "assistant",
+            "content": "Có, **Phả Lại** hợp kiểu đi **ngắm sông, hóng gió, ăn uống buổi chiều tối** hơn là đi “check-in quá nhiều điểm”.\n\nBạn có thể kỳ vọng mấy cái này:\n- **View sông**: ngồi mát, khá chill lúc chiều muộn\n- **Đường ven sông/đoạn thoáng**: hợp chạy xe, dạo nhẹ\n- **Quán nước, quán ăn ven khu dân cư**: tiện ngồi lâu với bạn bè\n- **Hoàng hôn**: nếu gặp hôm trời đẹp thì khá ổn để ngắm và chụp ảnh\n\nNếu hỏi **“đẹp kiểu nổi bật không?”** thì mình nghĩ:\n- **Không hẳn kiểu điểm du lịch nổi tiếng**\n- Nhưng **ổn để đổi gió, đi gần, thư giãn buổi chiều tối**\n\n*Mình chưa kết nối dữ liệu địa điểm thời gian thực, nên bạn nên check thêm chỗ ăn/ngồi cụ thể trên Google Maps.*\n\nNếu muốn, mình có thể gợi ý luôn **lịch đi Phả Lại nửa ngày + ăn gì + đi đâu trước**.",
+            "createdAt": "2026-05-04T06:54:02.306Z",
+            "sources": []
+          },
+          {
+            "id": "4595a04a-0a7a-4729-95e7-2e87094eb7f0",
+            "role": "user",
+            "content": "chỗ chụp ảnrh đẹp",
+            "createdAt": "2026-05-04T06:54:18.508Z"
+          },
+          {
+            "id": "a84d8589-786a-4bd1-a9c7-a12b47dd2ccd",
+            "role": "assistant",
+            "content": "Nếu muốn **chụp ảnh đẹp quanh Chí Linh/Phả Lại**, mình gợi ý nhanh:\n\n- **Côn Sơn – Kiếp Bạc**: hợp ảnh kiểu cổ kính, cây xanh, đường đi bộ\n- **Đền Cao An Phụ**: chụp view cao, thoáng, hợp chiều muộn\n- **Hồ Bến Tắm**: dễ chụp kiểu chill, nhẹ nhàng, gần nước\n- **Ven sông Phả Lại**: hợp ảnh hoàng hôn, đứng ngắm sông, vibe buổi chiều\n- **Đường thoáng quanh khu sân golf Chí Linh**: hợp chụp ngoại cảnh, đường đẹp, thoáng\n\nNếu muốn ảnh đẹp hơn thì nên đi:\n- **sáng sớm** hoặc **tầm 4h30–6h chiều**\n- mặc đồ sáng màu\n- tránh đi giữa trưa\n\n*Mình chưa có dữ liệu địa điểm thời gian thực, nên bạn check thêm Google Maps trước khi đi nhé.*\n\nNếu thích, mình có thể lọc tiếp theo kiểu:\n**1) chụp với người yêu**\n**2) chụp một mình**\n**3) chỗ gần Sao Đỏ**\n**4) chỗ có hoàng hôn đẹp**.",
+            "createdAt": "2026-05-04T06:54:28.344Z",
+            "sources": []
+          },
+          {
+            "id": "80fd5f0a-9e8b-4695-9642-5caa9dd72222",
+            "role": "user",
+            "content": "mẹ thg ngu",
+            "createdAt": "2026-05-04T06:55:22.174Z"
+          },
+          {
+            "id": "149adb08-5131-4a4d-a61a-feb8d0ea1121",
+            "role": "assistant",
+            "content": "Nếu bạn đang bực thật thì cứ bình tĩnh chút đã 😅  \nMình ở đây để giúp, bạn nói rõ chuyện gì đang khó chịu mình hỗ trợ luôn.",
+            "createdAt": "2026-05-04T06:55:26.179Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777822992317",
+        "title": "Xin chào, hoàng có ngu không",
+        "updatedAt": "2026-05-03T15:43:15.041Z",
+        "messages": [
+          {
+            "id": "4c661586-5f77-4640-8be4-600ad4ae1395",
+            "role": "user",
+            "content": "Xin chào, hoàng có ngu không",
+            "createdAt": "2026-05-03T15:43:12.327Z"
+          },
+          {
+            "id": "b5040eb6-5d70-4986-a417-e1befd4f6b19",
+            "role": "assistant",
+            "content": "Chào bạn. Mình không nên đánh giá hay xúc phạm người khác như vậy.\n\nNếu bạn đang bực, mình có thể giúp bạn:\n- soạn một câu trả lời lịch sự,\n- góp ý thẳng nhưng không công kích,\n- hoặc hỗ trợ việc học/lịch học hôm nay.\n\nBạn cần mình giúp gì?",
+            "createdAt": "2026-05-03T15:43:15.041Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1777820126991",
+        "title": "loo",
+        "updatedAt": "2026-05-03T14:58:49.927Z",
+        "messages": [
+          {
+            "id": "a3f5a531-6f61-4f7d-b233-0f4c8f65a225",
+            "role": "user",
+            "content": "loo",
+            "createdAt": "2026-05-03T14:55:29.334Z"
+          },
+          {
+            "id": "ce4dc09d-360d-443b-9559-8186078a8bb4",
+            "role": "assistant",
+            "content": "Chào An 👋 Mình đây.\n\nBạn cần mình hỗ trợ gì hôm nay: xem lịch học, nhắc môn, hoặc tìm tài liệu học?",
+            "createdAt": "2026-05-03T14:55:33.798Z",
+            "sources": []
+          },
+          {
+            "id": "0c40f978-38a1-4f56-bd0a-a9a13317efc4",
+            "role": "user",
+            "content": "Xin chào",
+            "createdAt": "2026-05-03T14:55:38.083Z"
+          },
+          {
+            "id": "8ee728ee-6407-47e7-a41e-10ed40424abe",
+            "role": "assistant",
+            "content": "Xin chào An 👋\n\nMình có thể giúp bạn xem lịch học, tìm tài liệu, hoặc nhắc việc học hôm nay. Bạn cần gì nhé?",
+            "createdAt": "2026-05-03T14:55:41.288Z",
+            "sources": []
+          },
+          {
+            "id": "7c5449f7-82c3-4627-939e-d01326ba3c46",
+            "role": "user",
+            "content": "mày ngu",
+            "createdAt": "2026-05-03T14:55:45.561Z"
+          },
+          {
+            "id": "608ad586-501e-4b62-bce6-1039ce8fa0bb",
+            "role": "assistant",
+            "content": "Nếu mình trả lời chưa đúng thì bạn cứ nói thẳng yêu cầu, mình sẽ sửa và hỗ trợ nhanh cho bạn. Bạn đang cần xem lịch, tìm tài liệu hay nhắc việc học?",
+            "createdAt": "2026-05-03T14:55:48.020Z",
+            "sources": []
+          },
+          {
+            "id": "8db6c684-2431-4796-95d1-849314129b7e",
+            "role": "user",
+            "content": "mày rất ngu",
+            "createdAt": "2026-05-03T14:57:50.996Z"
+          },
+          {
+            "id": "0719f4d6-b399-4bbe-a5d2-f648c2c5bdc5",
+            "role": "assistant",
+            "content": "Nếu mình làm bạn khó chịu thì xin lỗi. Bạn nói rõ việc cần hỗ trợ, mình trả lời ngắn gọn và đúng ý hơn.",
+            "createdAt": "2026-05-03T14:57:54.479Z",
+            "sources": []
+          },
+          {
+            "id": "d3d26d1f-2a12-483e-8880-bf1118c1301b",
+            "role": "user",
+            "content": "ok thg ngu",
+            "createdAt": "2026-05-03T14:58:02.205Z"
+          },
+          {
+            "id": "b89c449f-fff4-4d49-965b-aa96cd1fe68b",
+            "role": "assistant",
+            "content": "Ừ, nếu bạn còn bực thì cứ nói thẳng nhu cầu nhé.\n\nMình vẫn hỗ trợ được: xem lịch học, tìm tài liệu, hoặc nhắc việc hôm nay.",
+            "createdAt": "2026-05-03T14:58:04.903Z",
+            "sources": []
+          },
+          {
+            "id": "0205b90c-5e0c-4326-bf87-aeea56915c87",
+            "role": "user",
+            "content": "ngu vcl",
+            "createdAt": "2026-05-03T14:58:47.856Z"
+          },
+          {
+            "id": "83ea81c2-d141-41ad-b410-31d47c32c73d",
+            "role": "assistant",
+            "content": "Nếu mình trả lời dở thì bạn cứ nói thẳng việc cần làm, mình hỗ trợ ngay.  \nVí dụ: xem lịch học hôm nay, tìm tài liệu, hoặc nhắc môn.",
+            "createdAt": "2026-05-03T14:58:49.927Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "conv-main",
+        "title": "Trợ lý học tập Sao Đỏ",
+        "updatedAt": "2026-05-03T12:15:53.530Z",
+        "messages": [
+          {
+            "id": "b55b00cc-9978-4a7f-9825-fff438be8a5a",
+            "role": "assistant",
+            "content": "Xin chào. Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi lịch học, tìm tài liệu, tóm tắt bài giảng hoặc nhắc nhở công việc học tập hằng ngày.",
+            "createdAt": "2026-05-03T12:15:53.530Z",
+            "sources": []
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-1",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Lý thuyết",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-2",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-3",
+        "title": "Hệ quản trị cơ sở dữ liệu",
+        "time": "13:30 - 15:00",
+        "room": "Phòng A302",
+        "type": "Lý thuyết",
+        "day": "Thứ 3"
+      },
+      {
+        "id": "sch-4",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Bài tập",
+        "day": "Thứ 4"
+      },
+      {
+        "id": "sch-5",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 5"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-1",
+        "title": "Đề cương học phần - CS101",
+        "meta": "PDF - 1.2 MB",
+        "note": "Mới cập nhật hôm nay"
+      },
+      {
+        "id": "doc-2",
+        "title": "Slide bài giảng Flutter căn bản",
+        "meta": "PPT - 8.1 MB",
+        "note": "Bộ môn CNTT"
+      },
+      {
+        "id": "doc-3",
+        "title": "Tài liệu Hệ quản trị CSDL",
+        "meta": "PDF - 2.6 MB",
+        "note": "Dành cho học kỳ này"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-1",
+        "user_id": "legacy-user",
+        "title": "Nộp bài tập CSDL",
+        "content": "Nộp bài tập CSDL",
+        "type": "custom",
+        "remind_at": "2026-05-05T00:00:00.000Z",
+        "repeat_type": "none",
+        "status": "active",
+        "is_sent": false,
+        "created_at": "2026-05-05T04:52:55.286Z",
+        "updated_at": "2026-05-05T04:52:55.287Z",
+        "done": true,
+        "dueDate": "2026-05-05"
+      },
+      {
+        "id": "rem-2",
+        "user_id": "legacy-user",
+        "title": "Ôn thi Trí tuệ nhân tạo",
+        "content": "Ôn thi Trí tuệ nhân tạo",
+        "type": "custom",
+        "remind_at": "2026-05-10T00:00:00.000Z",
+        "repeat_type": "none",
+        "status": "active",
+        "is_sent": false,
+        "created_at": "2026-05-05T04:52:55.286Z",
+        "updated_at": "2026-05-05T04:52:55.886Z",
+        "done": true,
+        "dueDate": "2026-05-10"
+      },
+      {
+        "id": "41ae2878-dee1-408d-9115-083d5d92cfdb",
+        "user_id": "demo-sdu-001",
+        "title": "wer",
+        "content": "wer",
+        "type": "task",
+        "remind_at": "2026-05-06T20:13:00.000Z",
+        "repeat_type": "weekly",
+        "status": "active",
+        "is_sent": false,
+        "created_at": "2026-05-05T08:11:04.754Z",
+        "updated_at": "2026-05-05T08:11:06.963Z",
+        "done": true,
+        "dueDate": "2026-05-07T03:13"
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-1",
+        "code": "CS301",
+        "title": "Trí tuệ nhân tạo",
+        "credits": 3,
+        "teacher": "TS. Nguyễn Văn B"
+      },
+      {
+        "id": "course-2",
+        "code": "CS302",
+        "title": "Lập trình Flutter",
+        "credits": 3,
+        "teacher": "ThS. Trần Thị C"
+      },
+      {
+        "id": "course-3",
+        "code": "CS303",
+        "title": "Hệ quản trị CSDL",
+        "credits": 3,
+        "teacher": "PGS. Lê Văn D"
+      }
+    ],
+    "grades": [],
+    "health": {
+      "profile": {
+        "heightCm": null,
+        "birthYear": null,
+        "gender": "",
+        "activityLevel": "moderate",
+        "waterGoalMl": 2000,
+        "calorieGoal": null
+      },
+      "weightLogs": [],
+      "sleepLogs": [],
+      "mealLogs": [],
+      "workoutPlans": [],
+      "workoutLogs": [],
+      "moodLogs": [],
+      "waterLogs": []
+    },
+    "notifications": [],
+    "pushTokens": [],
+    "jobs": [
+      {
+        "id": "job-student-1",
+        "title": "Gia sư Tin học cơ bản cho học sinh THCS",
+        "employer": "Sinh viên CNTT K15",
+        "description": "Cần tìm gia sư dạy Tin học cơ bản (Word, Excel, PowerPoint) cho 2 học sinh lớp 8 tại nhà. Yêu cầu kiên nhẫn, có phương pháp sư phạm tốt. Ưu tiên sinh viên ngành CNTT hoặc Sư phạm.",
+        "pay": "80.000đ/giờ",
+        "region": "Chí Linh, Hải Dương",
+        "schedule": "Tối T3, T5 (19:00 - 21:00)",
+        "sourceType": "student",
+        "sourceLabel": "Sinh viên đăng",
+        "sourceUrl": "community://saodo/jobs/job-student-1",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "part-time",
+          "gia sư",
+          "gần trường"
+        ],
+        "postedAt": "2026-05-01T12:15:53.533Z",
+        "expiresAt": "2026-06-02T12:15:53.533Z",
+        "contact": {
+          "name": "Trần Minh Đức",
+          "phone": "0387.654.321",
+          "zalo": "0387654321",
+          "email": "duc.tran.k15@saodo.edu.vn",
+          "address": "Số 45, Tổ 3, Phường Sao Đỏ, TP Chí Linh, Hải Dương",
+          "method": "Nhắn tin Zalo hoặc gọi điện trước 21h",
+          "note": "Gặp trực tiếp tại quán cà phê đối diện cổng trường Sao Đỏ để trao đổi chi tiết."
+        }
+      },
+      {
+        "id": "job-employer-1",
+        "title": "Nhân viên phục vụ ca tối",
+        "employer": "Quán cà phê Sao Đỏ",
+        "description": "Tuyển 2 nhân viên phục vụ bàn ca tối. Công việc: pha chế cơ bản, phục vụ đồ uống, dọn dẹp. Được đào tạo từ đầu, không cần kinh nghiệm. Có phụ cấp ăn tối + thưởng cuối tháng.",
+        "pay": "22.000đ/giờ + phụ cấp",
+        "region": "Phường Sao Đỏ, Chí Linh",
+        "schedule": "18:00 - 22:00 hàng ngày",
+        "sourceType": "employer",
+        "sourceLabel": "Nhà tuyển dụng",
+        "sourceUrl": "official://employer/coffee-saodo",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "ca tối",
+          "dịch vụ",
+          "không đặt cọc"
+        ],
+        "postedAt": "2026-05-02T12:15:53.533Z",
+        "expiresAt": "2026-05-17T12:15:53.533Z",
+        "contact": {
+          "name": "Chị Hương (Quản lý)",
+          "phone": "0912.345.678",
+          "zalo": "0912345678",
+          "email": null,
+          "address": "128 Đường Hoàng Quốc Việt, Phường Sao Đỏ, TP Chí Linh",
+          "method": "Đến trực tiếp quán hoặc gọi Zalo từ 9h-17h",
+          "note": "Mang theo CMND/CCCD bản gốc khi phỏng vấn. Phỏng vấn nhanh 15 phút, có kết quả ngay."
+        }
+      },
+      {
+        "id": "job-admin-1",
+        "title": "CTV hỗ trợ ngày hội tuyển sinh",
+        "employer": "Trường Đại học Sao Đỏ",
+        "description": "Cần 20 CTV hỗ trợ tổ chức ngày hội tuyển sinh 2026. Nhiệm vụ: hướng dẫn phụ huynh, phát tài liệu, hỗ trợ đăng ký online. Được cấp áo đồng phục, ăn trưa và chứng nhận tham gia hoạt động.",
+        "pay": "Theo ca hỗ trợ (150.000đ/ca)",
+        "region": "Cơ sở Sao Đỏ",
+        "schedule": "Cuối tuần (T7-CN, 7:30 - 17:00)",
+        "sourceType": "admin",
+        "sourceLabel": "Nhà trường xác nhận",
+        "sourceUrl": "official://saodo/career-day",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "sự kiện",
+          "kỹ năng mềm",
+          "ưu tiên sinh viên"
+        ],
+        "postedAt": "2026-04-30T12:15:53.533Z",
+        "expiresAt": "2026-05-10T12:15:53.533Z",
+        "contact": {
+          "name": "Phòng Công tác Sinh viên",
+          "phone": "0220.3886.000 (máy lẻ 105)",
+          "zalo": "0965.123.456",
+          "email": "ctsv@saodo.edu.vn",
+          "address": "Phòng 108, Nhà A1, Trường ĐH Sao Đỏ, Chí Linh, Hải Dương",
+          "method": "Đăng ký trực tiếp tại phòng CTSV hoặc gửi email kèm họ tên + MSSV",
+          "note": "Ưu tiên sinh viên năm 1-2. Hạn đăng ký: trước thứ 5 hàng tuần."
+        }
+      },
+      {
+        "id": "job-crawler-1",
+        "title": "CTV bán hàng online khu vực Hải Dương",
+        "employer": "Nguồn công khai Chí Linh Jobs",
+        "description": "Tuyển CTV bán hàng online (mỹ phẩm, đồ gia dụng). Làm việc tại nhà, chỉ cần smartphone. Thu nhập theo hoa hồng đơn hàng. Được đào tạo marketing online miễn phí.",
+        "pay": "3 - 5 triệu/tháng",
+        "region": "Chí Linh, Hải Dương",
+        "schedule": "Linh hoạt",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://chilinhjobs.vn/ctv-ban-hang-online",
+        "riskLevel": "medium",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "cần xác minh",
+          "online",
+          "nguồn crawl"
+        ],
+        "postedAt": "2026-04-28T12:15:53.533Z",
+        "expiresAt": "2026-05-23T12:15:53.533Z",
+        "contact": {
+          "name": "Anh Tuấn (Team Leader)",
+          "phone": "0976.xxx.xxx (ẩn - nguồn crawl)",
+          "zalo": null,
+          "email": null,
+          "address": null,
+          "method": "Liên hệ qua link gốc bài đăng",
+          "note": "⚠️ Nguồn crawl tự động - Vui lòng xác minh trước khi liên hệ. Không chuyển khoản đặt cọc."
+        }
+      },
+      {
+        "id": "job-crawler-2",
+        "title": "Nhân viên kho bãi KCN Phả Lại",
+        "employer": "Công ty TNHH Logistics Hải Dương",
+        "description": "Tuyển nhân viên kho: kiểm đếm hàng, sắp xếp kệ, xuất nhập hàng. Làm ca sáng hoặc ca chiều. Có xe đưa đón từ Chí Linh. BHXH đầy đủ sau thử việc.",
+        "pay": "5.5 - 7 triệu/tháng",
+        "region": "KCN Phả Lại, Chí Linh",
+        "schedule": "Ca sáng 6:00-14:00 hoặc Ca chiều 14:00-22:00",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://vieclam.haiduong.gov.vn/kho-bai-pha-lai",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "toàn thời gian",
+          "có xe đưa đón",
+          "BHXH"
+        ],
+        "postedAt": "2026-05-02T12:15:53.533Z",
+        "expiresAt": "2026-05-28T12:15:53.533Z",
+        "contact": {
+          "name": "Phòng Nhân sự - Logistics HD",
+          "phone": "0220.3888.999",
+          "zalo": "0901.234.567",
+          "email": "tuyendung@logisticshd.vn",
+          "address": "Lô C5-C6, KCN Phả Lại, TP Chí Linh, Hải Dương",
+          "method": "Gửi CV qua email hoặc đến trực tiếp phỏng vấn T2-T6 (8:00-16:00)",
+          "note": "Mang CCCD + Sơ yếu lý lịch + Ảnh 3x4. Có xe đưa đón miễn phí."
+        }
+      },
+      {
+        "id": "job-crawler-3",
+        "title": "Nhân viên bán hàng tại siêu thị Winmart Chí Linh",
+        "employer": "Winmart Chí Linh",
+        "description": "Tuyển nhân viên bán hàng, thu ngân, trưng bày sản phẩm. Yêu cầu: tốt nghiệp THPT trở lên, ngoại hình ưa nhìn, giao tiếp tốt. Làm theo ca, có thưởng doanh số.",
+        "pay": "4.5 - 6 triệu/tháng + thưởng",
+        "region": "Phường Sao Đỏ, Chí Linh",
+        "schedule": "Ca xoay: 7:00-15:00 / 15:00-22:00",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://tuyendung.winmart.vn/chi-linh",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "bán lẻ",
+          "ca xoay",
+          "thưởng doanh số"
+        ],
+        "postedAt": "2026-04-29T12:15:53.533Z",
+        "expiresAt": "2026-05-18T12:15:53.533Z",
+        "contact": {
+          "name": "Bộ phận Tuyển dụng Winmart",
+          "phone": "1900.6600",
+          "zalo": null,
+          "email": "hr.chilinh@winmart.vn",
+          "address": "Tầng 1, TTTM Chí Linh, Đường Hoàng Quốc Việt, P. Sao Đỏ",
+          "method": "Nộp hồ sơ trực tiếp tại quầy lễ tân siêu thị hoặc gửi email",
+          "note": "Phỏng vấn hàng tuần vào thứ 4 và thứ 6, 9:00-11:00."
+        }
+      },
+      {
+        "id": "job-student-2",
+        "title": "Dạy kèm Tiếng Anh giao tiếp 1-1",
+        "employer": "Nguyễn Thị Lan - SV Sư phạm K16",
+        "description": "Nhận dạy kèm Tiếng Anh giao tiếp cơ bản cho người đi làm hoặc sinh viên muốn luyện speaking. Có chứng chỉ IELTS 6.5, kinh nghiệm 1 năm dạy kèm.",
+        "pay": "100.000đ/giờ",
+        "region": "Phường Sao Đỏ hoặc Online",
+        "schedule": "Linh hoạt theo lịch học viên",
+        "sourceType": "student",
+        "sourceLabel": "Sinh viên đăng",
+        "sourceUrl": "community://saodo/jobs/job-student-2",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "gia sư",
+          "tiếng Anh",
+          "online"
+        ],
+        "postedAt": "2026-04-27T12:15:53.533Z",
+        "expiresAt": "2026-06-02T12:15:53.533Z",
+        "contact": {
+          "name": "Nguyễn Thị Lan",
+          "phone": "0356.789.012",
+          "zalo": "0356789012",
+          "email": "lan.nguyen.k16@saodo.edu.vn",
+          "address": "KTX Sao Đỏ hoặc dạy online qua Google Meet",
+          "method": "Nhắn Zalo để đặt lịch học thử miễn phí 1 buổi",
+          "note": "Có thể học thử 1 buổi miễn phí. Thanh toán theo tuần hoặc tháng."
+        }
+      },
+      {
+        "id": "job-employer-2",
+        "title": "Phụ bếp nhà hàng Hương Việt",
+        "employer": "Nhà hàng Hương Việt - Chí Linh",
+        "description": "Tuyển phụ bếp: sơ chế nguyên liệu, rửa dụng cụ, hỗ trợ bếp chính. Bao ăn ca, thưởng lễ tết. Phù hợp sinh viên muốn làm thêm buổi trưa/tối.",
+        "pay": "25.000đ/giờ + ăn ca",
+        "region": "Phường Chí Minh, Chí Linh",
+        "schedule": "10:00 - 14:00 hoặc 17:00 - 21:00",
+        "sourceType": "employer",
+        "sourceLabel": "Nhà tuyển dụng",
+        "sourceUrl": "official://employer/huong-viet",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "bao ăn",
+          "gần trường",
+          "linh hoạt ca"
+        ],
+        "postedAt": "2026-05-01T12:15:53.533Z",
+        "expiresAt": "2026-05-13T12:15:53.533Z",
+        "contact": {
+          "name": "Anh Cường (Bếp trưởng)",
+          "phone": "0978.111.222",
+          "zalo": "0978111222",
+          "email": null,
+          "address": "56 Đường Trần Phú, Phường Chí Minh, TP Chí Linh, Hải Dương",
+          "method": "Gọi điện hoặc đến nhà hàng trước 16h để phỏng vấn",
+          "note": "Thử việc 3 ngày có trả lương. Bao ăn 2 bữa/ca."
+        }
+      },
+      {
+        "id": "job-crawler-4",
+        "title": "Thực tập sinh IT tại công ty phần mềm Hải Dương",
+        "employer": "HD Software JSC",
+        "description": "Tuyển thực tập sinh lập trình web (React/Node.js hoặc PHP/Laravel). Được mentor hướng dẫn 1-1, có lương thực tập. Cơ hội trở thành nhân viên chính thức sau thực tập.",
+        "pay": "3 - 4 triệu/tháng (thực tập)",
+        "region": "TP Hải Dương",
+        "schedule": "T2-T6, 8:00 - 17:00 (linh hoạt cho SV)",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://vieclam.haiduong.gov.vn/thuc-tap-it",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "thực tập",
+          "IT",
+          "có mentor"
+        ],
+        "postedAt": "2026-04-30T12:15:53.533Z",
+        "expiresAt": "2026-06-02T12:15:53.533Z",
+        "contact": {
+          "name": "Phòng HR - HD Software",
+          "phone": "0220.3555.888",
+          "zalo": "0909.876.543",
+          "email": "hr@hdsoftware.vn",
+          "address": "Tầng 5, Tòa nhà Sunrise, 23 Nguyễn Lương Bằng, TP Hải Dương",
+          "method": "Gửi CV + portfolio (nếu có) qua email. Subject: [INTERN-2026] Họ tên",
+          "note": "Phỏng vấn online qua Google Meet. Kết quả trả trong 3 ngày làm việc."
+        }
+      },
+      {
+        "id": "job-crawler-5",
+        "title": "Shipper giao hàng khu vực Chí Linh",
+        "employer": "GrabExpress / Giao Hàng Nhanh",
+        "description": "Tuyển đối tác giao hàng khu vực Chí Linh - Hải Dương. Yêu cầu: có xe máy, smartphone, CCCD. Thu nhập theo đơn hàng, thưởng chuyên cần hàng tuần.",
+        "pay": "200k - 500k/ngày (theo đơn)",
+        "region": "Chí Linh, Hải Dương",
+        "schedule": "Tự chọn ca, tối thiểu 4h/ngày",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://tuyendung.ghn.vn/chi-linh",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "tự do",
+          "có xe máy",
+          "thu nhập theo đơn"
+        ],
+        "postedAt": "2026-04-26T12:15:53.533Z",
+        "expiresAt": "2026-07-02T12:15:53.533Z",
+        "contact": {
+          "name": "Trung tâm tuyển dụng GHN Hải Dương",
+          "phone": "1900.636.688",
+          "zalo": "0888.456.789",
+          "email": "doitac.haiduong@ghn.vn",
+          "address": "12 Đường Bến Tắm, Phường Bến Tắm, TP Chí Linh",
+          "method": "Đăng ký online tại app GHN hoặc đến trực tiếp bưu cục",
+          "note": "Cần mang CCCD gốc + Giấy phép lái xe A1/A2 + ĐKTX xe máy. Kích hoạt tài khoản trong 24h."
+        }
+      }
+    ],
+    "jobSources": [
+      {
+        "id": "source-public-local",
+        "name": "Nhóm việc làm công khai Chí Linh",
+        "sourceType": "public",
+        "endpoint": "crawl/public-sources",
+        "region": "Chí Linh, Hải Dương",
+        "policy": "Chỉ nhận nguồn public, official, community; không vượt đăng nhập hoặc nhóm riêng tư.",
+        "status": "active",
+        "count": 18,
+        "lastCrawled": "2026-05-03T12:15:53.534Z"
+      },
+      {
+        "id": "source-official-school",
+        "name": "Nguồn chính thức doanh nghiệp Hải Dương",
+        "sourceType": "official",
+        "endpoint": "crawl/public-sources",
+        "region": "Hải Dương",
+        "policy": "Ưu tiên API/RSS/website công khai có quyền truy cập hợp pháp.",
+        "status": "active",
+        "count": 7,
+        "lastCrawled": "2026-05-03T12:15:53.534Z"
+      },
+      {
+        "id": "source-community-app",
+        "name": "Bài đăng cộng đồng trong app",
+        "sourceType": "community",
+        "endpoint": "jobs",
+        "region": "Sao Đỏ",
+        "policy": "Hiển thị ngay với nhãn nguồn, mức rủi ro và nút báo cáo.",
+        "status": "active",
+        "count": 12,
+        "lastCrawled": "2026-05-03T12:15:53.534Z"
+      }
+    ],
+    "aiConversations": [
+      {
+        "id": "9a4bf3fb-b668-425d-8ec1-98048d92d919",
+        "assistantType": "career",
+        "title": "CV này còn thiếu gì để ứng tuyển thực tập Fronte",
+        "summary": "",
+        "messages": [
+          {
+            "id": "bd4f5588-c155-49e6-8452-97736d2d9431",
+            "createdAt": "2026-05-05T08:16:22.253Z",
+            "role": "user",
+            "content": "CV này còn thiếu gì để ứng tuyển thực tập Frontend?"
+          },
+          {
+            "id": "b69397ce-4eba-48b8-8f3e-d33e8d86e84b",
+            "createdAt": "2026-05-05T08:16:52.261Z",
+            "role": "assistant",
+            "content": "Phần điểm số cần kết nối hệ thống đào tạo chính thức. Mình sẽ không tự bịa điểm. Bạn có thể hỏi mình về lịch học, môn học hoặc tài liệu hiện có.",
+            "assistantType": "career",
+            "sources": []
+          },
+          {
+            "id": "8893f967-9bbb-4b02-b56e-45039ffc2e10",
+            "createdAt": "2026-05-05T08:17:20.436Z",
+            "role": "user",
+            "content": "bạn nghĩ tôi nên học thêm chứng chỉ gì"
+          },
+          {
+            "id": "0db0866b-924a-4223-af7b-120babbb9628",
+            "createdAt": "2026-05-05T08:17:50.445Z",
+            "role": "assistant",
+            "content": "Chào Nguyễn Văn An! Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi mình về lịch học, tài liệu, môn học, nhắc nhở hoặc cách chuẩn bị bài.",
+            "assistantType": "career",
+            "sources": []
+          },
+          {
+            "id": "ce7608fd-9db5-404e-bc9d-ebed5a2e7017",
+            "createdAt": "2026-05-05T08:17:55.151Z",
+            "role": "user",
+            "content": "ok"
+          },
+          {
+            "id": "8365ec9b-661a-4264-adf9-46129aed682f",
+            "createdAt": "2026-05-05T08:17:57.614Z",
+            "role": "assistant",
+            "content": "Ok An nhé. Khi nào cần mình hỗ trợ tiếp về CV, lộ trình học Frontend, hoặc cách làm dự án thì nhắn mình nhé.",
+            "assistantType": "career",
+            "sources": []
+          }
+        ],
+        "updatedAt": "2026-05-05T08:17:57.614Z"
+      },
+      {
+        "id": "5805829c-6bae-4d86-bf9b-f6b4c88058b1",
+        "assistantType": "study",
+        "title": "B?n l� ai?",
+        "summary": "",
+        "messages": [
+          {
+            "id": "760e2475-6f1f-42a4-9248-8745375b8082",
+            "createdAt": "2026-05-05T05:25:48.775Z",
+            "role": "user",
+            "content": "B?n l� ai?"
+          },
+          {
+            "id": "d9e5ee9a-0020-4447-80f6-0eb03d128ac9",
+            "createdAt": "2026-05-05T05:25:49.393Z",
+            "role": "assistant",
+            "content": "KRouter đang tạm thời không phản hồi, nên mình đang trả lời bằng dữ liệu nội bộ. Bạn vẫn có thể hỏi về lịch học, tài liệu, môn học và nhắc nhở, hoặc thử lại sau khi backend kết nối lại với KRouter.",
+            "assistantType": "study",
+            "sources": []
+          }
+        ],
+        "updatedAt": "2026-05-05T05:25:49.393Z"
+      }
+    ]
+  },
+  "user-1777962799221": {
+    "conversations": [
+      {
+        "id": "conv-main",
+        "title": "Trợ lý học tập Sao Đỏ",
+        "updatedAt": "2026-05-05T06:33:19.233Z",
+        "messages": [
+          {
+            "id": "7aca7cb4-2765-4cc9-9bff-96dc5e696cb9",
+            "role": "assistant",
+            "content": "Xin chào. Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi lịch học, tìm tài liệu, tóm tắt bài giảng hoặc nhắc nhở công việc học tập hằng ngày.",
+            "createdAt": "2026-05-05T06:33:19.233Z",
+            "sources": []
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-1",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Lý thuyết",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-2",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-3",
+        "title": "Hệ quản trị cơ sở dữ liệu",
+        "time": "13:30 - 15:00",
+        "room": "Phòng A302",
+        "type": "Lý thuyết",
+        "day": "Thứ 3"
+      },
+      {
+        "id": "sch-4",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Bài tập",
+        "day": "Thứ 4"
+      },
+      {
+        "id": "sch-5",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 5"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-1",
+        "title": "Đề cương học phần - CS101",
+        "meta": "PDF - 1.2 MB",
+        "note": "Mới cập nhật hôm nay"
+      },
+      {
+        "id": "doc-2",
+        "title": "Slide bài giảng Flutter căn bản",
+        "meta": "PPT - 8.1 MB",
+        "note": "Bộ môn CNTT"
+      },
+      {
+        "id": "doc-3",
+        "title": "Tài liệu Hệ quản trị CSDL",
+        "meta": "PDF - 2.6 MB",
+        "note": "Dành cho học kỳ này"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-1",
+        "title": "Nộp bài tập CSDL",
+        "dueDate": "2026-05-05",
+        "done": false
+      },
+      {
+        "id": "rem-2",
+        "title": "Ôn thi Trí tuệ nhân tạo",
+        "dueDate": "2026-05-10",
+        "done": false
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-1",
+        "code": "CS301",
+        "title": "Trí tuệ nhân tạo",
+        "credits": 3,
+        "teacher": "TS. Nguyễn Văn B"
+      },
+      {
+        "id": "course-2",
+        "code": "CS302",
+        "title": "Lập trình Flutter",
+        "credits": 3,
+        "teacher": "ThS. Trần Thị C"
+      },
+      {
+        "id": "course-3",
+        "code": "CS303",
+        "title": "Hệ quản trị CSDL",
+        "credits": 3,
+        "teacher": "PGS. Lê Văn D"
+      }
+    ],
+    "grades": [],
+    "health": {
+      "profile": {
+        "heightCm": null,
+        "birthYear": null,
+        "gender": "",
+        "activityLevel": "moderate",
+        "waterGoalMl": 2000,
+        "calorieGoal": null
+      },
+      "weightLogs": [],
+      "sleepLogs": [],
+      "mealLogs": [],
+      "workoutPlans": [],
+      "workoutLogs": [],
+      "moodLogs": [],
+      "waterLogs": []
+    },
+    "notifications": [],
+    "pushTokens": [],
+    "aiConversations": [
+      {
+        "id": "c11c7391-36d0-479d-96ca-d72e797ce156",
+        "assistantType": "health",
+        "title": "Dua tren du lieu tuan nay, hay dua 3 khuyen nghi",
+        "summary": "",
+        "messages": [
+          {
+            "id": "3f3fa656-4e48-499f-809c-147b20d1d7fc",
+            "createdAt": "2026-05-05T06:33:19.236Z",
+            "role": "user",
+            "content": "Dua tren du lieu tuan nay, hay dua 3 khuyen nghi uu tien nhat."
+          },
+          {
+            "id": "8c2e1d24-f1a3-47e8-9b91-953f756beee3",
+            "createdAt": "2026-05-05T06:33:28.976Z",
+            "role": "assistant",
+            "content": "Lưu ý: Mình có thể gợi ý thói quen sức khỏe chung, nhưng AI không thay thế bác sĩ hoặc chuyên gia tâm lý.\n\nDựa trên dữ liệu tuần này, **3 khuyến nghị ưu tiên nhất** là:\n\n1. **Ngủ sớm và đều giờ hơn**\n   - Vì tuần này bạn **ngủ thất thường**, và có ngày chỉ **6.4h** do thức muộn.\n   - Mục tiêu ngắn: **lên giường trước 23:15 trong 3 ngày tới**.\n   - Ví dụ: tắt màn hình trước ngủ 30 phút, chuẩn bị bài/đồ dùng từ sớm để không kéo dài đến khuya.\n\n2. **Uống nước đều trong ngày**\n   - Trung bình **6.4 ly/ngày** là hơi thấp, lại có ngày chỉ **5 ly**.\n   - Mục tiêu: chia nhỏ uống nước, ví dụ **1 ly sau khi ngủ dậy + 1 ly mỗi giữa buổi học**.\n   - Cách dễ làm: đặt nhắc nhở 3–4 lần/ngày hoặc mang chai nước 500ml bên cạnh.\n\n3. **Giảm stress đầu tuần bằng nghỉ ngắn + vận động nhẹ**\n   - Bạn có ngày **stress 71/100**, trung bình tuần **48/100**, khá cao ở đầu tuần.\n   - Vận động trung bình **39 phút/ngày** là ổn, nhưng nên duy trì đều để giảm căng thẳng.\n   - Gợi ý: sau mỗi 50–60 phút học, nghỉ 5 phút đi lại/giãn cơ; thêm **10–15 phút đi bộ** buổi tối.\n\n**Kế hoạch nhỏ 3 ngày tới:**\n- Ngủ trước **23:15**\n- Uống đủ **7–8 ly nước/ngày**\n- Mỗi ngày **15 phút đi bộ hoặc giãn cơ**\n\nNếu bạn muốn, mình có thể biến 3 khuyến nghị này thành **lịch thực hiện cụ thể theo từng ngày** cho sinh viên của bạn.",
+            "assistantType": "health",
+            "sources": []
+          }
+        ],
+        "updatedAt": "2026-05-05T06:33:28.976Z"
+      }
+    ]
+  },
+  "demo-an-001": {
+    "conversations": [
+      {
+        "id": "conv-main",
+        "title": "Trợ lý học tập Sao Đỏ",
+        "updatedAt": "2026-05-09T18:14:23.347Z",
+        "messages": [
+          {
+            "id": "28b450a0-4010-4de3-90cb-d87f2826b5ac",
+            "role": "assistant",
+            "content": "Xin chào. Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi lịch học, tìm tài liệu, tóm tắt bài giảng hoặc nhắc nhở công việc học tập hằng ngày.",
+            "createdAt": "2026-05-09T18:14:23.348Z",
+            "sources": []
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-1",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Lý thuyết",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-2",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-3",
+        "title": "Hệ quản trị cơ sở dữ liệu",
+        "time": "13:30 - 15:00",
+        "room": "Phòng A302",
+        "type": "Lý thuyết",
+        "day": "Thứ 3"
+      },
+      {
+        "id": "sch-4",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Bài tập",
+        "day": "Thứ 4"
+      },
+      {
+        "id": "sch-5",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 5"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-1",
+        "title": "Đề cương học phần - CS101",
+        "meta": "PDF - 1.2 MB",
+        "note": "Mới cập nhật hôm nay"
+      },
+      {
+        "id": "doc-2",
+        "title": "Slide bài giảng Flutter căn bản",
+        "meta": "PPT - 8.1 MB",
+        "note": "Bộ môn CNTT"
+      },
+      {
+        "id": "doc-3",
+        "title": "Tài liệu Hệ quản trị CSDL",
+        "meta": "PDF - 2.6 MB",
+        "note": "Dành cho học kỳ này"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-1",
+        "title": "Nộp bài tập CSDL",
+        "dueDate": "2026-05-05",
+        "done": false
+      },
+      {
+        "id": "rem-2",
+        "title": "Ôn thi Trí tuệ nhân tạo",
+        "dueDate": "2026-05-10",
+        "done": false
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-1",
+        "code": "CS301",
+        "title": "Trí tuệ nhân tạo",
+        "credits": 3,
+        "teacher": "TS. Nguyễn Văn B"
+      },
+      {
+        "id": "course-2",
+        "code": "CS302",
+        "title": "Lập trình Flutter",
+        "credits": 3,
+        "teacher": "ThS. Trần Thị C"
+      },
+      {
+        "id": "course-3",
+        "code": "CS303",
+        "title": "Hệ quản trị CSDL",
+        "credits": 3,
+        "teacher": "PGS. Lê Văn D"
+      }
+    ],
+    "grades": [],
+    "health": {
+      "profile": {
+        "heightCm": null,
+        "birthYear": null,
+        "gender": "",
+        "activityLevel": "moderate",
+        "waterGoalMl": 2000,
+        "calorieGoal": null
+      },
+      "weightLogs": [],
+      "sleepLogs": [],
+      "mealLogs": [],
+      "workoutPlans": [],
+      "workoutLogs": [],
+      "moodLogs": [],
+      "waterLogs": []
+    },
+    "notifications": [],
+    "pushTokens": [],
+    "jobs": [
+      {
+        "id": "job-student-1",
+        "title": "Gia sư Tin học cơ bản cho học sinh THCS",
+        "employer": "Sinh viên CNTT K15",
+        "description": "Cần tìm gia sư dạy Tin học cơ bản (Word, Excel, PowerPoint) cho 2 học sinh lớp 8 tại nhà. Yêu cầu kiên nhẫn, có phương pháp sư phạm tốt. Ưu tiên sinh viên ngành CNTT hoặc Sư phạm.",
+        "pay": "80.000đ/giờ",
+        "region": "Chí Linh, Hải Dương",
+        "schedule": "Tối T3, T5 (19:00 - 21:00)",
+        "sourceType": "student",
+        "sourceLabel": "Sinh viên đăng",
+        "sourceUrl": "community://saodo/jobs/job-student-1",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "part-time",
+          "gia sư",
+          "gần trường"
+        ],
+        "postedAt": "2026-05-07T20:28:02.294Z",
+        "expiresAt": "2026-06-08T20:28:02.294Z",
+        "contact": {
+          "name": "Trần Minh Đức",
+          "phone": "0387.654.321",
+          "zalo": "0387654321",
+          "email": "duc.tran.k15@saodo.edu.vn",
+          "address": "Số 45, Tổ 3, Phường Sao Đỏ, TP Chí Linh, Hải Dương",
+          "method": "Nhắn tin Zalo hoặc gọi điện trước 21h",
+          "note": "Gặp trực tiếp tại quán cà phê đối diện cổng trường Sao Đỏ để trao đổi chi tiết."
+        }
+      },
+      {
+        "id": "job-employer-1",
+        "title": "Nhân viên phục vụ ca tối",
+        "employer": "Quán cà phê Sao Đỏ",
+        "description": "Tuyển 2 nhân viên phục vụ bàn ca tối. Công việc: pha chế cơ bản, phục vụ đồ uống, dọn dẹp. Được đào tạo từ đầu, không cần kinh nghiệm. Có phụ cấp ăn tối + thưởng cuối tháng.",
+        "pay": "22.000đ/giờ + phụ cấp",
+        "region": "Phường Sao Đỏ, Chí Linh",
+        "schedule": "18:00 - 22:00 hàng ngày",
+        "sourceType": "employer",
+        "sourceLabel": "Nhà tuyển dụng",
+        "sourceUrl": "official://employer/coffee-saodo",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "ca tối",
+          "dịch vụ",
+          "không đặt cọc"
+        ],
+        "postedAt": "2026-05-08T20:28:02.294Z",
+        "expiresAt": "2026-05-23T20:28:02.294Z",
+        "contact": {
+          "name": "Chị Hương (Quản lý)",
+          "phone": "0912.345.678",
+          "zalo": "0912345678",
+          "email": null,
+          "address": "128 Đường Hoàng Quốc Việt, Phường Sao Đỏ, TP Chí Linh",
+          "method": "Đến trực tiếp quán hoặc gọi Zalo từ 9h-17h",
+          "note": "Mang theo CMND/CCCD bản gốc khi phỏng vấn. Phỏng vấn nhanh 15 phút, có kết quả ngay."
+        }
+      },
+      {
+        "id": "job-admin-1",
+        "title": "CTV hỗ trợ ngày hội tuyển sinh",
+        "employer": "Trường Đại học Sao Đỏ",
+        "description": "Cần 20 CTV hỗ trợ tổ chức ngày hội tuyển sinh 2026. Nhiệm vụ: hướng dẫn phụ huynh, phát tài liệu, hỗ trợ đăng ký online. Được cấp áo đồng phục, ăn trưa và chứng nhận tham gia hoạt động.",
+        "pay": "Theo ca hỗ trợ (150.000đ/ca)",
+        "region": "Cơ sở Sao Đỏ",
+        "schedule": "Cuối tuần (T7-CN, 7:30 - 17:00)",
+        "sourceType": "admin",
+        "sourceLabel": "Nhà trường xác nhận",
+        "sourceUrl": "official://saodo/career-day",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "sự kiện",
+          "kỹ năng mềm",
+          "ưu tiên sinh viên"
+        ],
+        "postedAt": "2026-05-06T20:28:02.294Z",
+        "expiresAt": "2026-05-16T20:28:02.294Z",
+        "contact": {
+          "name": "Phòng Công tác Sinh viên",
+          "phone": "0220.3886.000 (máy lẻ 105)",
+          "zalo": "0965.123.456",
+          "email": "ctsv@saodo.edu.vn",
+          "address": "Phòng 108, Nhà A1, Trường ĐH Sao Đỏ, Chí Linh, Hải Dương",
+          "method": "Đăng ký trực tiếp tại phòng CTSV hoặc gửi email kèm họ tên + MSSV",
+          "note": "Ưu tiên sinh viên năm 1-2. Hạn đăng ký: trước thứ 5 hàng tuần."
+        }
+      },
+      {
+        "id": "job-crawler-1",
+        "title": "CTV bán hàng online khu vực Hải Dương",
+        "employer": "Nguồn công khai Chí Linh Jobs",
+        "description": "Tuyển CTV bán hàng online (mỹ phẩm, đồ gia dụng). Làm việc tại nhà, chỉ cần smartphone. Thu nhập theo hoa hồng đơn hàng. Được đào tạo marketing online miễn phí.",
+        "pay": "3 - 5 triệu/tháng",
+        "region": "Chí Linh, Hải Dương",
+        "schedule": "Linh hoạt",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://chilinhjobs.vn/ctv-ban-hang-online",
+        "riskLevel": "medium",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "cần xác minh",
+          "online",
+          "nguồn crawl"
+        ],
+        "postedAt": "2026-05-04T20:28:02.294Z",
+        "expiresAt": "2026-05-29T20:28:02.294Z",
+        "contact": {
+          "name": "Anh Tuấn (Team Leader)",
+          "phone": "0976.xxx.xxx (ẩn - nguồn crawl)",
+          "zalo": null,
+          "email": null,
+          "address": null,
+          "method": "Liên hệ qua link gốc bài đăng",
+          "note": "⚠️ Nguồn crawl tự động - Vui lòng xác minh trước khi liên hệ. Không chuyển khoản đặt cọc."
+        }
+      },
+      {
+        "id": "job-crawler-2",
+        "title": "Nhân viên kho bãi KCN Phả Lại",
+        "employer": "Công ty TNHH Logistics Hải Dương",
+        "description": "Tuyển nhân viên kho: kiểm đếm hàng, sắp xếp kệ, xuất nhập hàng. Làm ca sáng hoặc ca chiều. Có xe đưa đón từ Chí Linh. BHXH đầy đủ sau thử việc.",
+        "pay": "5.5 - 7 triệu/tháng",
+        "region": "KCN Phả Lại, Chí Linh",
+        "schedule": "Ca sáng 6:00-14:00 hoặc Ca chiều 14:00-22:00",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://vieclam.haiduong.gov.vn/kho-bai-pha-lai",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "toàn thời gian",
+          "có xe đưa đón",
+          "BHXH"
+        ],
+        "postedAt": "2026-05-08T20:28:02.294Z",
+        "expiresAt": "2026-06-03T20:28:02.294Z",
+        "contact": {
+          "name": "Phòng Nhân sự - Logistics HD",
+          "phone": "0220.3888.999",
+          "zalo": "0901.234.567",
+          "email": "tuyendung@logisticshd.vn",
+          "address": "Lô C5-C6, KCN Phả Lại, TP Chí Linh, Hải Dương",
+          "method": "Gửi CV qua email hoặc đến trực tiếp phỏng vấn T2-T6 (8:00-16:00)",
+          "note": "Mang CCCD + Sơ yếu lý lịch + Ảnh 3x4. Có xe đưa đón miễn phí."
+        }
+      },
+      {
+        "id": "job-crawler-3",
+        "title": "Nhân viên bán hàng tại siêu thị Winmart Chí Linh",
+        "employer": "Winmart Chí Linh",
+        "description": "Tuyển nhân viên bán hàng, thu ngân, trưng bày sản phẩm. Yêu cầu: tốt nghiệp THPT trở lên, ngoại hình ưa nhìn, giao tiếp tốt. Làm theo ca, có thưởng doanh số.",
+        "pay": "4.5 - 6 triệu/tháng + thưởng",
+        "region": "Phường Sao Đỏ, Chí Linh",
+        "schedule": "Ca xoay: 7:00-15:00 / 15:00-22:00",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://tuyendung.winmart.vn/chi-linh",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "bán lẻ",
+          "ca xoay",
+          "thưởng doanh số"
+        ],
+        "postedAt": "2026-05-05T20:28:02.294Z",
+        "expiresAt": "2026-05-24T20:28:02.294Z",
+        "contact": {
+          "name": "Bộ phận Tuyển dụng Winmart",
+          "phone": "1900.6600",
+          "zalo": null,
+          "email": "hr.chilinh@winmart.vn",
+          "address": "Tầng 1, TTTM Chí Linh, Đường Hoàng Quốc Việt, P. Sao Đỏ",
+          "method": "Nộp hồ sơ trực tiếp tại quầy lễ tân siêu thị hoặc gửi email",
+          "note": "Phỏng vấn hàng tuần vào thứ 4 và thứ 6, 9:00-11:00."
+        }
+      },
+      {
+        "id": "job-student-2",
+        "title": "Dạy kèm Tiếng Anh giao tiếp 1-1",
+        "employer": "Nguyễn Thị Lan - SV Sư phạm K16",
+        "description": "Nhận dạy kèm Tiếng Anh giao tiếp cơ bản cho người đi làm hoặc sinh viên muốn luyện speaking. Có chứng chỉ IELTS 6.5, kinh nghiệm 1 năm dạy kèm.",
+        "pay": "100.000đ/giờ",
+        "region": "Phường Sao Đỏ hoặc Online",
+        "schedule": "Linh hoạt theo lịch học viên",
+        "sourceType": "student",
+        "sourceLabel": "Sinh viên đăng",
+        "sourceUrl": "community://saodo/jobs/job-student-2",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "gia sư",
+          "tiếng Anh",
+          "online"
+        ],
+        "postedAt": "2026-05-03T20:28:02.294Z",
+        "expiresAt": "2026-06-08T20:28:02.294Z",
+        "contact": {
+          "name": "Nguyễn Thị Lan",
+          "phone": "0356.789.012",
+          "zalo": "0356789012",
+          "email": "lan.nguyen.k16@saodo.edu.vn",
+          "address": "KTX Sao Đỏ hoặc dạy online qua Google Meet",
+          "method": "Nhắn Zalo để đặt lịch học thử miễn phí 1 buổi",
+          "note": "Có thể học thử 1 buổi miễn phí. Thanh toán theo tuần hoặc tháng."
+        }
+      },
+      {
+        "id": "job-employer-2",
+        "title": "Phụ bếp nhà hàng Hương Việt",
+        "employer": "Nhà hàng Hương Việt - Chí Linh",
+        "description": "Tuyển phụ bếp: sơ chế nguyên liệu, rửa dụng cụ, hỗ trợ bếp chính. Bao ăn ca, thưởng lễ tết. Phù hợp sinh viên muốn làm thêm buổi trưa/tối.",
+        "pay": "25.000đ/giờ + ăn ca",
+        "region": "Phường Chí Minh, Chí Linh",
+        "schedule": "10:00 - 14:00 hoặc 17:00 - 21:00",
+        "sourceType": "employer",
+        "sourceLabel": "Nhà tuyển dụng",
+        "sourceUrl": "official://employer/huong-viet",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "bao ăn",
+          "gần trường",
+          "linh hoạt ca"
+        ],
+        "postedAt": "2026-05-07T20:28:02.294Z",
+        "expiresAt": "2026-05-19T20:28:02.294Z",
+        "contact": {
+          "name": "Anh Cường (Bếp trưởng)",
+          "phone": "0978.111.222",
+          "zalo": "0978111222",
+          "email": null,
+          "address": "56 Đường Trần Phú, Phường Chí Minh, TP Chí Linh, Hải Dương",
+          "method": "Gọi điện hoặc đến nhà hàng trước 16h để phỏng vấn",
+          "note": "Thử việc 3 ngày có trả lương. Bao ăn 2 bữa/ca."
+        }
+      },
+      {
+        "id": "job-crawler-4",
+        "title": "Thực tập sinh IT tại công ty phần mềm Hải Dương",
+        "employer": "HD Software JSC",
+        "description": "Tuyển thực tập sinh lập trình web (React/Node.js hoặc PHP/Laravel). Được mentor hướng dẫn 1-1, có lương thực tập. Cơ hội trở thành nhân viên chính thức sau thực tập.",
+        "pay": "3 - 4 triệu/tháng (thực tập)",
+        "region": "TP Hải Dương",
+        "schedule": "T2-T6, 8:00 - 17:00 (linh hoạt cho SV)",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://vieclam.haiduong.gov.vn/thuc-tap-it",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "thực tập",
+          "IT",
+          "có mentor"
+        ],
+        "postedAt": "2026-05-06T20:28:02.294Z",
+        "expiresAt": "2026-06-08T20:28:02.294Z",
+        "contact": {
+          "name": "Phòng HR - HD Software",
+          "phone": "0220.3555.888",
+          "zalo": "0909.876.543",
+          "email": "hr@hdsoftware.vn",
+          "address": "Tầng 5, Tòa nhà Sunrise, 23 Nguyễn Lương Bằng, TP Hải Dương",
+          "method": "Gửi CV + portfolio (nếu có) qua email. Subject: [INTERN-2026] Họ tên",
+          "note": "Phỏng vấn online qua Google Meet. Kết quả trả trong 3 ngày làm việc."
+        }
+      },
+      {
+        "id": "job-crawler-5",
+        "title": "Shipper giao hàng khu vực Chí Linh",
+        "employer": "GrabExpress / Giao Hàng Nhanh",
+        "description": "Tuyển đối tác giao hàng khu vực Chí Linh - Hải Dương. Yêu cầu: có xe máy, smartphone, CCCD. Thu nhập theo đơn hàng, thưởng chuyên cần hàng tuần.",
+        "pay": "200k - 500k/ngày (theo đơn)",
+        "region": "Chí Linh, Hải Dương",
+        "schedule": "Tự chọn ca, tối thiểu 4h/ngày",
+        "sourceType": "crawler",
+        "sourceLabel": "Crawler nguồn công khai",
+        "sourceUrl": "https://tuyendung.ghn.vn/chi-linh",
+        "riskLevel": "low",
+        "moderationStatus": "visible_immediately",
+        "tags": [
+          "tự do",
+          "có xe máy",
+          "thu nhập theo đơn"
+        ],
+        "postedAt": "2026-05-02T20:28:02.294Z",
+        "expiresAt": "2026-07-08T20:28:02.294Z",
+        "contact": {
+          "name": "Trung tâm tuyển dụng GHN Hải Dương",
+          "phone": "1900.636.688",
+          "zalo": "0888.456.789",
+          "email": "doitac.haiduong@ghn.vn",
+          "address": "12 Đường Bến Tắm, Phường Bến Tắm, TP Chí Linh",
+          "method": "Đăng ký online tại app GHN hoặc đến trực tiếp bưu cục",
+          "note": "Cần mang CCCD gốc + Giấy phép lái xe A1/A2 + ĐKTX xe máy. Kích hoạt tài khoản trong 24h."
+        }
+      }
+    ],
+    "jobSources": [
+      {
+        "id": "source-public-local",
+        "name": "Nhóm việc làm công khai Chí Linh",
+        "sourceType": "public",
+        "endpoint": "crawl/public-sources",
+        "region": "Chí Linh, Hải Dương",
+        "policy": "Chỉ nhận nguồn public, official, community; không vượt đăng nhập hoặc nhóm riêng tư.",
+        "status": "active",
+        "count": 18,
+        "lastCrawled": "2026-05-09T20:28:02.294Z"
+      },
+      {
+        "id": "source-official-school",
+        "name": "Nguồn chính thức doanh nghiệp Hải Dương",
+        "sourceType": "official",
+        "endpoint": "crawl/public-sources",
+        "region": "Hải Dương",
+        "policy": "Ưu tiên API/RSS/website công khai có quyền truy cập hợp pháp.",
+        "status": "active",
+        "count": 7,
+        "lastCrawled": "2026-05-09T20:28:02.294Z"
+      },
+      {
+        "id": "source-community-app",
+        "name": "Bài đăng cộng đồng trong app",
+        "sourceType": "community",
+        "endpoint": "jobs",
+        "region": "Sao Đỏ",
+        "policy": "Hiển thị ngay với nhãn nguồn, mức rủi ro và nút báo cáo.",
+        "status": "active",
+        "count": 12,
+        "lastCrawled": "2026-05-09T20:28:02.294Z"
+      }
+    ]
+  },
+  "user-1778423491061": {
+    "conversations": [
+      {
+        "id": "test-1778423491091",
+        "title": "Xin chao, ban la gi?",
+        "updatedAt": "2026-05-10T14:31:31.439Z",
+        "messages": [
+          {
+            "id": "267edb27-9e54-40d7-9a58-37a83595dd8f",
+            "role": "user",
+            "content": "Xin chao, ban la gi?",
+            "createdAt": "2026-05-10T14:31:31.118Z"
+          },
+          {
+            "id": "5326839d-46c7-45e1-8640-601880c2545e",
+            "role": "assistant",
+            "content": "Chào Test User! Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi mình về lịch học, tài liệu, môn học, nhắc nhở hoặc cách chuẩn bị bài.",
+            "createdAt": "2026-05-10T14:31:31.439Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "conv-main",
+        "title": "Trợ lý học tập Sao Đỏ",
+        "updatedAt": "2026-05-10T14:31:31.112Z",
+        "messages": [
+          {
+            "id": "3a5f0fdb-f9e1-45d9-8a11-a9d887a4c4f1",
+            "role": "assistant",
+            "content": "Xin chào. Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi lịch học, tìm tài liệu, tóm tắt bài giảng hoặc nhắc nhở công việc học tập hằng ngày.",
+            "createdAt": "2026-05-10T14:31:31.113Z",
+            "sources": []
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-1",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Lý thuyết",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-2",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-3",
+        "title": "Hệ quản trị cơ sở dữ liệu",
+        "time": "13:30 - 15:00",
+        "room": "Phòng A302",
+        "type": "Lý thuyết",
+        "day": "Thứ 3"
+      },
+      {
+        "id": "sch-4",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Bài tập",
+        "day": "Thứ 4"
+      },
+      {
+        "id": "sch-5",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 5"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-1",
+        "title": "Đề cương học phần - CS101",
+        "meta": "PDF - 1.2 MB",
+        "note": "Mới cập nhật hôm nay"
+      },
+      {
+        "id": "doc-2",
+        "title": "Slide bài giảng Flutter căn bản",
+        "meta": "PPT - 8.1 MB",
+        "note": "Bộ môn CNTT"
+      },
+      {
+        "id": "doc-3",
+        "title": "Tài liệu Hệ quản trị CSDL",
+        "meta": "PDF - 2.6 MB",
+        "note": "Dành cho học kỳ này"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-1",
+        "title": "Nộp bài tập CSDL",
+        "dueDate": "2026-05-05",
+        "done": false
+      },
+      {
+        "id": "rem-2",
+        "title": "Ôn thi Trí tuệ nhân tạo",
+        "dueDate": "2026-05-10",
+        "done": false
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-1",
+        "code": "CS301",
+        "title": "Trí tuệ nhân tạo",
+        "credits": 3,
+        "teacher": "TS. Nguyễn Văn B"
+      },
+      {
+        "id": "course-2",
+        "code": "CS302",
+        "title": "Lập trình Flutter",
+        "credits": 3,
+        "teacher": "ThS. Trần Thị C"
+      },
+      {
+        "id": "course-3",
+        "code": "CS303",
+        "title": "Hệ quản trị CSDL",
+        "credits": 3,
+        "teacher": "PGS. Lê Văn D"
+      }
+    ],
+    "grades": [],
+    "health": {
+      "profile": {
+        "heightCm": null,
+        "birthYear": null,
+        "gender": "",
+        "activityLevel": "moderate",
+        "waterGoalMl": 2000,
+        "calorieGoal": null
+      },
+      "weightLogs": [],
+      "sleepLogs": [],
+      "mealLogs": [],
+      "workoutPlans": [],
+      "workoutLogs": [],
+      "moodLogs": [],
+      "waterLogs": []
+    },
+    "notifications": [],
+    "pushTokens": []
+  }
+}

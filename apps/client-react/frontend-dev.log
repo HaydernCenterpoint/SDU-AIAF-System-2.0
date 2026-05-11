@@ -1,0 +1,42 @@
+
+> saodo-assistant-client@1.0.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.5.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.8s
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 6.7s (829 modules)
+ GET /dashboard 200 in 7263ms
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 902ms (827 modules)
+ GET /profile 200 in 1115ms
+ GET /profile 200 in 47ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1461ms (825 modules)
+ GET /profile 404 in 1427ms
+ GET /profile 404 in 47ms
+ GET /profile 404 in 282ms
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 1259ms (818 modules)
+ GET /profile 200 in 1105ms
+ GET /profile 200 in 46ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 2.6s (1055 modules)
+ GET /login 200 in 2853ms
+ GET /login 200 in 42ms
+ ✓ Compiled in 691ms (1059 modules)
+ GET /login 200 in 179ms
+ GET /dashboard 200 in 65ms
+ GET /dashboard 200 in 49ms
+ GET /profile 200 in 71ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.6s (1400 modules)
+ GET /profile 200 in 1511ms
+ GET /profile 200 in 34ms
+ GET /profile 200 in 38ms
+ GET /profile 500 in 6472ms
+[?25h

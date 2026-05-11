@@ -1,0 +1,116 @@
+{
+  "documents": [
+    {
+      "id": "demo-toan-1",
+      "title": "Äá» cÆ°Æ¡ng Ã´n táº­p ToÃ¡n 12 - Há»c ká»³ 2",
+      "description": "Tá»•ng há»£p cÃ¡c chuyÃªn Ä‘á»: Sá»‘ phá»©c, TÃ­ch phÃ¢n, HÃ¬nh há»c khÃ´ng gian Oxyz.",
+      "tags": [
+        "ToÃ¡n",
+        "Khá»‘i 12",
+        "Ã´n thi",
+        "Ä‘á» cÆ°Æ¡ng"
+      ],
+      "file": {
+        "originalName": "de_cuong_toan_12_hk2.pdf",
+        "mimeType": "application/pdf",
+        "size": 3145728
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@ntd.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-29T08:00:00.000Z",
+      "updatedAt": "2026-04-29T15:30:00.000Z"
+    },
+    {
+      "id": "demo-van-1",
+      "title": "PhÃ¢n tÃ­ch tÃ¡c pháº©m Vá»£ Nháº·t - Kim LÃ¢n",
+      "description": "TÃ i liá»‡u hÆ°á»›ng dáº«n phÃ¢n tÃ­ch nhÃ¢n váº­t TrÃ ng, ngÆ°á»i vá»£ nháº·t vÃ  bÃ  cá»¥ Tá»©.",
+      "tags": [
+        "Ngá»¯ VÄƒn",
+        "Vá»£ Nháº·t",
+        "phÃ¢n tÃ­ch",
+        "tÃ i liá»‡u"
+      ],
+      "file": {
+        "originalName": "phan_tich_vo_nhat.docx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 1048576
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@ntd.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-28T08:00:00.000Z",
+      "updatedAt": "2026-04-28T15:30:00.000Z"
+    },
+    {
+      "id": "demo-anh-1",
+      "title": "Tá»•ng há»£p tá»« vá»±ng Tiáº¿ng Anh 12 (Units 1-10)",
+      "description": "Danh sÃ¡ch tá»« vá»±ng trá»ng tÃ¢m kÃ¨m vÃ­ dá»¥ vÃ  bÃ i táº­p tráº¯c nghiá»‡m Ã¡p dá»¥ng.",
+      "tags": [
+        "Tiáº¿ng Anh",
+        "tá»« vá»±ng",
+        "bÃ i táº­p"
+      ],
+      "file": {
+        "originalName": "vocab_english_12.pdf",
+        "mimeType": "application/pdf",
+        "size": 2621440
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@ntd.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-27T08:00:00.000Z",
+      "updatedAt": "2026-04-27T15:30:00.000Z"
+    },
+    {
+      "id": "demo-ly-1",
+      "title": "CÃ´ng thá»©c Váº­t lÃ½ 12 thi THPT Quá»‘c gia",
+      "description": "TÃ³m táº¯t cÃ´ng thá»©c toÃ n bá»™ chÆ°Æ¡ng trÃ¬nh Váº­t lÃ½ 12 Ä‘á»ƒ luyá»‡n thi THPT QG.",
+      "tags": [
+        "Váº­t lÃ½",
+        "cÃ´ng thá»©c",
+        "luyá»‡n thi"
+      ],
+      "file": {
+        "originalName": "cong_thuc_vat_ly_12.pdf",
+        "mimeType": "application/pdf",
+        "size": 1572864
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@ntd.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-26T08:00:00.000Z",
+      "updatedAt": "2026-04-26T15:30:00.000Z"
+    },
+    {
+      "id": "demo-hoa-1",
+      "title": "ChuyÃªn Ä‘á» Há»¯u cÆ¡: Este - Lipit",
+      "description": "LÃ½ thuyáº¿t trá»ng tÃ¢m vÃ  cÃ¡c dáº¡ng bÃ i táº­p giáº£i chi tiáº¿t vá» Este vÃ  Lipit.",
+      "tags": [
+        "HÃ³a há»c",
+        "chuyÃªn Ä‘á»",
+        "bÃ i táº­p"
+      ],
+      "file": {
+        "originalName": "chuyen_de_este_lipit.pdf",
+        "mimeType": "application/pdf",
+        "size": 2097152
+      },
+      "owner": {
+        "id": "demo-library",
+        "email": "thu-vien@ntd.edu.vn",
+        "role": "teacher"
+      },
+      "createdAt": "2026-04-25T08:00:00.000Z",
+      "updatedAt": "2026-04-25T15:30:00.000Z"
+    }
+  ]
+}

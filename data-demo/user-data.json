@@ -1,0 +1,553 @@
+{
+  "demo-user-001": {
+    "conversations": [
+      {
+        "id": "2f5bfbc0-904e-434a-9118-b744e8a7ecd7",
+        "title": "alo",
+        "updatedAt": "2026-04-24T01:31:01.657Z",
+        "messages": [
+          {
+            "id": "cff3fb91-39fb-4cb9-948c-2dd8228d0752",
+            "role": "user",
+            "content": "alo",
+            "createdAt": "2026-04-24T01:10:58.193Z"
+          },
+          {
+            "id": "d0e80ccc-ce61-45ed-a72e-60198a1d81df",
+            "role": "assistant",
+            "content": "Chào bạn! Bạn cần giúp gì hôm nay? Có lịch học, tài liệu hay bài tập nào cần mình hỗ trợ không?",
+            "createdAt": "2026-04-24T01:10:59.584Z",
+            "sources": []
+          },
+          {
+            "id": "eca91066-990a-4419-b700-2b5c10cd9c90",
+            "role": "user",
+            "content": "Tóm tắt bài giảng CSDL",
+            "createdAt": "2026-04-24T01:30:29.372Z"
+          },
+          {
+            "id": "62deeae4-f9cc-4e8a-8f31-c4043a3dae4f",
+            "role": "assistant",
+            "content": "Dựa vào lịch học và tài liệu:\n\n- Buổi chiều 13:30–15:00 tại Phòng A302: Hệ quản trị cơ sở dữ liệu (bài tập).\n- Tài liệu: Bài tập lớn CSDL tuần 4 (DOC, 420 KB).\n- Giảng viên: PGS. Lê Văn Dũng.\n\nTóm tắt: Đề bài yêu cầu làm bài tập lớn tuần 4 môn CSDL. Nắm các khái niệm quản trị CSDL, thiết kế cơ sở dữ liệu, SQL, và làm đúng yêu cầu đề bài trong file DOC.",
+            "createdAt": "2026-04-24T01:30:31.319Z",
+            "sources": []
+          },
+          {
+            "id": "6970b29f-ec63-4b35-8b9c-5cebb63b6990",
+            "role": "user",
+            "content": "hello",
+            "createdAt": "2026-04-24T01:30:40.222Z"
+          },
+          {
+            "id": "8505e36b-4a70-4482-bbde-af3908ad99ba",
+            "role": "assistant",
+            "content": "Chào bạn! Bạn cần giúp gì hôm nay? Có lịch học, tài liệu hay bài tập nào cần mình hỗ trợ không?",
+            "createdAt": "2026-04-24T01:30:41.510Z",
+            "sources": []
+          },
+          {
+            "id": "4f979c3a-9673-4231-a738-0a1a098a4e99",
+            "role": "user",
+            "content": "Xem lịch học tuần này của tôi",
+            "createdAt": "2026-04-24T01:30:59.441Z"
+          },
+          {
+            "id": "6951d81e-d06c-49a2-a805-1c1370329de6",
+            "role": "assistant",
+            "content": "Lịch học tuần này:\n- 08:00–09:30: Trí tuệ nhân tạo (Phòng A205) – Lý thuyết\n- 10:00–11:30: Lập trình Flutter (Lab B103) – Thực hành\n- 13:30–15:00: Hệ quản trị cơ sở dữ liệu (Phòng A302) – Bài tập",
+            "createdAt": "2026-04-24T01:31:01.657Z",
+            "sources": [
+              {
+                "title": "Trí tuệ nhân tạo",
+                "type": "schedule"
+              },
+              {
+                "title": "Lập trình Flutter",
+                "type": "schedule"
+              },
+              {
+                "title": "Hệ quản trị cơ sở dữ liệu",
+                "type": "schedule"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d57eb1b0-87cc-4ae8-9250-2a98632d754f",
+        "title": "Hôm nay tôi học môn gì? Trả lời ngắn",
+        "updatedAt": "2026-04-24T01:10:23.096Z",
+        "messages": [
+          {
+            "id": "841f86b8-1101-4cfd-a1c3-523b693f8482",
+            "role": "user",
+            "content": "Hôm nay tôi học môn gì? Trả lời ngắn gọn bằng tiếng Việt.",
+            "createdAt": "2026-04-24T01:05:39.801Z"
+          },
+          {
+            "id": "5f47bd4e-273e-4ae6-a9e8-08b443fd68c8",
+            "role": "assistant",
+            "content": "- Sáng: Trí tuệ nhân tạo  \n- Trưa: Lập trình Flutter  \n- Chiều: Hệ quản trị cơ sở dữ liệu",
+            "createdAt": "2026-04-24T01:05:40.962Z",
+            "sources": [
+              {
+                "title": "Trí tuệ nhân tạo",
+                "type": "schedule"
+              },
+              {
+                "title": "Lập trình Flutter",
+                "type": "schedule"
+              },
+              {
+                "title": "Hệ quản trị cơ sở dữ liệu",
+                "type": "schedule"
+              }
+            ]
+          },
+          {
+            "id": "4606ae5f-5db9-4752-9bc7-9ae77c0cfd5f",
+            "role": "user",
+            "content": "xin chào",
+            "createdAt": "2026-04-24T01:06:20.233Z"
+          },
+          {
+            "id": "16042f09-30f0-4caa-85a7-f87fc7d9a8c6",
+            "role": "assistant",
+            "content": "- Sáng: Trí tuệ nhân tạo  \n- Trưa: Lập trình Flutter  \n- Chiều: Hệ quản trị cơ sở dữ liệu",
+            "createdAt": "2026-04-24T01:06:21.391Z",
+            "sources": []
+          },
+          {
+            "id": "5518f314-9517-487f-8d88-ede17a5a5340",
+            "role": "user",
+            "content": "alo",
+            "createdAt": "2026-04-24T01:06:25.205Z"
+          },
+          {
+            "id": "c7d93201-4d0c-43cd-a4de-3ac704f6d85d",
+            "role": "assistant",
+            "content": "- Sáng: Trí tuệ nhân tạo  \n- Trưa: Lập trình Flutter  \n- Chiều: Hệ quản trị cơ sở dữ liệu",
+            "createdAt": "2026-04-24T01:06:26.226Z",
+            "sources": []
+          },
+          {
+            "id": "be33844e-7e7a-4606-b7b9-0ac14bf0426e",
+            "role": "user",
+            "content": "hello",
+            "createdAt": "2026-04-24T01:10:21.644Z"
+          },
+          {
+            "id": "240f28b7-0072-4da9-8553-837cc969f5e2",
+            "role": "assistant",
+            "content": "- Sáng: Trí tuệ nhân tạo  \n- Trưa: Lập trình Flutter  \n- Chiều: Hệ quản trị cơ sở dữ liệu",
+            "createdAt": "2026-04-24T01:10:23.096Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "conv-demo-user-001",
+        "title": "Hôm nay mình cần chuẩn bị gì?",
+        "updatedAt": "2026-04-24T01:02:29.327Z",
+        "messages": [
+          {
+            "id": "msg-demo-user-001-hello",
+            "role": "assistant",
+            "content": "Xin chào Nguyễn Văn An. Mình có thể giúp bạn xem lịch học, tìm tài liệu, nhắc việc và tóm tắt nội dung học tập.",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": []
+          },
+          {
+            "id": "msg-demo-user-001-ask",
+            "role": "user",
+            "content": "Hôm nay mình cần chuẩn bị gì?",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": []
+          },
+          {
+            "id": "msg-demo-user-001-reply",
+            "role": "assistant",
+            "content": "Bạn nên kiểm tra lịch học gần nhất, mở tài liệu mới cập nhật và hoàn thành các nhắc nhở chưa xong.",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": [
+              {
+                "title": "Lịch học hôm nay",
+                "type": "schedule"
+              }
+            ]
+          },
+          {
+            "id": "e08e6179-2a04-418e-82ea-833e59b55fb9",
+            "role": "user",
+            "content": "H�m nay t�i h?c m�n g�? Tr? l?i ng?n g?n.",
+            "createdAt": "2026-04-24T01:02:28.567Z"
+          },
+          {
+            "id": "c8ea6122-eb08-4a7f-b53e-d2e3a9c98098",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Để có câu trả lời thông minh từ agent NemoClaw/OpenClaw, hãy cấu hình `NEMOCLAW_API_URL`, `NEMOCLAW_SANDBOX_NAME`, hoặc `SAODO_AGENT_MODE=openclaw-cli` cho backend.",
+            "createdAt": "2026-04-24T01:02:29.327Z",
+            "sources": []
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-it-1",
+        "title": "Trí tuệ nhân tạo",
+        "time": "08:00 - 09:30",
+        "room": "Phòng A205",
+        "type": "Lý thuyết",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-it-2",
+        "title": "Lập trình Flutter",
+        "time": "10:00 - 11:30",
+        "room": "Lab B103",
+        "type": "Thực hành",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-it-3",
+        "title": "Hệ quản trị cơ sở dữ liệu",
+        "time": "13:30 - 15:00",
+        "room": "Phòng A302",
+        "type": "Bài tập",
+        "day": "Thứ 3"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-it-1",
+        "title": "Đề cương học phần Trí tuệ nhân tạo",
+        "meta": "PDF - 1.2 MB",
+        "note": "Mới cập nhật"
+      },
+      {
+        "id": "doc-it-2",
+        "title": "Slide Flutter căn bản",
+        "meta": "PPT - 8.1 MB",
+        "note": "Bộ môn CNTT"
+      },
+      {
+        "id": "doc-it-3",
+        "title": "Bài tập lớn CSDL tuần 4",
+        "meta": "DOC - 420 KB",
+        "note": "Cần nộp"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-it-1",
+        "title": "Nộp bài tập CSDL trước 21:00",
+        "dueDate": "2026-04-30",
+        "done": false
+      },
+      {
+        "id": "rem-it-2",
+        "title": "Chuẩn bị demo Flutter",
+        "dueDate": "2026-05-02",
+        "done": false
+      },
+      {
+        "id": "rem-it-3",
+        "title": "Đọc slide AI chương 2",
+        "dueDate": "2026-04-28",
+        "done": true
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-it-1",
+        "code": "CS301",
+        "title": "Trí tuệ nhân tạo",
+        "credits": 3,
+        "teacher": "TS. Nguyễn Văn Bình"
+      },
+      {
+        "id": "course-it-2",
+        "code": "CS302",
+        "title": "Lập trình Flutter",
+        "credits": 3,
+        "teacher": "ThS. Trần Thị Chi"
+      },
+      {
+        "id": "course-it-3",
+        "code": "CS303",
+        "title": "Hệ quản trị cơ sở dữ liệu",
+        "credits": 3,
+        "teacher": "PGS. Lê Văn Dũng"
+      }
+    ],
+    "grades": [
+      {
+        "id": "grade-demo-user-001-1",
+        "title": "Điểm chuyên cần",
+        "score": 9,
+        "weight": "10%"
+      },
+      {
+        "id": "grade-demo-user-001-2",
+        "title": "Điểm giữa kỳ",
+        "score": 8.2,
+        "weight": "30%"
+      }
+    ]
+  },
+  "demo-user-002": {
+    "conversations": [
+      {
+        "id": "conv-demo-user-002",
+        "title": "Trợ lí học tập Sao Đỏ",
+        "updatedAt": "2026-04-23T23:19:41.487Z",
+        "messages": [
+          {
+            "id": "msg-demo-user-002-hello",
+            "role": "assistant",
+            "content": "Xin chào Trần Thị Bình. Mình có thể giúp bạn xem lịch học, tìm tài liệu, nhắc việc và tóm tắt nội dung học tập.",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": []
+          },
+          {
+            "id": "msg-demo-user-002-ask",
+            "role": "user",
+            "content": "Hôm nay mình cần chuẩn bị gì?",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": []
+          },
+          {
+            "id": "msg-demo-user-002-reply",
+            "role": "assistant",
+            "content": "Bạn nên kiểm tra lịch học gần nhất, mở tài liệu mới cập nhật và hoàn thành các nhắc nhở chưa xong.",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": [
+              {
+                "title": "Lịch học hôm nay",
+                "type": "schedule"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-acc-1",
+        "title": "Nguyên lý kế toán",
+        "time": "07:30 - 09:00",
+        "room": "Phòng C101",
+        "type": "Lý thuyết",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-acc-2",
+        "title": "Excel ứng dụng trong kế toán",
+        "time": "09:30 - 11:00",
+        "room": "Lab C204",
+        "type": "Thực hành",
+        "day": "Thứ 4"
+      },
+      {
+        "id": "sch-acc-3",
+        "title": "Phân tích báo cáo tài chính",
+        "time": "13:00 - 14:30",
+        "room": "Phòng C305",
+        "type": "Bài tập",
+        "day": "Thứ 5"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-acc-1",
+        "title": "Mẫu sổ nhật ký chung",
+        "meta": "XLSX - 580 KB",
+        "note": "Thực hành"
+      },
+      {
+        "id": "doc-acc-2",
+        "title": "Bài giảng phân tích tài chính",
+        "meta": "PDF - 2.4 MB",
+        "note": "Tuần này"
+      },
+      {
+        "id": "doc-acc-3",
+        "title": "Bộ câu hỏi ôn tập nguyên lý kế toán",
+        "meta": "PDF - 960 KB",
+        "note": "Ôn thi"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-acc-1",
+        "title": "Hoàn thành bảng cân đối thử",
+        "dueDate": "2026-04-29",
+        "done": false
+      },
+      {
+        "id": "rem-acc-2",
+        "title": "Ôn công thức phân tích tài chính",
+        "dueDate": "2026-05-03",
+        "done": false
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-acc-1",
+        "code": "AC201",
+        "title": "Nguyên lý kế toán",
+        "credits": 3,
+        "teacher": "ThS. Phạm Thị Hoa"
+      },
+      {
+        "id": "course-acc-2",
+        "code": "AC222",
+        "title": "Phân tích báo cáo tài chính",
+        "credits": 3,
+        "teacher": "TS. Hoàng Minh Đức"
+      }
+    ],
+    "grades": [
+      {
+        "id": "grade-demo-user-002-1",
+        "title": "Điểm chuyên cần",
+        "score": 9,
+        "weight": "10%"
+      },
+      {
+        "id": "grade-demo-user-002-2",
+        "title": "Điểm giữa kỳ",
+        "score": 8.2,
+        "weight": "30%"
+      }
+    ]
+  },
+  "demo-user-003": {
+    "conversations": [
+      {
+        "id": "conv-demo-user-003",
+        "title": "Trợ lí học tập Sao Đỏ",
+        "updatedAt": "2026-04-23T23:19:41.487Z",
+        "messages": [
+          {
+            "id": "msg-demo-user-003-hello",
+            "role": "assistant",
+            "content": "Xin chào Lê Minh Cường. Mình có thể giúp bạn xem lịch học, tìm tài liệu, nhắc việc và tóm tắt nội dung học tập.",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": []
+          },
+          {
+            "id": "msg-demo-user-003-ask",
+            "role": "user",
+            "content": "Hôm nay mình cần chuẩn bị gì?",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": []
+          },
+          {
+            "id": "msg-demo-user-003-reply",
+            "role": "assistant",
+            "content": "Bạn nên kiểm tra lịch học gần nhất, mở tài liệu mới cập nhật và hoàn thành các nhắc nhở chưa xong.",
+            "createdAt": "2026-04-23T23:19:41.487Z",
+            "sources": [
+              {
+                "title": "Lịch học hôm nay",
+                "type": "schedule"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-me-1",
+        "title": "Chi tiết máy",
+        "time": "08:00 - 09:30",
+        "room": "Phòng B201",
+        "type": "Lý thuyết",
+        "day": "Thứ 3"
+      },
+      {
+        "id": "sch-me-2",
+        "title": "CAD/CAM cơ bản",
+        "time": "10:00 - 11:30",
+        "room": "Xưởng M102",
+        "type": "Thực hành",
+        "day": "Thứ 4"
+      },
+      {
+        "id": "sch-me-3",
+        "title": "Vật liệu cơ khí",
+        "time": "14:00 - 15:30",
+        "room": "Phòng B303",
+        "type": "Lý thuyết",
+        "day": "Thứ 6"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-me-1",
+        "title": "Bản vẽ chi tiết máy mẫu",
+        "meta": "PDF - 3.2 MB",
+        "note": "Xưởng cơ khí"
+      },
+      {
+        "id": "doc-me-2",
+        "title": "Hướng dẫn CAD/CAM cơ bản",
+        "meta": "PPT - 6.8 MB",
+        "note": "Thực hành"
+      },
+      {
+        "id": "doc-me-3",
+        "title": "Tài liệu vật liệu cơ khí",
+        "meta": "PDF - 1.9 MB",
+        "note": "Bài đọc"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-me-1",
+        "title": "Mang bản vẽ CAD khi lên xưởng",
+        "dueDate": "2026-04-29",
+        "done": false
+      },
+      {
+        "id": "rem-me-2",
+        "title": "Chuẩn bị báo cáo vật liệu cơ khí",
+        "dueDate": "2026-05-04",
+        "done": false
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-me-1",
+        "code": "ME210",
+        "title": "Chi tiết máy",
+        "credits": 3,
+        "teacher": "TS. Vũ Mạnh Hùng"
+      },
+      {
+        "id": "course-me-2",
+        "code": "ME240",
+        "title": "CAD/CAM cơ bản",
+        "credits": 3,
+        "teacher": "ThS. Đỗ Văn Sơn"
+      }
+    ],
+    "grades": [
+      {
+        "id": "grade-demo-user-003-1",
+        "title": "Điểm chuyên cần",
+        "score": 9,
+        "weight": "10%"
+      },
+      {
+        "id": "grade-demo-user-003-2",
+        "title": "Điểm giữa kỳ",
+        "score": 8.2,
+        "weight": "30%"
+      }
+    ]
+  }
+}

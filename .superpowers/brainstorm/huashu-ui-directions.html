@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Huashu directions · Sao Đỏ AI Assistant</title>
+  <style>
+    :root {
+      --red: #E60012;
+      --red-deep: #B8000E;
+      --blue: #18A8E8;
+      --navy: #005B96;
+      --gold: #FFE21F;
+      --ink: #08113E;
+      --muted: #64748B;
+      --paper: #F8FCFF;
+      --line: #C7EEFF;
+      --card: rgba(255,255,255,.86);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 9% 2%, rgba(230, 0, 18, .16), transparent 22rem),
+        radial-gradient(circle at 92% 3%, rgba(24, 168, 232, .25), transparent 24rem),
+        linear-gradient(135deg, #ffffff 0%, #eef9ff 52%, #fffbe5 100%);
+    }
+
+    main { padding: 36px clamp(20px, 4vw, 56px) 60px; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 30px;
+    }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand img { width: 58px; height: 58px; object-fit: contain; filter: drop-shadow(0 14px 24px rgba(230,0,18,.15)); }
+    .eyebrow { margin: 0 0 4px; color: var(--red); font-size: 12px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 0; max-width: 980px; font-size: clamp(34px, 6vw, 72px); line-height: .92; letter-spacing: -.07em; }
+    .intro { max-width: 860px; margin: 16px 0 0; color: var(--muted); font-size: 17px; line-height: 1.7; font-weight: 650; }
+    .scope { border: 1px solid rgba(199,238,255,.9); border-radius: 999px; background: rgba(255,255,255,.76); padding: 10px 16px; font-size: 13px; font-weight: 900; color: var(--navy); box-shadow: 0 14px 34px rgba(0,91,150,.10); white-space: nowrap; }
+
+    .directions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 32px; }
+    .direction {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(199,238,255,.92);
+      border-radius: 32px;
+      background: var(--card);
+      box-shadow: 0 24px 70px rgba(0,91,150,.13);
+      backdrop-filter: blur(18px);
+    }
+    .direction::before { content: ""; position: absolute; inset: 0 0 auto; height: 7px; background: var(--stripe); }
+    .body { padding: 22px; }
+    .tag { display: inline-flex; align-items: center; gap: 7px; border-radius: 999px; padding: 7px 10px; background: rgba(255,255,255,.74); color: var(--navy); font-size: 11px; font-weight: 950; letter-spacing: .08em; text-transform: uppercase; }
+    h2 { margin: 16px 0 9px; font-size: 28px; line-height: 1.02; letter-spacing: -.04em; }
+    .copy { color: #53607D; font-size: 14px; line-height: 1.55; font-weight: 650; min-height: 88px; }
+
+    .mock { margin-top: 18px; border-radius: 24px; overflow: hidden; border: 1px solid rgba(199,238,255,.9); background: #fff; box-shadow: inset 0 0 0 1px rgba(255,255,255,.5); }
+    .mock-top { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; color: #6B7280; font-size: 11px; font-weight: 900; border-bottom: 1px solid #E9F5FC; }
+    .dots { display: flex; gap: 5px; }
+    .dots span { width: 8px; height: 8px; border-radius: 50%; background: #D8EAF5; }
+    .mock-grid { display: grid; grid-template-columns: 76px 1fr 54px; min-height: 218px; }
+    .side { padding: 12px 8px; background: var(--side); border-right: 1px solid #E9F5FC; }
+    .navline { height: 10px; border-radius: 999px; margin: 9px 0; background: rgba(0,91,150,.14); }
+    .navline.hot { background: var(--stripe); height: 24px; box-shadow: 0 10px 20px rgba(230,0,18,.14); }
+    .center { padding: 13px; }
+    .hero { min-height: 66px; border-radius: 20px; background: var(--hero); padding: 12px; color: #fff; font-size: 13px; font-weight: 950; letter-spacing: -.02em; }
+    .mini-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 9px; margin-top: 10px; }
+    .tile { min-height: 48px; border-radius: 16px; background: #F4FBFF; border: 1px solid #D8EAF5; padding: 8px; }
+    .tile b { display: block; width: 60%; height: 9px; border-radius: 999px; background: var(--navy); opacity: .85; }
+    .tile i { display: block; width: 86%; height: 7px; margin-top: 8px; border-radius: 999px; background: #CFE0EF; }
+    .phone { margin: 13px 9px; height: 192px; border-radius: 24px; border: 6px solid #08113E; background: #F8FCFF; overflow: hidden; box-shadow: 0 12px 28px rgba(8,17,62,.18); }
+    .phone-head { height: 46px; padding: 14px 9px 6px; background: var(--phoneHead); }
+    .pill { width: 46px; height: 8px; border-radius: 999px; background: rgba(255,255,255,.72); }
+    .phone-body { padding: 8px; display: grid; gap: 7px; }
+    .phone-card { height: 36px; border-radius: 13px; background: #fff; border: 1px solid #E9F5FC; }
+    .chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 18px 0 0; }
+    .chip { border-radius: 999px; background: #F4FBFF; border: 1px solid #D8EAF5; color: #475569; font-size: 12px; font-weight: 850; padding: 7px 9px; }
+    .pick { margin-top: 16px; border-top: 1px solid #E9F5FC; padding-top: 14px; display: grid; gap: 8px; font-size: 13px; line-height: 1.45; }
+    .pick strong { color: var(--red); }
+
+    .a { --stripe: linear-gradient(90deg, #E60012, #FFD400, #18A8E8); --side: #FFFFFF; --hero: linear-gradient(135deg, #E60012, #FF6A28 44%, #18A8E8); --phoneHead: linear-gradient(135deg, #E60012, #18A8E8); }
+    .b { --stripe: linear-gradient(90deg, #005B96, #18A8E8); --side: #F4FBFF; --hero: radial-gradient(circle at 18% 18%, rgba(255,226,31,.95), transparent 42%), linear-gradient(135deg, #005B96, #18A8E8); --phoneHead: #005B96; }
+    .c { --stripe: linear-gradient(90deg, #E60012, #08113E); --side: #FFF; --hero: linear-gradient(135deg, #08113E, #B8000E); --phoneHead: #08113E; }
+
+    footer { margin-top: 30px; color: #64748B; font-weight: 700; line-height: 1.6; }
+    footer strong { color: var(--navy); }
+
+    @media (max-width: 1100px) { .directions { grid-template-columns: 1fr; } .copy { min-height: auto; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">
+        <img src="/apps/client-react/public/sao-do-university-logo.png" alt="Logo Trường Đại học Sao Đỏ" />
+        <div>
+          <p class="eyebrow">Huashu Design · direction review</p>
+          <h1>Nâng cấp mạnh, vẫn nhận ra Sao Đỏ.</h1>
+          <p class="intro">Ba hướng dưới đây đều giữ đỏ/xanh/vàng + logo hiện có, nhưng khác nhau ở mức độ học thuật, AI, và năng lượng sinh viên. Phạm vi vòng 1: design system + Auth, Dashboard, Chat, Schedule, Documents, Health, Profile cho web và mobile.</p>
+        </div>
+      </div>
+      <div class="scope">Không sửa code sản phẩm ở bước này</div>
+    </header>
+
+    <section class="directions">
+      <article class="direction a">
+        <div class="body">
+          <span class="tag">A · Recommended</span>
+          <h2>Sao Đỏ Signal System</h2>
+          <p class="copy">Hướng “an toàn nhưng nâng cấp mạnh”: giữ màu trường, bỏ slop gradient rải rác, chuyển thành hệ tín hiệu rõ ràng — sidebar/tabs, cards, status, AI prompt, progress đều cùng một grammar.</p>
+          <div class="mock">
+            <div class="mock-top"><span>Desktop + mobile grammar</span><div class="dots"><span></span><span></span><span></span></div></div>
+            <div class="mock-grid">
+              <div class="side"><div class="navline hot"></div><div class="navline"></div><div class="navline"></div><div class="navline"></div></div>
+              <div class="center"><div class="hero">Trợ lí AI biết việc hôm nay</div><div class="mini-grid"><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div></div></div>
+              <div class="phone"><div class="phone-head"><div class="pill"></div></div><div class="phone-body"><div class="phone-card"></div><div class="phone-card"></div><div class="phone-card"></div></div></div>
+            </div>
+          </div>
+          <div class="chips"><span class="chip">cleaner tokens</span><span class="chip">campus brand</span><span class="chip">fast to implement</span></div>
+          <div class="pick"><span><strong>Ưu:</strong> đồng bộ web/mobile nhanh, ít rủi ro.</span><span><strong>Đổi lại:</strong> ít “wow” hơn hướng B.</span></div>
+        </div>
+      </article>
+
+      <article class="direction b">
+        <div class="body">
+          <span class="tag">B · AI forward</span>
+          <h2>Student OS Command Center</h2>
+          <p class="copy">Hướng giàu ngữ cảnh hơn: dashboard giống “bộ não sinh viên” với timeline, AI reasoning, next best action, sức khỏe/học tập/việc làm liên kết. Hợp nếu muốn sản phẩm trông thật sự thông minh.</p>
+          <div class="mock">
+            <div class="mock-top"><span>Context-aware AI surface</span><div class="dots"><span></span><span></span><span></span></div></div>
+            <div class="mock-grid">
+              <div class="side"><div class="navline"></div><div class="navline hot"></div><div class="navline"></div><div class="navline"></div></div>
+              <div class="center"><div class="hero">AI đang nối lịch học · deadline · sức khỏe</div><div class="mini-grid"><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div></div></div>
+              <div class="phone"><div class="phone-head"><div class="pill"></div></div><div class="phone-body"><div class="phone-card"></div><div class="phone-card"></div><div class="phone-card"></div></div></div>
+            </div>
+          </div>
+          <div class="chips"><span class="chip">high density</span><span class="chip">AI reasoning</span><span class="chip">motion-ready</span></div>
+          <div class="pick"><span><strong>Ưu:</strong> khác biệt rõ, demo rất mạnh.</span><span><strong>Đổi lại:</strong> cần chỉnh nhiều content/data states.</span></div>
+        </div>
+      </article>
+
+      <article class="direction c">
+        <div class="body">
+          <span class="tag">C · premium calm</span>
+          <h2>Academic Calm Interface</h2>
+          <p class="copy">Hướng trưởng thành/học thuật: ít màu hơn, dùng đỏ Sao Đỏ như ký hiệu quyền uy, nhiều whitespace, typographic hierarchy tốt hơn. Hợp nếu muốn cảm giác đại học chính thống, đáng tin.</p>
+          <div class="mock">
+            <div class="mock-top"><span>Formal academic product</span><div class="dots"><span></span><span></span><span></span></div></div>
+            <div class="mock-grid">
+              <div class="side"><div class="navline"></div><div class="navline"></div><div class="navline hot"></div><div class="navline"></div></div>
+              <div class="center"><div class="hero">Một không gian học tập có trật tự</div><div class="mini-grid"><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div><div class="tile"><b></b><i></i></div></div></div>
+              <div class="phone"><div class="phone-head"><div class="pill"></div></div><div class="phone-body"><div class="phone-card"></div><div class="phone-card"></div><div class="phone-card"></div></div></div>
+            </div>
+          </div>
+          <div class="chips"><span class="chip">less slop</span><span class="chip">more trust</span><span class="chip">formal tone</span></div>
+          <div class="pick"><span><strong>Ưu:</strong> cao cấp và bền.</span><span><strong>Đổi lại:</strong> có thể hơi nghiêm với sinh viên.</span></div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <strong>Đề xuất của tôi:</strong> chọn A làm nền design system, mượn mật độ AI của B cho Dashboard/Chat. C chỉ dùng cho Profile/Documents nếu muốn cảm giác học thuật hơn.
+    </footer>
+  </main>
+</body>
+</html>

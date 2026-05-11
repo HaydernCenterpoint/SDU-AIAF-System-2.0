@@ -1,0 +1,30 @@
+
+> saodo-assistant-client@1.0.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.5.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling /register ...
+ ✓ Compiled /register in 3.7s (982 modules)
+ GET /register 200 in 4381ms
+ GET /register 200 in 132ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.3s (986 modules)
+ GET / 200 in 3677ms
+ GET / 200 in 376ms
+ ✓ Compiled in 727ms (404 modules)
+ GET / 200 in 181ms
+ ○ Compiling /register ...
+ ✓ Compiled /register in 524ms (599 modules)
+ GET /register 200 in 1381ms
+ GET /register 200 in 162ms
+ GET / 200 in 378ms
+ GET / 200 in 187ms
+ GET / 200 in 158ms
+ GET / 200 in 131ms
+ GET / 200 in 132ms
+[?25h

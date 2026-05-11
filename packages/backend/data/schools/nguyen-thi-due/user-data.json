@@ -1,0 +1,609 @@
+{
+  "demo-ntd-fallback": {
+    "conversations": [
+      {
+        "id": "c_1777945792714",
+        "title": "xin chào",
+        "updatedAt": "2026-05-05T02:11:46.142Z",
+        "messages": [
+          {
+            "id": "70e7d726-4803-4885-8db5-5c73fb470685",
+            "role": "user",
+            "content": "xin chào",
+            "createdAt": "2026-05-05T01:49:52.724Z"
+          },
+          {
+            "id": "9b1e62b9-1e6d-402c-86d9-d709484e779b",
+            "role": "assistant",
+            "content": "Chào Học sinh 2025324AK02! Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi mình về lịch học, tài liệu, môn học, nhắc nhở hoặc cách chuẩn bị bài.",
+            "createdAt": "2026-05-05T01:50:22.731Z",
+            "sources": []
+          },
+          {
+            "id": "ab5606fa-865c-4ec8-998a-fcda78884dbe",
+            "role": "user",
+            "content": "bạn là ai",
+            "createdAt": "2026-05-05T02:11:16.124Z"
+          },
+          {
+            "id": "61ca97b4-9dc8-487b-8856-33d51ccbaac4",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Cả hai trường hiện dùng chung setup KRouter, nên để có câu trả lời AI hãy cấu hình `KROUTER_API_KEY` và bảo đảm backend đang chạy với `SAODO_AGENT_MODE=krouter`.",
+            "createdAt": "2026-05-05T02:11:46.142Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "conv-main",
+        "title": "Trợ lý học tập Nguyễn Thị Duệ",
+        "updatedAt": "2026-05-04T23:07:56.667Z",
+        "messages": [
+          {
+            "id": "66e1455d-7d02-4ec6-847e-cb69e2d73ebc",
+            "role": "assistant",
+            "content": "Xin chào. Mình là trợ lý nội bộ của THPT Nguyễn Thị Duệ. Mình có thể giúp em xem lịch học, nhắc bài tập, tìm tài liệu ôn tập và tóm tắt nội dung bài học.",
+            "createdAt": "2026-05-04T23:07:56.667Z",
+            "sources": []
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-1",
+        "title": "Toán",
+        "time": "07:00 - 07:45",
+        "room": "P.12A1",
+        "type": "Chính khóa",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-2",
+        "title": "Ngữ văn",
+        "time": "07:55 - 08:40",
+        "room": "P.12A1",
+        "type": "Chính khóa",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-3",
+        "title": "Tiếng Anh",
+        "time": "08:50 - 09:35",
+        "room": "P.12A1",
+        "type": "Chính khóa",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-4",
+        "title": "Vật lí",
+        "time": "13:30 - 14:15",
+        "room": "P.12A1",
+        "type": "Tăng cường",
+        "day": "Thứ 3"
+      },
+      {
+        "id": "sch-5",
+        "title": "Sinh hoạt lớp",
+        "time": "15:00 - 15:45",
+        "room": "P.12A1",
+        "type": "Hoạt động",
+        "day": "Thứ 6"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-1",
+        "title": "Đề cương ôn tập Toán 12",
+        "meta": "PDF - 1.8 MB",
+        "note": "Khối 12 - học kỳ II"
+      },
+      {
+        "id": "doc-2",
+        "title": "Ngữ liệu phân tích Văn học",
+        "meta": "DOCX - 0.9 MB",
+        "note": "Tổ Ngữ văn"
+      },
+      {
+        "id": "doc-3",
+        "title": "Bộ đề tiếng Anh chuyên đề",
+        "meta": "PDF - 2.1 MB",
+        "note": "Phụ trách bởi tổ Ngoại ngữ"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-1",
+        "title": "Nộp bài tập Toán chuyên đề",
+        "dueDate": "2026-05-05",
+        "done": false
+      },
+      {
+        "id": "rem-2",
+        "title": "Chuẩn bị sinh hoạt lớp cuối tuần",
+        "dueDate": "2026-05-10",
+        "done": false
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-1",
+        "code": "MATH12",
+        "title": "Toán 12",
+        "credits": 0,
+        "teacher": "Cô Nguyễn Thu Hà"
+      },
+      {
+        "id": "course-2",
+        "code": "LIT12",
+        "title": "Ngữ văn 12",
+        "credits": 0,
+        "teacher": "Cô Phạm Minh Tâm"
+      },
+      {
+        "id": "course-3",
+        "code": "ENG12",
+        "title": "Tiếng Anh 12",
+        "credits": 0,
+        "teacher": "Thầy Trần Huy Hoàng"
+      }
+    ],
+    "grades": [],
+    "health": {
+      "profile": {
+        "heightCm": null,
+        "birthYear": null,
+        "gender": "",
+        "activityLevel": "moderate",
+        "waterGoalMl": 2000,
+        "calorieGoal": null
+      },
+      "weightLogs": [],
+      "sleepLogs": [],
+      "mealLogs": [],
+      "workoutPlans": [],
+      "workoutLogs": [],
+      "moodLogs": [],
+      "waterLogs": []
+    },
+    "notifications": [],
+    "pushTokens": []
+  },
+  "ntd-demo-001": {
+    "conversations": [
+      {
+        "id": "c_1778424603627",
+        "title": "ok",
+        "updatedAt": "2026-05-10T14:50:04.047Z",
+        "messages": [
+          {
+            "id": "8ae0c788-ce3a-4601-9627-d4b686abffee",
+            "role": "user",
+            "content": "ok",
+            "createdAt": "2026-05-10T14:50:03.636Z"
+          },
+          {
+            "id": "ba9f74e2-51a5-416c-9c2c-5553f7a326db",
+            "role": "assistant",
+            "content": "KRouter đang tạm thời không phản hồi, nên mình đang trả lời bằng dữ liệu nội bộ. Bạn vẫn có thể hỏi về lịch học, tài liệu, môn học và nhắc nhở, hoặc thử lại sau khi backend kết nối lại với KRouter.",
+            "createdAt": "2026-05-10T14:50:04.047Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1778423077369",
+        "title": "Tìm thông báo mới của lớp",
+        "updatedAt": "2026-05-10T14:24:37.592Z",
+        "messages": [
+          {
+            "id": "c0036b43-cd21-4636-a9ed-de70efcab073",
+            "role": "user",
+            "content": "Tìm thông báo mới của lớp",
+            "createdAt": "2026-05-10T14:24:37.379Z"
+          },
+          {
+            "id": "1f1f7968-6216-477f-9a7d-12f9d7de5ae9",
+            "role": "assistant",
+            "content": "KRouter đang tạm thời không phản hồi, nên mình đang trả lời bằng dữ liệu nội bộ. Bạn vẫn có thể hỏi về lịch học, tài liệu, môn học và nhắc nhở, hoặc thử lại sau khi backend kết nối lại với KRouter.",
+            "createdAt": "2026-05-10T14:24:37.592Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1778423044545",
+        "title": "Lịch học hôm nay của em",
+        "updatedAt": "2026-05-10T14:24:07.588Z",
+        "messages": [
+          {
+            "id": "e23f7672-9df4-45cd-a805-60dfd62c2af3",
+            "role": "user",
+            "content": "Lịch học hôm nay của em",
+            "createdAt": "2026-05-10T14:24:04.551Z"
+          },
+          {
+            "id": "22a546d3-009a-4087-92cb-30b684e9b327",
+            "role": "assistant",
+            "content": "Hôm nay bạn có các lịch học sau:\n- 07:00 - 07:45: Toán (P.12A1)\n- 07:55 - 08:40: Ngữ văn (P.12A1)\n- 08:50 - 09:35: Tiếng Anh (P.12A1)\n- 13:30 - 14:15: Vật lí (P.12A1)\n- 15:00 - 15:45: Sinh hoạt lớp (P.12A1)\n\nNếu muốn, mình có thể giúp bạn chuẩn bị tài liệu cho buổi học tiếp theo.",
+            "createdAt": "2026-05-10T14:24:04.737Z",
+            "sources": [
+              {
+                "title": "Toán",
+                "type": "schedule"
+              },
+              {
+                "title": "Ngữ văn",
+                "type": "schedule"
+              },
+              {
+                "title": "Tiếng Anh",
+                "type": "schedule"
+              },
+              {
+                "title": "Vật lí",
+                "type": "schedule"
+              },
+              {
+                "title": "Sinh hoạt lớp",
+                "type": "schedule"
+              }
+            ]
+          },
+          {
+            "id": "c1e500c6-de76-41f9-ba03-b2d9466388d7",
+            "role": "user",
+            "content": "ok",
+            "createdAt": "2026-05-10T14:24:07.472Z"
+          },
+          {
+            "id": "5dc3a3fd-6bb7-41df-a809-2e5d402c403e",
+            "role": "assistant",
+            "content": "KRouter đang tạm thời không phản hồi, nên mình đang trả lời bằng dữ liệu nội bộ. Bạn vẫn có thể hỏi về lịch học, tài liệu, môn học và nhắc nhở, hoặc thử lại sau khi backend kết nối lại với KRouter.",
+            "createdAt": "2026-05-10T14:24:07.588Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1778422558596",
+        "title": "hello",
+        "updatedAt": "2026-05-10T14:16:02.203Z",
+        "messages": [
+          {
+            "id": "462a2c1f-1893-454d-abcb-8fab356b5a26",
+            "role": "user",
+            "content": "hello",
+            "createdAt": "2026-05-10T14:15:58.600Z"
+          },
+          {
+            "id": "778c63e0-1b5d-480b-b383-49d603835f8d",
+            "role": "assistant",
+            "content": "Chào Nguyễn Trần Trúc Mai! Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi mình về lịch học, tài liệu, môn học, nhắc nhở hoặc cách chuẩn bị bài.",
+            "createdAt": "2026-05-10T14:15:58.806Z",
+            "sources": []
+          },
+          {
+            "id": "b22daeb1-e920-4ddd-89b1-490532bd1c6a",
+            "role": "user",
+            "content": "ok",
+            "createdAt": "2026-05-10T14:16:02.050Z"
+          },
+          {
+            "id": "46724736-e1c8-419b-8df4-10035af4eccb",
+            "role": "assistant",
+            "content": "KRouter đang tạm thời không phản hồi, nên mình đang trả lời bằng dữ liệu nội bộ. Bạn vẫn có thể hỏi về lịch học, tài liệu, môn học và nhắc nhở, hoặc thử lại sau khi backend kết nối lại với KRouter.",
+            "createdAt": "2026-05-10T14:16:02.203Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1778420781965",
+        "title": "hello",
+        "updatedAt": "2026-05-10T13:46:25.465Z",
+        "messages": [
+          {
+            "id": "7e561c80-59f7-4d4b-863c-95bbba9a6eab",
+            "role": "user",
+            "content": "hello",
+            "createdAt": "2026-05-10T13:46:21.973Z"
+          },
+          {
+            "id": "46422183-7755-4bb3-ae88-7fd666182fc6",
+            "role": "assistant",
+            "content": "Chào Nguyễn Trần Trúc Mai! Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi mình về lịch học, tài liệu, môn học, nhắc nhở hoặc cách chuẩn bị bài.",
+            "createdAt": "2026-05-10T13:46:22.228Z",
+            "sources": []
+          },
+          {
+            "id": "c78e10e4-4f27-4c88-b095-2d9420627037",
+            "role": "user",
+            "content": "ngu",
+            "createdAt": "2026-05-10T13:46:25.405Z"
+          },
+          {
+            "id": "d65aa2b9-2dc0-435f-814f-acf1f47df962",
+            "role": "assistant",
+            "content": "KRouter đang tạm thời không phản hồi, nên mình đang trả lời bằng dữ liệu nội bộ. Bạn vẫn có thể hỏi về lịch học, tài liệu, môn học và nhắc nhở, hoặc thử lại sau khi backend kết nối lại với KRouter.",
+            "createdAt": "2026-05-10T13:46:25.465Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1778418486195",
+        "title": "ngu",
+        "updatedAt": "2026-05-10T13:08:06.201Z",
+        "messages": [
+          {
+            "id": "ff0d6cb5-03c7-4db2-9ce4-8f7712f6eac9",
+            "role": "user",
+            "content": "ngu",
+            "createdAt": "2026-05-10T13:08:06.201Z"
+          },
+          {
+            "id": "b89247ba-4921-492e-b318-c0fa09d1b008",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Cả hai trường hiện dùng chung setup KRouter, nên để có câu trả lời AI hãy cấu hình `KROUTER_API_KEY` và bảo đảm backend đang chạy với `SAODO_AGENT_MODE=krouter`.",
+            "createdAt": "2026-05-10T13:08:06.201Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1778418202803",
+        "title": "ngu",
+        "updatedAt": "2026-05-10T13:03:22.809Z",
+        "messages": [
+          {
+            "id": "c7b942b7-41b0-49b9-995c-5666c6f4bd6e",
+            "role": "user",
+            "content": "ngu",
+            "createdAt": "2026-05-10T13:03:22.809Z"
+          },
+          {
+            "id": "fd97f077-34b6-466b-a15f-ef6b3e502bc5",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Cả hai trường hiện dùng chung setup KRouter, nên để có câu trả lời AI hãy cấu hình `KROUTER_API_KEY` và bảo đảm backend đang chạy với `SAODO_AGENT_MODE=krouter`.",
+            "createdAt": "2026-05-10T13:03:22.809Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1778417792778",
+        "title": "hello",
+        "updatedAt": "2026-05-10T12:56:35.971Z",
+        "messages": [
+          {
+            "id": "6ad1eeb8-322c-4824-ac95-7f8276cf3f9d",
+            "role": "user",
+            "content": "hello",
+            "createdAt": "2026-05-10T12:56:32.785Z"
+          },
+          {
+            "id": "6a6baed4-ae13-4de3-a3b3-960304e4324b",
+            "role": "assistant",
+            "content": "Chào Nguyễn Trần Trúc Mai! Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi mình về lịch học, tài liệu, môn học, nhắc nhở hoặc cách chuẩn bị bài.",
+            "createdAt": "2026-05-10T12:56:32.785Z",
+            "sources": []
+          },
+          {
+            "id": "c5a1e824-4374-46d6-b259-6e17854c43bc",
+            "role": "user",
+            "content": "ngu",
+            "createdAt": "2026-05-10T12:56:35.971Z"
+          },
+          {
+            "id": "a2aba590-c184-41cb-9fd7-16b69c8880b8",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Cả hai trường hiện dùng chung setup KRouter, nên để có câu trả lời AI hãy cấu hình `KROUTER_API_KEY` và bảo đảm backend đang chạy với `SAODO_AGENT_MODE=krouter`.",
+            "createdAt": "2026-05-10T12:56:35.971Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "c_1778417322814",
+        "title": "Lịch học hôm nay của em",
+        "updatedAt": "2026-05-10T12:48:54.306Z",
+        "messages": [
+          {
+            "id": "220c2c5a-2857-45ce-9bf6-c89f96fa1e5d",
+            "role": "user",
+            "content": "Lịch học hôm nay của em",
+            "createdAt": "2026-05-10T12:48:42.819Z"
+          },
+          {
+            "id": "28867866-75fb-47ea-8cb2-d85e40873a01",
+            "role": "assistant",
+            "content": "Hôm nay bạn có các lịch học sau:\n- 07:00 - 07:45: Toán (P.12A1)\n- 07:55 - 08:40: Ngữ văn (P.12A1)\n- 08:50 - 09:35: Tiếng Anh (P.12A1)\n- 13:30 - 14:15: Vật lí (P.12A1)\n- 15:00 - 15:45: Sinh hoạt lớp (P.12A1)\n\nNếu muốn, mình có thể giúp bạn chuẩn bị tài liệu cho buổi học tiếp theo.",
+            "createdAt": "2026-05-10T12:48:42.820Z",
+            "sources": [
+              {
+                "title": "Toán",
+                "type": "schedule"
+              },
+              {
+                "title": "Ngữ văn",
+                "type": "schedule"
+              },
+              {
+                "title": "Tiếng Anh",
+                "type": "schedule"
+              },
+              {
+                "title": "Vật lí",
+                "type": "schedule"
+              },
+              {
+                "title": "Sinh hoạt lớp",
+                "type": "schedule"
+              }
+            ]
+          },
+          {
+            "id": "7ccfd948-ca44-45fb-8b42-358931a74cb9",
+            "role": "user",
+            "content": "hello",
+            "createdAt": "2026-05-10T12:48:48.692Z"
+          },
+          {
+            "id": "9b143861-1d34-4cd8-b70a-af22aa808e21",
+            "role": "assistant",
+            "content": "Chào Nguyễn Trần Trúc Mai! Mình là trợ lý học tập Sao Đỏ. Bạn có thể hỏi mình về lịch học, tài liệu, môn học, nhắc nhở hoặc cách chuẩn bị bài.",
+            "createdAt": "2026-05-10T12:48:48.692Z",
+            "sources": []
+          },
+          {
+            "id": "389b3099-ed1a-43cc-aafc-f9aa48cd5aa8",
+            "role": "user",
+            "content": "ngu",
+            "createdAt": "2026-05-10T12:48:54.306Z"
+          },
+          {
+            "id": "c977194e-36a3-41e7-9bd0-6e05b849ebae",
+            "role": "assistant",
+            "content": "Mình có thể giúp bạn về lịch học, tài liệu, môn học và nhắc nhở. Cả hai trường hiện dùng chung setup KRouter, nên để có câu trả lời AI hãy cấu hình `KROUTER_API_KEY` và bảo đảm backend đang chạy với `SAODO_AGENT_MODE=krouter`.",
+            "createdAt": "2026-05-10T12:48:54.306Z",
+            "sources": []
+          }
+        ]
+      },
+      {
+        "id": "conv-main",
+        "title": "Trợ lý học tập Nguyễn Thị Duệ",
+        "updatedAt": "2026-05-10T02:10:16.881Z",
+        "messages": [
+          {
+            "id": "ac32ade1-7f75-462e-890c-5c50b31bff15",
+            "role": "assistant",
+            "content": "Xin chào. Mình là trợ lý nội bộ của THPT Nguyễn Thị Duệ. Mình có thể giúp em xem lịch học, nhắc bài tập, tìm tài liệu ôn tập và tóm tắt nội dung bài học.",
+            "createdAt": "2026-05-10T02:10:16.881Z",
+            "sources": []
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sch-1",
+        "title": "Toán",
+        "time": "07:00 - 07:45",
+        "room": "P.12A1",
+        "type": "Chính khóa",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-2",
+        "title": "Ngữ văn",
+        "time": "07:55 - 08:40",
+        "room": "P.12A1",
+        "type": "Chính khóa",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-3",
+        "title": "Tiếng Anh",
+        "time": "08:50 - 09:35",
+        "room": "P.12A1",
+        "type": "Chính khóa",
+        "day": "Thứ 2"
+      },
+      {
+        "id": "sch-4",
+        "title": "Vật lí",
+        "time": "13:30 - 14:15",
+        "room": "P.12A1",
+        "type": "Tăng cường",
+        "day": "Thứ 3"
+      },
+      {
+        "id": "sch-5",
+        "title": "Sinh hoạt lớp",
+        "time": "15:00 - 15:45",
+        "room": "P.12A1",
+        "type": "Hoạt động",
+        "day": "Thứ 6"
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-1",
+        "title": "Đề cương ôn tập Toán 12",
+        "meta": "PDF - 1.8 MB",
+        "note": "Khối 12 - học kỳ II"
+      },
+      {
+        "id": "doc-2",
+        "title": "Ngữ liệu phân tích Văn học",
+        "meta": "DOCX - 0.9 MB",
+        "note": "Tổ Ngữ văn"
+      },
+      {
+        "id": "doc-3",
+        "title": "Bộ đề tiếng Anh chuyên đề",
+        "meta": "PDF - 2.1 MB",
+        "note": "Phụ trách bởi tổ Ngoại ngữ"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-1",
+        "title": "Nộp bài tập Toán chuyên đề",
+        "dueDate": "2026-05-05",
+        "done": false
+      },
+      {
+        "id": "rem-2",
+        "title": "Chuẩn bị sinh hoạt lớp cuối tuần",
+        "dueDate": "2026-05-10",
+        "done": false
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-1",
+        "code": "MATH12",
+        "title": "Toán 12",
+        "credits": 0,
+        "teacher": "Cô Nguyễn Thu Hà"
+      },
+      {
+        "id": "course-2",
+        "code": "LIT12",
+        "title": "Ngữ văn 12",
+        "credits": 0,
+        "teacher": "Cô Phạm Minh Tâm"
+      },
+      {
+        "id": "course-3",
+        "code": "ENG12",
+        "title": "Tiếng Anh 12",
+        "credits": 0,
+        "teacher": "Thầy Trần Huy Hoàng"
+      }
+    ],
+    "grades": [],
+    "health": {
+      "profile": {
+        "heightCm": null,
+        "birthYear": null,
+        "gender": "",
+        "activityLevel": "moderate",
+        "waterGoalMl": 2000,
+        "calorieGoal": null
+      },
+      "weightLogs": [],
+      "sleepLogs": [],
+      "mealLogs": [],
+      "workoutPlans": [],
+      "workoutLogs": [],
+      "moodLogs": [],
+      "waterLogs": []
+    },
+    "notifications": [],
+    "pushTokens": []
+  }
+}

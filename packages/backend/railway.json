@@ -1,0 +1,6 @@
+{
+  "name": "saodo-assistant-backend",
+  "builder": "node@22",
+  "startCommand": "node src/server.mjs",
+  "healthcheckPath": "/api/health"
+}

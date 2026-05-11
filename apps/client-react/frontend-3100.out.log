@@ -1,0 +1,50 @@
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3100
+   - Network:      http://10.5.0.2:3100
+
+ ✓ Starting...
+ ✓ Ready in 3.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 10.1s (1016 modules)
+ GET / 200 in 11451ms
+ ○ Compiling /ntd/login ...
+ ✓ Compiled /ntd/login in 1128ms (997 modules)
+ GET /ntd/login 200 in 1587ms
+ ✓ Compiled in 546ms (396 modules)
+ GET /ntd/login 200 in 189ms
+ GET /ntd/login 200 in 61ms
+ ✓ Compiled in 700ms (396 modules)
+ GET /ntd/login 200 in 320ms
+ ✓ Compiled in 464ms (396 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 5.4s (1343 modules)
+ GET /ntd/login 500 in 7426ms
+ GET /ntd/login 200 in 286ms
+ GET /ntd/login 200 in 78ms
+ GET /ntd/login 200 in 81ms
+ GET /ntd/login 200 in 850ms
+ ✓ Compiled in 1368ms (1343 modules)
+ GET /ntd/login 200 in 323ms
+ ✓ Compiled in 937ms (547 modules)
+ GET /ntd/login 200 in 226ms
+ ✓ Compiled in 546ms (547 modules)
+ GET /ntd/login 200 in 351ms
+ ✓ Compiled in 453ms (547 modules)
+ GET /ntd/login 200 in 101ms
+ ✓ Compiled in 790ms (547 modules)
+ GET /ntd/login 200 in 143ms
+ ✓ Compiled in 518ms (547 modules)
+ ✓ Compiled in 838ms (547 modules)
+ GET /ntd/login 200 in 844ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1247ms (1343 modules)
+ GET /ntd/login 500 in 1871ms
+ GET /ntd/login 200 in 291ms
+ GET /ntd/login 200 in 1029ms
+ ✓ Compiled in 525ms (548 modules)
+ GET /ntd/login 200 in 94ms
+ ✓ Compiled in 729ms (547 modules)
+ ✓ Compiled in 512ms (547 modules)
+ ✓ Compiled in 17.3s (1233 modules)
+ ✓ Compiled in 8.5s (547 modules)
+ ✓ Compiled in 5.3s (547 modules)

@@ -1,0 +1,1466 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chọn đơn vị đăng nhập</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+        --text-strong: rgba(255, 255, 255, 0.96);
+        --text-soft: rgba(255, 255, 255, 0.72);
+        --text-muted: rgba(255, 255, 255, 0.5);
+      }
+
+      html,
+      body {
+        width: 100%;
+        min-height: 100%;
+        overflow-x: hidden;
+        background: #06111f;
+        color: var(--text-strong);
+        font-family:
+          Inter,
+          "Be Vietnam Pro",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+      }
+
+      button,
+      input {
+        font: inherit;
+      }
+
+      button {
+        border: 0;
+        cursor: pointer;
+      }
+
+      .app {
+        --theme-primary: #102a4a;
+        --theme-mid: #173e72;
+        --theme-deep: #07182d;
+        --theme-accent: #66d9ff;
+        position: relative;
+        width: 100vw;
+        min-height: 100svh;
+        overflow: hidden;
+        isolation: isolate;
+      }
+
+      .campus-selection,
+      .login-screen {
+        position: absolute;
+        inset: 0;
+      }
+
+      .campus-selection {
+        z-index: 5;
+        display: flex;
+        min-height: 100svh;
+        overflow: hidden;
+        background: #06111f;
+      }
+
+      .campus-panel {
+        --primary: #102a4a;
+        --mid: #173e72;
+        --deep: #07182d;
+        --accent: #66d9ff;
+        position: relative;
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        min-height: 100svh;
+        overflow: hidden;
+        background:
+          radial-gradient(
+            circle at 18% 22%,
+            color-mix(in srgb, var(--accent) 18%, transparent),
+            transparent 26rem
+          ),
+          radial-gradient(circle at 82% 74%, rgba(255, 255, 255, 0.09), transparent 25rem),
+          linear-gradient(135deg, var(--primary) 0%, var(--mid) 48%, var(--deep) 100%);
+        color: white;
+        transition:
+          width 720ms var(--ease-soft),
+          filter 520ms ease,
+          opacity 520ms ease;
+        will-change: width, filter, opacity, transform;
+      }
+
+      .campus-panel::before {
+        position: absolute;
+        inset: -22%;
+        content: "";
+        opacity: 0.14;
+        background:
+          linear-gradient(
+            115deg,
+            transparent 0 33%,
+            rgba(255, 255, 255, 0.12) 33% 41%,
+            transparent 41%
+          ),
+          linear-gradient(rgba(255, 255, 255, 0.065) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+        background-size:
+          auto,
+          52px 52px,
+          52px 52px;
+        mask-image: linear-gradient(135deg, #000 0%, transparent 76%);
+        pointer-events: none;
+      }
+
+      .campus-panel::after {
+        position: absolute;
+        inset: 0;
+        content: "";
+        opacity: 0;
+        background: radial-gradient(
+          circle at 50% 42%,
+          color-mix(in srgb, var(--accent) 22%, transparent),
+          transparent 34rem
+        );
+        transition: opacity 620ms ease;
+        pointer-events: none;
+      }
+
+      .campus-selection.hover-highschool .campus-panel[data-campus="highschool"],
+      .campus-selection.hover-university .campus-panel[data-campus="university"] {
+        width: 56%;
+      }
+
+      .campus-selection.hover-highschool .campus-panel[data-campus="university"],
+      .campus-selection.hover-university .campus-panel[data-campus="highschool"] {
+        width: 44%;
+        filter: brightness(0.62) saturate(0.82);
+      }
+
+      .campus-selection.hover-highschool .campus-panel[data-campus="highschool"]::after,
+      .campus-selection.hover-university .campus-panel[data-campus="university"]::after {
+        opacity: 1;
+      }
+
+      .campus-selection.hover-highschool .campus-panel[data-campus="highschool"] .campus-content,
+      .campus-selection.hover-university .campus-panel[data-campus="university"] .campus-content {
+        transform: translateY(-8px) scale(1.04);
+      }
+
+      .campus-selection.hover-highschool .campus-panel[data-campus="highschool"] .campus-logo,
+      .campus-selection.hover-university .campus-panel[data-campus="university"] .campus-logo {
+        transform: rotate(-2deg) scale(1.04);
+        box-shadow: 0 34px 92px color-mix(in srgb, var(--accent) 24%, transparent);
+      }
+
+      .campus-selection.hover-highschool
+        .campus-panel[data-campus="highschool"]
+        .campus-description,
+      .campus-selection.hover-university
+        .campus-panel[data-campus="university"]
+        .campus-description {
+        opacity: 0.92;
+      }
+
+      .campus-content {
+        position: relative;
+        z-index: 4;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: min(560px, 78%);
+        text-align: center;
+        transition: transform 720ms var(--ease-soft);
+        will-change: transform, opacity;
+      }
+
+      .campus-kicker {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 28px;
+        padding: 10px 18px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.09);
+        color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(14px);
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .campus-kicker::before {
+        display: block;
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: var(--accent);
+        box-shadow: 0 0 22px var(--accent);
+        content: "";
+      }
+
+      .campus-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 148px;
+        height: 148px;
+        margin-bottom: 28px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        box-shadow: 0 26px 74px rgba(0, 0, 0, 0.32);
+        backdrop-filter: blur(18px);
+        transition:
+          transform 720ms var(--ease-soft),
+          box-shadow 720ms ease;
+        will-change: transform;
+      }
+
+      .campus-logo img {
+        width: 112px;
+        height: 112px;
+        object-fit: contain;
+      }
+
+      .campus-title {
+        max-width: 620px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(42px, 5.2vw, 84px);
+        font-weight: 700;
+        line-height: 0.98;
+        letter-spacing: -0.035em;
+        text-shadow: 0 22px 54px rgba(0, 0, 0, 0.28);
+      }
+
+      .campus-location {
+        margin-top: 18px;
+        color: rgba(255, 255, 255, 0.52);
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+      }
+
+      .campus-description {
+        max-width: 500px;
+        margin-top: 32px;
+        color: var(--text-soft);
+        font-size: clamp(15px, 1.1vw, 18px);
+        font-weight: 700;
+        line-height: 1.75;
+        opacity: 0.72;
+        transition: opacity 620ms ease;
+      }
+
+      .ambient-blob {
+        position: absolute;
+        z-index: 1;
+        border-radius: 999px;
+        pointer-events: none;
+        filter: blur(34px);
+        opacity: 0.34;
+        background: var(--accent);
+        animation: blobDrift 12s ease-in-out infinite alternate;
+      }
+
+      .ambient-blob.one {
+        width: 320px;
+        height: 320px;
+        left: 8%;
+        top: 16%;
+      }
+
+      .ambient-blob.two {
+        width: 420px;
+        height: 420px;
+        right: 4%;
+        bottom: 10%;
+        animation-delay: -5s;
+        opacity: 0.18;
+      }
+
+      .particle {
+        position: absolute;
+        z-index: 2;
+        width: var(--size);
+        height: var(--size);
+        border-radius: 999px;
+        background: color-mix(in srgb, var(--accent) 78%, white);
+        box-shadow: 0 0 18px color-mix(in srgb, var(--accent) 60%, transparent);
+        opacity: var(--opacity);
+        pointer-events: none;
+        animation: particleFloat var(--duration) ease-in-out infinite alternate;
+        animation-delay: var(--delay);
+      }
+
+      .wave-divider {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        z-index: 8;
+        width: 92px;
+        transform: translateX(-50%);
+        pointer-events: none;
+        filter: drop-shadow(0 0 22px rgba(255, 255, 255, 0.09));
+        will-change: left, transform, opacity;
+      }
+
+      .wave-divider svg {
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+      }
+
+      .wave-strand {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+        will-change: opacity, stroke-width, d;
+      }
+
+      .wave-band {
+        opacity: 0;
+        stroke: rgba(255, 255, 255, 0.1);
+        stroke-width: 10;
+      }
+
+      .wave-band.band-blue {
+        stroke: rgba(103, 216, 255, 0.16);
+      }
+
+      .wave-band.band-red {
+        stroke: rgba(236, 76, 80, 0.14);
+      }
+
+      .wave-band.band-shadow {
+        stroke: rgba(3, 8, 18, 0.34);
+      }
+
+      .wave-core {
+        opacity: 0.72;
+        stroke: rgba(255, 255, 255, 0.2);
+        stroke-width: 1.8;
+      }
+
+      .login-screen {
+        z-index: 3;
+        display: grid;
+        grid-template-columns: minmax(360px, 0.96fr) minmax(420px, 1.04fr);
+        min-height: 100svh;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        background:
+          radial-gradient(
+            circle at 22% 18%,
+            color-mix(in srgb, var(--theme-accent) 18%, transparent),
+            transparent 34rem
+          ),
+          linear-gradient(
+            135deg,
+            var(--theme-deep),
+            var(--theme-mid) 48%,
+            color-mix(in srgb, var(--theme-primary) 78%, black)
+          );
+      }
+
+      .app.mode-login .login-screen {
+        pointer-events: auto;
+      }
+
+      .login-brand {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100svh;
+        overflow: hidden;
+        padding: clamp(38px, 5vw, 80px);
+        background:
+          radial-gradient(
+            circle at 28% 18%,
+            color-mix(in srgb, var(--theme-accent) 18%, transparent),
+            transparent 30rem
+          ),
+          radial-gradient(circle at 82% 86%, rgba(255, 255, 255, 0.08), transparent 26rem),
+          linear-gradient(135deg, var(--theme-primary), var(--theme-mid) 48%, var(--theme-deep));
+      }
+
+      .login-brand::after {
+        position: absolute;
+        inset: 0;
+        content: "";
+        opacity: 0.16;
+        background:
+          linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.052) 1px, transparent 1px);
+        background-size: 52px 52px;
+        mask-image: linear-gradient(135deg, #000, transparent 74%);
+      }
+
+      .login-brand-content {
+        position: relative;
+        z-index: 4;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 560px;
+        text-align: center;
+      }
+
+      .login-brand .campus-logo {
+        width: 136px;
+        height: 136px;
+      }
+
+      .login-brand .campus-logo img {
+        width: 104px;
+        height: 104px;
+      }
+
+      .login-zone {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100svh;
+        overflow: hidden;
+        padding: clamp(28px, 5vw, 74px);
+      }
+
+      .login-zone::before {
+        position: absolute;
+        inset: 0;
+        content: "";
+        background:
+          radial-gradient(
+            circle at 76% 20%,
+            color-mix(in srgb, var(--theme-accent) 16%, transparent),
+            transparent 28rem
+          ),
+          linear-gradient(135deg, rgba(4, 8, 18, 0.46), rgba(255, 255, 255, 0.025));
+        backdrop-filter: blur(6px);
+      }
+
+      .login-card {
+        position: relative;
+        z-index: 2;
+        width: min(510px, 100%);
+        padding: clamp(28px, 4vw, 48px);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 32px;
+        background: rgba(255, 255, 255, 0.09);
+        box-shadow: 0 34px 110px rgba(0, 0, 0, 0.42);
+        backdrop-filter: blur(28px);
+      }
+
+      .login-card-head {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 36px;
+      }
+
+      .login-mini-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 62px;
+        height: 62px;
+        border: 1px solid color-mix(in srgb, var(--theme-accent) 54%, rgba(255, 255, 255, 0.24));
+        border-radius: 999px;
+        background: color-mix(in srgb, var(--theme-accent) 14%, transparent);
+      }
+
+      .login-mini-logo img {
+        width: 48px;
+        height: 48px;
+        object-fit: contain;
+      }
+
+      .login-school-name {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.15;
+      }
+
+      .login-title {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(30px, 2.7vw, 42px);
+        font-weight: 700;
+        letter-spacing: -0.025em;
+      }
+
+      .login-subtitle {
+        margin-top: 12px;
+        margin-bottom: 32px;
+        color: var(--text-muted);
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.65;
+      }
+
+      .login-subtitle strong {
+        color: rgba(255, 255, 255, 0.78);
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 9px;
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .form-group input[type="text"],
+      .form-group input[type="password"] {
+        width: 100%;
+        height: 62px;
+        padding: 0 20px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 16px;
+        outline: 0;
+        color: white;
+        background: rgba(255, 255, 255, 0.07);
+        font-size: 17px;
+        font-weight: 700;
+        transition:
+          border-color 260ms ease,
+          background 260ms ease,
+          box-shadow 260ms ease;
+      }
+
+      .form-group input::placeholder {
+        color: rgba(255, 255, 255, 0.28);
+      }
+
+      .form-group input:focus {
+        border-color: color-mix(in srgb, var(--theme-accent) 70%, white);
+        background: color-mix(in srgb, var(--theme-accent) 10%, rgba(255, 255, 255, 0.07));
+        box-shadow: 0 0 0 4px color-mix(in srgb, var(--theme-accent) 18%, transparent);
+      }
+
+      .form-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin: 2px 0 26px;
+        color: rgba(255, 255, 255, 0.58);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .remember {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+      }
+
+      .remember input {
+        width: 16px;
+        height: 16px;
+        accent-color: var(--theme-accent);
+      }
+
+      .forgot-link {
+        color: color-mix(in srgb, var(--theme-accent) 82%, white);
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .login-btn {
+        width: 100%;
+        min-height: 58px;
+        border-radius: 16px;
+        color: color-mix(in srgb, var(--theme-deep) 84%, black);
+        background: linear-gradient(
+          135deg,
+          color-mix(in srgb, var(--theme-accent) 88%, white),
+          var(--theme-accent)
+        );
+        box-shadow: 0 18px 44px color-mix(in srgb, var(--theme-accent) 26%, transparent);
+        font-size: 14px;
+        font-weight: 950;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        transition:
+          transform 180ms ease,
+          filter 180ms ease;
+      }
+
+      .login-btn:hover {
+        filter: brightness(1.06);
+        transform: translateY(-2px);
+      }
+
+      .back-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        margin-top: 26px;
+        color: rgba(255, 255, 255, 0.5);
+        background: transparent;
+        font-size: 14px;
+        font-weight: 800;
+        transition: color 220ms ease;
+      }
+
+      .back-btn:hover {
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .morph-clone {
+        position: fixed;
+        z-index: 40;
+        display: flex;
+        min-height: 0;
+        pointer-events: none;
+        transform-origin: 0 0;
+        backface-visibility: hidden;
+        box-shadow: 0 42px 130px rgba(0, 0, 0, 0.38);
+        contain: layout paint;
+        will-change: transform, opacity, filter, border-radius;
+      }
+
+      .morph-scrim {
+        position: fixed;
+        inset: 0;
+        z-index: 30;
+        opacity: 0;
+        pointer-events: none;
+        background:
+          radial-gradient(
+            circle at 24% 20%,
+            color-mix(in srgb, var(--theme-accent) 18%, transparent),
+            transparent 28rem
+          ),
+          linear-gradient(135deg, rgba(2, 7, 18, 0.78), rgba(12, 16, 30, 0.5));
+        backdrop-filter: blur(0);
+        will-change: opacity, backdrop-filter;
+      }
+
+      @keyframes blobDrift {
+        from {
+          transform: translate3d(-10px, 0, 0) scale(1);
+        }
+
+        to {
+          transform: translate3d(24px, -18px, 0) scale(1.12);
+        }
+      }
+
+      @keyframes particleFloat {
+        from {
+          transform: translate3d(0, 0, 0) scale(0.88);
+        }
+
+        to {
+          transform: translate3d(var(--move-x), var(--move-y), 0) scale(1.12);
+        }
+      }
+
+      @media (max-width: 880px) {
+        .campus-selection {
+          flex-direction: column;
+          overflow-y: auto;
+        }
+
+        .campus-panel,
+        .campus-selection.hover-highschool .campus-panel[data-campus="highschool"],
+        .campus-selection.hover-university .campus-panel[data-campus="university"],
+        .campus-selection.hover-highschool .campus-panel[data-campus="university"],
+        .campus-selection.hover-university .campus-panel[data-campus="highschool"] {
+          width: 100%;
+          min-height: 50svh;
+          filter: none;
+        }
+
+        .wave-divider {
+          display: none;
+        }
+
+        .campus-content {
+          width: min(520px, 86%);
+          padding: 32px 0;
+        }
+
+        .campus-logo {
+          width: 108px;
+          height: 108px;
+          margin-bottom: 18px;
+        }
+
+        .campus-logo img {
+          width: 82px;
+          height: 82px;
+        }
+
+        .campus-kicker {
+          margin-bottom: 16px;
+          font-size: 11px;
+        }
+
+        .campus-title {
+          font-size: clamp(34px, 9vw, 52px);
+        }
+
+        .campus-description {
+          display: none;
+        }
+
+        .login-screen {
+          grid-template-columns: 1fr;
+          overflow-y: auto;
+        }
+
+        .login-brand {
+          min-height: 38svh;
+          padding: 34px 24px 38px;
+          border-radius: 0 0 32px 32px;
+        }
+
+        .login-brand .campus-description {
+          display: block;
+          margin-top: 18px;
+          font-size: 14px;
+        }
+
+        .login-zone {
+          min-height: auto;
+          padding: 24px 18px 34px;
+        }
+
+        .login-card {
+          border-radius: 24px;
+          padding: 24px;
+        }
+
+        .form-row {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app" id="app">
+      <section
+        class="campus-selection"
+        id="campusSelection"
+        aria-label="Chọn đơn vị đăng nhập"
+      ></section>
+
+      <section class="login-screen" id="loginScreen" aria-label="Đăng nhập hệ thống">
+        <aside class="login-brand" id="loginBrand"></aside>
+        <section class="login-zone" aria-label="Biểu mẫu đăng nhập">
+          <form class="login-card" id="loginCard"></form>
+        </section>
+      </section>
+    </main>
+
+    <script>
+      const campuses = {
+        highschool: {
+          id: "highschool",
+          name: "Trường THPT Nguyễn Thị Duệ",
+          shortName: "Trường THPT<br />Nguyễn Thị Duệ",
+          typeLabel: "Cổng giáo dục số",
+          location: "Chí Linh · Hải Dương",
+          description:
+            "Không gian học tập số dành cho học sinh, giáo viên và các hoạt động quản lý lớp học hằng ngày.",
+          logo: "assets/images/logo-nguyen-thi-due.png",
+          theme: {
+            primary: "#173E72",
+            mid: "#102A4A",
+            deep: "#06172D",
+            accent: "#67D8FF",
+          },
+        },
+        university: {
+          id: "university",
+          name: "Trường Đại học Sao Đỏ",
+          shortName: "Trường Đại học<br />Sao Đỏ",
+          typeLabel: "Cổng đại học số",
+          location: "Chí Linh · Hải Dương",
+          description:
+            "Cổng đăng nhập tập trung cho đào tạo, quản lý sinh viên và các tiện ích học thuật.",
+          logo: "assets/images/logo-sao-do.png",
+          theme: {
+            primary: "#341019",
+            mid: "#24162E",
+            deep: "#081827",
+            accent: "#EC4C50",
+          },
+        },
+      };
+
+      const wavePaths = {
+        center: makeWavePath({ base: 50, amplitude: 3.4, seed: 0.4 }),
+      };
+
+      const app = document.querySelector("#app");
+      const campusSelection = document.querySelector("#campusSelection");
+      const loginScreen = document.querySelector("#loginScreen");
+      const loginBrand = document.querySelector("#loginBrand");
+      const loginCard = document.querySelector("#loginCard");
+
+      const state = {
+        selectedCampus: null,
+        isAnimating: false,
+        isLoginMode: false,
+      };
+
+      renderSelection();
+      const panels = Array.from(document.querySelectorAll(".campus-panel"));
+      const waveDivider = document.querySelector("#waveDivider");
+      const waveCore = document.querySelector("#waveCore");
+      const waveBands = Array.from(document.querySelectorAll(".wave-band"));
+      let waveSeed = 1;
+
+      panels.forEach((panel) => {
+        const campusId = panel.dataset.campus;
+        panel.addEventListener("mouseenter", () => hoverCampus(campusId));
+        panel.addEventListener("click", () => selectCampus(campusId));
+      });
+
+      campusSelection.addEventListener("mouseleave", resetHover);
+      loginScreen.addEventListener("click", (event) => {
+        if (event.target.closest("[data-action='back']")) {
+          backToSelection();
+        }
+      });
+
+      loginScreen.addEventListener("submit", (event) => event.preventDefault());
+
+      window.addEventListener("resize", () => {
+        if (!state.isAnimating && !state.isLoginMode) resetHover();
+      });
+
+      animateIntro();
+
+      function renderSelection() {
+        campusSelection.innerHTML = `
+          ${renderCampusPanel(campuses.highschool)}
+          <div class="wave-divider" id="waveDivider" aria-hidden="true">
+            <svg viewBox="0 0 100 900" preserveAspectRatio="none">
+              <path class="wave-strand wave-band band-shadow" data-band="-12" d="${wavePaths.center}"></path>
+              <path class="wave-strand wave-band band-blue" data-band="-6" d="${wavePaths.center}"></path>
+              <path class="wave-strand wave-band band-red" data-band="7" d="${wavePaths.center}"></path>
+              <path class="wave-strand wave-band band-shadow" data-band="13" d="${wavePaths.center}"></path>
+              <path id="waveCore" class="wave-strand wave-core" d="${wavePaths.center}"></path>
+            </svg>
+          </div>
+          ${renderCampusPanel(campuses.university)}
+        `;
+      }
+
+      function renderCampusPanel(campus) {
+        return `
+          <article class="campus-panel" data-campus="${campus.id}" style="${themeStyle(campus)}" aria-label="${campus.name}">
+            <span class="ambient-blob one"></span>
+            <span class="ambient-blob two"></span>
+            ${renderParticles(campus.id)}
+            <div class="campus-content">
+              <div class="campus-kicker">${campus.typeLabel}</div>
+              <div class="campus-logo"><img src="${campus.logo}" alt="Logo ${campus.name}" /></div>
+              <h1 class="campus-title">${campus.shortName}</h1>
+              <div class="campus-location">${campus.location}</div>
+              <p class="campus-description">${campus.description}</p>
+            </div>
+          </article>
+        `;
+      }
+
+      function renderParticles(seed) {
+        const offset = seed === "highschool" ? 7 : 23;
+        return Array.from({ length: 22 }, (_, index) => {
+          const left = (index * 31 + offset * 5) % 96;
+          const top = (index * 47 + offset * 3) % 92;
+          const size = 2 + ((index + offset) % 4);
+          const duration = 5200 + ((index * 397) % 3400);
+          const delay = -((index * 271) % 4200);
+          const moveX = (index % 2 === 0 ? 1 : -1) * (12 + (index % 5) * 5);
+          const moveY = (index % 3 === 0 ? -1 : 1) * (10 + (index % 4) * 6);
+          const opacity = 0.18 + (index % 6) * 0.055;
+          return `<span class="particle" style="left:${left}%;top:${top}%;--size:${size}px;--duration:${duration}ms;--delay:${delay}ms;--move-x:${moveX}px;--move-y:${moveY}px;--opacity:${opacity}"></span>`;
+        }).join("");
+      }
+
+      function renderLogin(campus) {
+        loginBrand.style.cssText = themeStyle(campus);
+        loginBrand.innerHTML = `
+          <span class="ambient-blob one"></span>
+          <span class="ambient-blob two"></span>
+          ${renderParticles(campus.id)}
+          <div class="login-brand-content">
+            <div class="campus-kicker">${campus.typeLabel}</div>
+            <div class="campus-logo"><img src="${campus.logo}" alt="Logo ${campus.name}" /></div>
+            <h2 class="campus-title">${campus.shortName}</h2>
+            <div class="campus-location">${campus.location}</div>
+            <p class="campus-description">${campus.description}</p>
+          </div>
+        `;
+
+        loginCard.innerHTML = `
+          <div class="login-card-head">
+            <div class="login-mini-logo"><img src="${campus.logo}" alt="Logo ${campus.name}" /></div>
+            <div class="login-school-name">${campus.shortName}</div>
+          </div>
+          <h2 class="login-title">Đăng nhập hệ thống</h2>
+          <p class="login-subtitle">Bạn đang đăng nhập với tư cách: <strong>${campus.name}</strong></p>
+          <div class="form-group">
+            <label for="username">Tên đăng nhập hoặc email</label>
+            <input id="username" type="text" placeholder="Nhập tài khoản của bạn" autocomplete="username" />
+          </div>
+          <div class="form-group">
+            <label for="password">Mật khẩu</label>
+            <input id="password" type="password" placeholder="••••••••" autocomplete="current-password" />
+          </div>
+          <div class="form-row">
+            <label class="remember"><input type="checkbox" /> <span>Ghi nhớ đăng nhập</span></label>
+            <a class="forgot-link" href="#">Quên mật khẩu?</a>
+          </div>
+          <button class="login-btn" type="submit">Đăng nhập</button>
+          <button class="back-btn" type="button" data-action="back">← Quay lại chọn đơn vị</button>
+        `;
+      }
+
+      function themeStyle(campus) {
+        const theme = campus.theme;
+        return `--primary:${theme.primary};--mid:${theme.mid};--deep:${theme.deep};--accent:${theme.accent};`;
+      }
+
+      function setAppTheme(campus) {
+        app.style.setProperty("--theme-primary", campus.theme.primary);
+        app.style.setProperty("--theme-mid", campus.theme.mid);
+        app.style.setProperty("--theme-deep", campus.theme.deep);
+        app.style.setProperty("--theme-accent", campus.theme.accent);
+      }
+
+      function animateIntro() {
+        anime.set(panels, { opacity: 0, translateY: 24 });
+        anime.set(".campus-content", { opacity: 0, translateY: 18 });
+        anime({
+          targets: panels,
+          opacity: [0, 1],
+          translateY: [24, 0],
+          delay: anime.stagger(120, { start: 120 }),
+          duration: 900,
+          easing: "easeOutExpo",
+        });
+        anime({
+          targets: ".campus-content",
+          opacity: [0, 1],
+          translateY: [18, 0],
+          delay: anime.stagger(120, { start: 380 }),
+          duration: 760,
+          easing: "easeOutExpo",
+        });
+      }
+
+      function hoverCampus(campusId) {
+        if (state.isAnimating || state.isLoginMode || isMobile()) return;
+        campusSelection.classList.toggle("hover-highschool", campusId === "highschool");
+        campusSelection.classList.toggle("hover-university", campusId === "university");
+        waveSeed += 1.3 + Math.random() * 2.4;
+        const pull = campusId === "highschool" ? 4 : -4;
+        const corePath = makeWavePath({ base: 50 + pull, amplitude: 8.5, seed: waveSeed });
+
+        anime.remove([waveDivider, waveCore, ...waveBands]);
+        anime({
+          targets: waveDivider,
+          left: campusId === "highschool" ? "56%" : "44%",
+          duration: 720,
+          easing: "easeOutExpo",
+        });
+        anime({
+          targets: waveCore,
+          d: [{ value: corePath }],
+          opacity: 0.88,
+          strokeWidth: 2.2,
+          duration: 900,
+          easing: "easeOutExpo",
+        });
+        waveBands.forEach((band, index) => {
+          const offset = Number(band.dataset.band || 0) * (campusId === "highschool" ? 1 : -1);
+          const targetPath = makeWavePath({
+            base: 50 + pull + offset,
+            amplitude: 9 + Math.abs(offset) * 0.26,
+            seed: waveSeed + index * 0.77,
+          });
+          anime({
+            targets: band,
+            d: [{ value: targetPath }],
+            opacity: index % 2 === 0 ? 0.42 : 0.58,
+            strokeWidth: 7 + Math.abs(offset) * 0.46,
+            duration: 940 + index * 46,
+            easing: "easeOutExpo",
+          });
+        });
+      }
+
+      function resetHover() {
+        if (state.isAnimating || state.isLoginMode || isMobile()) return;
+        setWaveCenter();
+        anime.remove([waveDivider, waveCore, ...waveBands]);
+        anime({ targets: waveDivider, left: "50%", duration: 720, easing: "easeOutExpo" });
+        anime({
+          targets: waveCore,
+          d: [{ value: wavePaths.center }],
+          opacity: 0.72,
+          strokeWidth: 1.8,
+          duration: 820,
+          easing: "easeOutExpo",
+        });
+        anime({
+          targets: waveBands,
+          d: [{ value: wavePaths.center }],
+          opacity: 0,
+          strokeWidth: 10,
+          delay: anime.stagger(18),
+          duration: 760,
+          easing: "easeOutExpo",
+        });
+      }
+
+      function setWaveCenter() {
+        campusSelection.classList.remove("hover-highschool", "hover-university");
+        anime.set(waveDivider, { left: "50%" });
+        anime.set(waveCore, { d: wavePaths.center, opacity: 0.72, strokeWidth: 1.8 });
+        anime.set(waveBands, { d: wavePaths.center, opacity: 0, strokeWidth: 10 });
+      }
+
+      function selectCampus(campusId) {
+        if (state.isAnimating || state.isLoginMode) return;
+        const campus = campuses[campusId];
+        const selectedPanel = getPanel(campusId);
+        const otherPanel = getOtherPanel(campusId);
+        const startRect = selectedPanel.getBoundingClientRect();
+
+        state.selectedCampus = campusId;
+        state.isAnimating = true;
+        setAppTheme(campus);
+        renderLogin(campus);
+
+        loginScreen.style.visibility = "visible";
+        loginScreen.style.opacity = 0;
+        loginScreen.style.pointerEvents = "none";
+        loginScreen.offsetHeight;
+
+        const targetRect = loginBrand.getBoundingClientRect();
+        const clone = makeMorphClone(selectedPanel, startRect);
+        const scrim = makeMorphScrim();
+        const motion = rectMotion(startRect, targetRect);
+        const selectedContent = clone.querySelector(".campus-content");
+        const selectedLogo = clone.querySelector(".campus-logo");
+
+        selectedPanel.style.visibility = "hidden";
+        campusSelection.classList.remove("hover-highschool", "hover-university");
+        anime.set(loginBrand.querySelector(".login-brand-content"), { opacity: 0, translateY: 18 });
+        anime.set(loginCard, { opacity: 0, translateY: 34, scale: 0.96 });
+        anime.set(scrim, { opacity: 0, backdropFilter: "blur(0px)" });
+        anime.set(clone, {
+          translateX: 0,
+          translateY: 0,
+          scaleX: 1,
+          scaleY: 1,
+          borderRadius: 0,
+          filter: "brightness(1)",
+        });
+
+        const timeline = anime.timeline({
+          easing: "easeInOutCubic",
+          complete: () => {
+            clone.remove();
+            scrim.remove();
+            selectedPanel.style.visibility = "";
+            campusSelection.style.visibility = "hidden";
+            campusSelection.style.opacity = 0;
+            loginScreen.style.opacity = 1;
+            loginScreen.style.pointerEvents = "auto";
+            app.classList.add("mode-login");
+            state.isAnimating = false;
+            state.isLoginMode = true;
+            const username = document.querySelector("#username");
+            if (username) username.focus({ preventScroll: true });
+          },
+        });
+
+        timeline
+          .add({
+            targets: selectedLogo,
+            scale: [1, 1.08],
+            rotate: [0, campusId === "university" ? -3 : 3],
+            duration: 360,
+            easing: "easeOutExpo",
+          })
+          .add(
+            {
+              targets: selectedContent,
+              translateY: [0, -10],
+              opacity: [1, 0.86],
+              duration: 520,
+              easing: "easeOutExpo",
+            },
+            40,
+          )
+          .add(
+            {
+              targets: clone.querySelectorAll(".ambient-blob, .particle"),
+              opacity: [null, 0.18],
+              translateX: campusId === "university" ? -34 : 34,
+              duration: 900,
+              delay: anime.stagger(12),
+              easing: "easeOutCubic",
+            },
+            40,
+          )
+          .add(
+            {
+              targets: scrim,
+              opacity: [0, 0.74],
+              backdropFilter: ["blur(0px)", "blur(7px)"],
+              duration: 520,
+              easing: "easeOutCubic",
+            },
+            70,
+          )
+          .add(
+            {
+              targets: otherPanel,
+              opacity: [1, 0],
+              scale: [1, 0.95],
+              filter: ["blur(0px) brightness(1)", "blur(8px) brightness(0.55)"],
+              duration: 560,
+              easing: "easeInOutCubic",
+            },
+            90,
+          )
+          .add(
+            {
+              targets: waveDivider,
+              opacity: [1, 0],
+              scaleX: [1, 0.86],
+              duration: 340,
+              easing: "easeOutCubic",
+            },
+            120,
+          )
+          .add(
+            {
+              targets: clone,
+              translateX: motion.translateX,
+              translateY: motion.translateY,
+              scaleX: motion.scaleX,
+              scaleY: motion.scaleY,
+              borderRadius: isMobile() ? [0, 32] : [0, 0],
+              filter: ["brightness(1.06)", "brightness(1)"],
+              duration: 980,
+              easing: "easeInOutQuart",
+            },
+            160,
+          )
+          .add(
+            {
+              targets: campusSelection,
+              opacity: [1, 0],
+              duration: 520,
+              easing: "easeOutCubic",
+            },
+            480,
+          )
+          .add(
+            {
+              targets: loginScreen,
+              opacity: [0, 1],
+              duration: 640,
+              easing: "easeOutCubic",
+            },
+            430,
+          )
+          .add(
+            {
+              targets: loginBrand.querySelector(".login-brand-content"),
+              opacity: [0, 1],
+              translateY: [18, 0],
+              duration: 620,
+              easing: "easeOutExpo",
+            },
+            720,
+          )
+          .add(
+            {
+              targets: loginCard,
+              opacity: [0, 1],
+              translateY: [34, 0],
+              scale: [0.96, 1],
+              duration: 680,
+              easing: "easeOutExpo",
+            },
+            780,
+          )
+          .add(
+            {
+              targets: scrim,
+              opacity: 0,
+              backdropFilter: "blur(0px)",
+              duration: 520,
+              easing: "easeOutCubic",
+            },
+            850,
+          );
+      }
+
+      function backToSelection() {
+        if (state.isAnimating || !state.isLoginMode) return;
+        const campusId = state.selectedCampus;
+        const campus = campuses[campusId];
+        const selectedPanel = getPanel(campusId);
+        const otherPanel = getOtherPanel(campusId);
+        const startRect = loginBrand.getBoundingClientRect();
+        const clone = makeMorphCloneFromCampus(campus, startRect);
+        const scrim = makeMorphScrim();
+
+        state.isAnimating = true;
+        app.classList.remove("mode-login");
+        campusSelection.classList.remove("hover-highschool", "hover-university");
+        campusSelection.style.visibility = "visible";
+        campusSelection.style.opacity = 1;
+        selectedPanel.style.visibility = "hidden";
+        anime.set(panels, { opacity: 1, scale: 1, filter: "blur(0px) brightness(1)" });
+        anime.set(otherPanel, { opacity: 0, scale: 0.96 });
+        anime.set(waveDivider, { opacity: isMobile() ? 0 : 1, scaleX: 1, left: "50%" });
+        setWaveCenter();
+        loginScreen.offsetHeight;
+
+        const targetRect = selectedPanel.getBoundingClientRect();
+        const motion = rectMotion(startRect, targetRect);
+        anime.set(clone, {
+          translateX: 0,
+          translateY: 0,
+          scaleX: 1,
+          scaleY: 1,
+          borderRadius: isMobile() ? 32 : 0,
+        });
+        anime.set(scrim, { opacity: 0.62, backdropFilter: "blur(7px)" });
+
+        const timeline = anime.timeline({
+          easing: "easeInOutCubic",
+          complete: () => {
+            clone.remove();
+            scrim.remove();
+            selectedPanel.style.visibility = "";
+            loginScreen.style.visibility = "hidden";
+            loginScreen.style.opacity = 0;
+            loginScreen.style.pointerEvents = "none";
+            campusSelection.style.opacity = 1;
+            campusSelection.style.visibility = "visible";
+            anime.set(panels, {
+              opacity: 1,
+              scale: 1,
+              translateX: 0,
+              filter: "blur(0px) brightness(1)",
+            });
+            anime.set(waveDivider, { opacity: isMobile() ? 0 : 1, scaleX: 1, left: "50%" });
+            state.selectedCampus = null;
+            state.isLoginMode = false;
+            state.isAnimating = false;
+          },
+        });
+
+        timeline
+          .add({
+            targets: loginCard,
+            opacity: [1, 0],
+            translateY: [0, 28],
+            scale: [1, 0.97],
+            duration: 360,
+            easing: "easeInOutCubic",
+          })
+          .add(
+            {
+              targets: loginBrand.querySelector(".login-brand-content"),
+              opacity: [1, 0],
+              translateY: [0, 14],
+              duration: 360,
+              easing: "easeInOutCubic",
+            },
+            70,
+          )
+          .add(
+            {
+              targets: loginScreen,
+              opacity: [1, 0],
+              duration: 560,
+              easing: "easeOutCubic",
+            },
+            230,
+          )
+          .add(
+            {
+              targets: clone,
+              translateX: motion.translateX,
+              translateY: motion.translateY,
+              scaleX: motion.scaleX,
+              scaleY: motion.scaleY,
+              borderRadius: [isMobile() ? 32 : 0, 0],
+              duration: 900,
+              easing: "easeInOutQuart",
+            },
+            240,
+          )
+          .add(
+            {
+              targets: clone.querySelector(".campus-logo"),
+              scale: [1.05, 1],
+              rotate: [campusId === "university" ? -3 : 3, 0],
+              duration: 620,
+              easing: "easeOutExpo",
+            },
+            470,
+          )
+          .add(
+            {
+              targets: otherPanel,
+              opacity: [0, 1],
+              scale: [0.96, 1],
+              duration: 620,
+              easing: "easeOutExpo",
+            },
+            560,
+          )
+          .add(
+            {
+              targets: scrim,
+              opacity: [0.62, 0],
+              backdropFilter: ["blur(7px)", "blur(0px)"],
+              duration: 560,
+              easing: "easeOutCubic",
+            },
+            680,
+          );
+      }
+
+      function makeMorphClone(panel, rect) {
+        const clone = panel.cloneNode(true);
+        clone.classList.add("morph-clone");
+        setFixedRect(clone, rect);
+        document.body.appendChild(clone);
+        return clone;
+      }
+
+      function makeMorphCloneFromCampus(campus, rect) {
+        const wrapper = document.createElement("article");
+        wrapper.className = "campus-panel morph-clone";
+        wrapper.dataset.campus = campus.id;
+        wrapper.style.cssText = themeStyle(campus);
+        wrapper.innerHTML = `
+          <span class="ambient-blob one"></span>
+          <span class="ambient-blob two"></span>
+          ${renderParticles(campus.id)}
+          <div class="campus-content">
+            <div class="campus-kicker">${campus.typeLabel}</div>
+            <div class="campus-logo"><img src="${campus.logo}" alt="Logo ${campus.name}" /></div>
+            <h1 class="campus-title">${campus.shortName}</h1>
+            <div class="campus-location">${campus.location}</div>
+            <p class="campus-description">${campus.description}</p>
+          </div>
+        `;
+        setFixedRect(wrapper, rect);
+        document.body.appendChild(wrapper);
+        return wrapper;
+      }
+
+      function makeMorphScrim() {
+        const scrim = document.createElement("div");
+        scrim.className = "morph-scrim";
+        app.appendChild(scrim);
+        return scrim;
+      }
+
+      function setFixedRect(element, rect) {
+        element.style.left = `${rect.left}px`;
+        element.style.top = `${rect.top}px`;
+        element.style.width = `${rect.width}px`;
+        element.style.height = `${rect.height}px`;
+        element.style.transformOrigin = "0 0";
+      }
+
+      function rectMotion(fromRect, toRect) {
+        return {
+          translateX: toRect.left - fromRect.left,
+          translateY: toRect.top - fromRect.top,
+          scaleX: toRect.width / Math.max(fromRect.width, 1),
+          scaleY: toRect.height / Math.max(fromRect.height, 1),
+        };
+      }
+
+      function getPanel(campusId) {
+        return document.querySelector(`.campus-panel[data-campus="${campusId}"]:not(.morph-clone)`);
+      }
+
+      function getOtherPanel(campusId) {
+        return panels.find((panel) => panel.dataset.campus !== campusId);
+      }
+
+      function isMobile() {
+        return window.matchMedia("(max-width: 880px)").matches;
+      }
+
+      function makeWavePath({ base = 50, amplitude = 4, seed = 0 }) {
+        const segments = 8;
+        const points = [];
+
+        for (let index = 0; index <= segments; index += 1) {
+          const progress = index / segments;
+          const y = progress * 900;
+          const slow = Math.sin(progress * Math.PI * 3.2 + seed) * amplitude;
+          const quick = Math.sin(progress * Math.PI * 7.1 + seed * 1.7) * amplitude * 0.36;
+          const drift = Math.cos(progress * Math.PI * 1.4 + seed * 0.6) * amplitude * 0.22;
+          points.push({
+            x: Number((base + slow + quick + drift).toFixed(2)),
+            y: Number(y.toFixed(2)),
+          });
+        }
+
+        let path = `M${points[0].x} ${points[0].y}`;
+        for (let index = 1; index < points.length; index += 1) {
+          const previous = points[index - 1];
+          const current = points[index];
+          const deltaY = current.y - previous.y;
+          const cp1X = Number((previous.x + (current.x - previous.x) * 0.34).toFixed(2));
+          const cp2X = Number((previous.x + (current.x - previous.x) * 0.66).toFixed(2));
+          path += ` C${cp1X} ${(previous.y + deltaY * 0.34).toFixed(2)} ${cp2X} ${(previous.y + deltaY * 0.66).toFixed(2)} ${current.x} ${current.y}`;
+        }
+        return path;
+      }
+    </script>
+  </body>
+</html>

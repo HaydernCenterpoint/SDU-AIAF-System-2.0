@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "id": "g1",
+      "name": "Trao đổi Khối 12",
+      "members": [],
+      "messages": [],
+      "creator": "Admin",
+      "createdAt": "2026-05-10T02:14:36.306Z"
+    },
+    {
+      "id": "g2",
+      "name": "Đội văn nghệ trường",
+      "members": [],
+      "messages": [],
+      "creator": "Admin",
+      "createdAt": "2026-05-10T02:14:36.306Z"
+    }
+  ]
+}

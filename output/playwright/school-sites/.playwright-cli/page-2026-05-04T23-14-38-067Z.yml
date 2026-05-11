@@ -1,0 +1,67 @@
+- main [ref=e2]:
+  - region [ref=e3]:
+    - button [disabled]:
+      - generic: Nguyễn Thị Duệ
+      - generic:
+        - generic:
+          - img
+        - paragraph: Đơn vị giáo dục phổ thông
+        - heading [level=1]: Trường THPT Nguyễn Thị Duệ
+        - paragraph: Cổng truy cập học tập, quản lý lớp học và dịch vụ số dành cho nhà trường
+    - button [disabled]:
+      - generic: Sao Đỏ University
+      - generic:
+        - generic:
+          - img
+        - paragraph: Đơn vị giáo dục đại học
+        - heading [level=1]: Trường Đại học Sao Đỏ
+        - paragraph: Cổng đăng nhập tập trung cho đào tạo, quản lý sinh viên và các tiện ích học thuật
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - img "Logo Trường THPT Nguyễn Thị Duệ" [ref=e14]
+          - paragraph [ref=e15]: Trường THPT Nguyễn Thị Duệ
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Xin chào,
+          - paragraph [ref=e18]: Học sinh 2025324AK02
+          - generic [ref=e19]:
+            - generic [ref=e20]: 12A1
+            - generic [ref=e21]: Cổng dịch vụ số
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: Đơn vị giáo dục phổ thông
+          - heading "Trường THPT Nguyễn Thị Duệ" [level=2] [ref=e24]
+          - paragraph [ref=e25]: Cổng truy cập học tập, quản lý lớp học và dịch vụ số dành cho nhà trường
+          - generic [ref=e26]:
+            - generic [ref=e27]: Quản lý lớp học
+            - generic [ref=e28]: Dịch vụ số
+      - img
+    - generic [ref=e30]:
+      - paragraph [ref=e31]: Đơn vị giáo dục phổ thông
+      - heading "Đăng nhập" [level=2] [ref=e32]
+      - paragraph [ref=e33]:
+        - strong [ref=e34]: Trường THPT Nguyễn Thị Duệ
+        - text: · Tiếp tục với đúng đơn vị đã chọn để vào hệ thống.
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: Tên đăng nhập hoặc Email
+          - textbox "Tên đăng nhập hoặc Email" [ref=e38]:
+            - /placeholder: Nhập tài khoản của bạn
+        - generic [ref=e39]:
+          - generic [ref=e40]: Mật khẩu
+          - textbox "Mật khẩu" [ref=e41]:
+            - /placeholder: Nhập mật khẩu
+      - generic [ref=e42]:
+        - generic [ref=e43] [cursor=pointer]:
+          - checkbox "Ghi nhớ đăng nhập" [ref=e44]
+          - generic [ref=e45]: Ghi nhớ đăng nhập
+        - link "Quên mật khẩu?" [ref=e46] [cursor=pointer]:
+          - /url: /forgot-password?school=ntd
+      - generic [ref=e47]:
+        - button "Đăng nhập" [disabled] [ref=e48]
+        - button "Quay lại chọn đơn vị" [ref=e49] [cursor=pointer]
+      - paragraph [ref=e50]:
+        - text: Chưa có tài khoản?
+        - link "Đăng ký ngay" [ref=e51] [cursor=pointer]:
+          - /url: /register?school=ntd
+      - paragraph [ref=e52]: Kết nối được bảo vệ. Vui lòng không chia sẻ tài khoản hoặc mật khẩu cho người khác.

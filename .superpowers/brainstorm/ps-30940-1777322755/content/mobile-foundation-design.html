@@ -1,0 +1,74 @@
+<h2>Mobile Foundation Design</h2>
+<p class="subtitle">Foundation-first cho app Expo hiện có: chắc auth, navigation, theme, API, Home dashboard, rồi mở rộng module sau.</p>
+
+<div class="mockup">
+  <div class="mockup-header">Architecture: App Shell + Services + Reusable UI</div>
+  <div class="mockup-body">
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">
+      <div class="placeholder" style="min-height:92px;background:#fff1f2;border-color:#ffd0d4">
+        <strong>Auth Stack</strong><br>
+        Splash → Onboarding → Login → Register → Forgot
+      </div>
+      <div class="placeholder" style="min-height:92px;background:#eef9ff;border-color:#c7eeff">
+        <strong>Main Tabs</strong><br>
+        Home · AI Chat · Calendar · Health · Profile
+      </div>
+      <div class="placeholder" style="min-height:92px;background:#fffbe5;border-color:#f7d428">
+        <strong>Services</strong><br>
+        Axios API · token storage · 401 logout · notifications
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="split">
+  <div class="mockup">
+    <div class="mockup-header">Home tab preview</div>
+    <div class="mockup-body" style="background:#eef9ff">
+      <div style="border-radius:28px;background:#fff;padding:14px;width:270px;margin:auto;box-shadow:0 14px 34px rgba(0,91,150,.14)">
+        <div style="background:linear-gradient(135deg,#1784da,#005b96);border-radius:22px;padding:16px;color:white;margin-bottom:12px">
+          <div style="font-size:11px;color:#f7d428;font-weight:900">SAODO UNIVERSITY</div>
+          <div style="font-size:20px;font-weight:900;margin-top:4px">Xin chào, Minh</div>
+          <div style="font-size:12px;opacity:.82;margin-top:4px">Hôm nay có 2 deadline</div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px">
+          <div style="border-radius:16px;background:#fff1f2;padding:12px;font-weight:800;color:#112641">Deadline<br><span style="font-size:22px;color:#e31d1c">2</span></div>
+          <div style="border-radius:16px;background:#fffbe5;padding:12px;font-weight:800;color:#112641">Health<br><span style="font-size:22px;color:#1784da">Ổn</span></div>
+        </div>
+        <div style="border-radius:18px;background:#f8fcff;padding:12px;margin-bottom:8px;color:#112641;font-weight:800">09:00 · Lập trình Mobile</div>
+        <div style="border-radius:18px;background:#f8fcff;padding:12px;color:#112641;font-weight:800">AI: “Ôn Kotlin 20 phút?”</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mockup">
+    <div class="mockup-header">Bottom tabs + one-hand UX</div>
+    <div class="mockup-body">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div class="placeholder">Primary actions stay near thumb zone: chat input, add reminder, quick cards.</div>
+        <div class="placeholder">Tabs are limited to 5: Home, AI Chat, Calendar, Health, Profile.</div>
+        <div class="placeholder">Study, Work, Finance, Reminder screens live in stack routes from Home/Profile quick cards.</div>
+        <div class="placeholder">Dark mode uses same tokens, not a separate duplicated stylesheet.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h3>Approve this foundation direction?</h3>
+<p class="subtitle">Click one option or reply in the terminal with changes.</p>
+<div class="options">
+  <div class="option" data-choice="approve" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Approve foundation design</h3>
+      <p>Proceed to write the design spec and implementation plan for this phase.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="adjust" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Adjust before spec</h3>
+      <p>Change tabs, Home layout, dark mode scope, or module routing before planning.</p>
+    </div>
+  </div>
+</div>

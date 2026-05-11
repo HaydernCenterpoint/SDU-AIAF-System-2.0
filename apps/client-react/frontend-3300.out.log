@@ -1,0 +1,36 @@
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3300
+   - Network:      http://10.5.0.2:3300
+
+ ✓ Starting...
+ ✓ Ready in 3.7s
+ ○ Compiling /ntd/login ...
+ ✓ Compiled /ntd/login in 3.2s (975 modules)
+ GET /ntd/login 200 in 4751ms
+ ○ Compiling /ntd/dashboard ...
+ ✓ Compiled /ntd/dashboard in 2s (1062 modules)
+ GET /ntd/dashboard 200 in 2327ms
+ ✓ Compiled in 4.5s (435 modules)
+ GET /ntd/dashboard 200 in 143ms
+ ✓ Compiled in 975ms (435 modules)
+ GET /ntd/dashboard 200 in 244ms
+ ✓ Compiled in 487ms (435 modules)
+ GET /ntd/dashboard 200 in 104ms
+ ✓ Compiled in 544ms (435 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.7s (1408 modules)
+ GET /ntd/dashboard 500 in 4356ms
+ GET /ntd/dashboard 200 in 271ms
+ GET /ntd/dashboard 200 in 69ms
+ GET /ntd/dashboard 200 in 525ms
+ ✓ Compiled in 668ms (586 modules)
+ ✓ Compiled in 1140ms (586 modules)
+ GET /ntd/dashboard 200 in 1168ms
+ GET /ntd/dashboard 200 in 280ms
+ ✓ Compiled in 1281ms (1326 modules)
+ GET /ntd/dashboard 200 in 397ms
+ ✓ Compiled in 857ms (586 modules)
+ ✓ Compiled in 551ms (586 modules)
+ ✓ Compiled in 34.3s (1312 modules)
+ ✓ Compiled in 53.9s (1841 modules)
+ ✓ Compiled in 6.9s (843 modules)

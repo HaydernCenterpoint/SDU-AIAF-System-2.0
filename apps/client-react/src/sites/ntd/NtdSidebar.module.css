@@ -1,0 +1,248 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 280px;
+  height: 100vh;
+  background: linear-gradient(180deg, #0F3460 0%, #4D97FF 50%, #0F3460 100%);
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  overflow-y: auto;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logoIcon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FCDC62 0%, #f59e0b 100%);
+  border-radius: 14px;
+}
+
+.logoIcon svg {
+  width: 28px;
+  height: 28px;
+  color: #0F3460;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoTitle {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.logoSubtitle {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+/* User Card */
+.userCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FCDC62 0%, #f59e0b 100%);
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0F3460;
+}
+
+.userInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.userName {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.userRole {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 2px;
+}
+
+/* Navigation */
+.nav {
+  flex: 1;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.navSection {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.navLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0 8px;
+  margin-bottom: 8px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 14px;
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.navItem:hover {
+  background: rgba(77, 151, 255, 0.12);
+}
+
+.navItemActive {
+  background: rgba(77, 151, 255, 0.35);
+  border: 1px solid rgba(77, 151, 255, 0.6);
+  box-shadow: 0 0 14px rgba(77, 151, 255, 0.4);
+  position: relative;
+}
+
+.navItemActive::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 60%;
+  background: #FCDC62;
+  border-radius: 0 3px 3px 0;
+  box-shadow: 0 0 8px rgba(252, 220, 98, 0.6);
+}
+
+.navItemActive:hover {
+  background: rgba(77, 151, 255, 0.45);
+}
+
+.navIcon {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+  flex-shrink: 0;
+}
+
+.navItemActive .navIcon {
+  color: #ffffff;
+}
+
+.navIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.navText {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  flex: 1;
+}
+
+.navItemActive .navText {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.navBadge {
+  background: #FCDC62;
+  color: #0F3460;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  min-width: 20px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  padding: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logoutBtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 14px;
+  background: rgba(252, 220, 98, 0.15);
+  border: 1px solid rgba(252, 220, 98, 0.3);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #FCDC62;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logoutBtn:hover {
+  background: rgba(252, 220, 98, 0.25);
+  border-color: rgba(252, 220, 98, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+}

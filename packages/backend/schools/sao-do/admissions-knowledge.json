@@ -1,0 +1,196 @@
+{
+  "schoolId": "sao-do",
+  "schoolName": "Trường Đại học Sao Đỏ",
+  "academicYear": "2026",
+  "updatedAt": "2026-05-05",
+  "faculties": [
+    "Khoa Cơ khí",
+    "Khoa Công nghệ thông tin",
+    "Khoa Điện",
+    "Khoa Kinh tế",
+    "Khoa Ô tô",
+    "Khoa May và Thời trang",
+    "Khoa Du lịch và Ngoại ngữ",
+    "Khoa Luật và Giáo dục đại cương"
+  ],
+  "admissionMethods": [
+    "Phương thức 1: Xét tuyển thẳng theo quy định của Bộ Giáo dục và Đào tạo.",
+    "Phương thức 2: Xét tuyển dựa vào kết quả thi tốt nghiệp THPT.",
+    "Phương thức 3: Xét tuyển dựa vào kết quả học tập cấp THPT (học bạ).",
+    "Phương thức 4: Xét tuyển sử dụng kết quả bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội hoặc kết quả bài thi đánh giá tư duy của Đại học Bách khoa Hà Nội."
+  ],
+  "subjectCombinationDefinitions": {
+    "A00": "Toán, Vật lí, Hóa học",
+    "A01": "Toán, Vật lí, Tiếng Anh",
+    "A07": "Toán, Lịch sử, Địa lí",
+    "B00": "Toán, Hóa học, Sinh học",
+    "C00": "Ngữ văn, Lịch sử, Địa lí",
+    "C01": "Ngữ văn, Toán, Vật lí",
+    "C02": "Ngữ văn, Toán, Hóa học",
+    "C03": "Ngữ văn, Toán, Lịch sử",
+    "C04": "Ngữ văn, Toán, Địa lí",
+    "D01": "Ngữ văn, Toán, Tiếng Anh",
+    "D04": "Ngữ văn, Toán, Tiếng Trung",
+    "D07": "Toán, Hóa học, Tiếng Anh",
+    "D15": "Ngữ văn, Địa lí, Tiếng Anh",
+    "X01": "Toán, Ngữ văn, Giáo dục kinh tế và pháp luật",
+    "X02": "Toán, Ngữ văn, Tin học",
+    "X03": "Toán, Ngữ văn, Công nghệ công nghiệp",
+    "X04": "Toán, Ngữ văn, Công nghệ nông nghiệp",
+    "X21": "Toán, Địa lí, Giáo dục kinh tế và pháp luật",
+    "X70": "Ngữ văn, Lịch sử, Giáo dục kinh tế và pháp luật",
+    "X74": "Ngữ văn, Địa lí, Giáo dục kinh tế và pháp luật",
+    "X78": "Ngữ văn, Giáo dục kinh tế và pháp luật, Tiếng Anh",
+    "X90": "Ngữ văn, Giáo dục kinh tế và pháp luật, Tiếng Trung"
+  },
+  "majors": [
+    {
+      "applicationCode": "SDU01",
+      "name": "Công nghệ kỹ thuật cơ khí",
+      "majorCode": "7510201",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU02",
+      "name": "Công nghệ kỹ thuật ô tô",
+      "majorCode": "7510205",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU03",
+      "name": "Công nghệ kỹ thuật điện, điện tử",
+      "majorCode": "7510301",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU04",
+      "name": "Công nghệ thông tin",
+      "majorCode": "7480201",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU05",
+      "name": "Công nghệ dệt, may",
+      "majorCode": "7540204",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU06",
+      "name": "Kỹ thuật điều khiển và tự động hóa",
+      "majorCode": "7520216",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU07",
+      "name": "Kỹ thuật cơ điện tử",
+      "majorCode": "7520114",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU08",
+      "name": "Trí tuệ nhân tạo",
+      "majorCode": "7480107",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU09",
+      "name": "Kế toán",
+      "majorCode": "7340301",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU10",
+      "name": "Quản trị kinh doanh",
+      "majorCode": "7340101",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU11",
+      "name": "Kinh tế số",
+      "majorCode": "7310109",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU12",
+      "name": "Logistics và quản lý chuỗi cung ứng",
+      "majorCode": "7510605",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU13",
+      "name": "Thương mại điện tử",
+      "majorCode": "7340122",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU14",
+      "name": "Tài chính - Ngân hàng",
+      "majorCode": "7310201",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU15",
+      "name": "Toán ứng dụng",
+      "majorCode": "7460112",
+      "combinationCodes": ["A00", "A01", "A07", "B00", "C01", "C02", "C03", "C04", "D01", "D07", "X01", "X02", "X03", "X04", "X21"]
+    },
+    {
+      "applicationCode": "SDU16",
+      "name": "Ngôn ngữ Trung Quốc",
+      "majorCode": "7220204",
+      "combinationCodes": ["D01", "D04", "D15", "C00", "C03", "C04", "X01", "X74", "X78", "X90"]
+    },
+    {
+      "applicationCode": "SDU17",
+      "name": "Ngôn ngữ Anh",
+      "majorCode": "7220201",
+      "combinationCodes": ["D01", "D04", "D15", "C00", "C03", "C04", "X01", "X74", "X78", "X90"]
+    },
+    {
+      "applicationCode": "SDU18",
+      "name": "Quản trị dịch vụ du lịch và lữ hành",
+      "majorCode": "7810103",
+      "combinationCodes": ["C00", "C03", "C04", "D01", "D15", "X01", "X02", "X70", "X74", "X78"]
+    },
+    {
+      "applicationCode": "SDU19",
+      "name": "Luật",
+      "majorCode": "7380101",
+      "combinationCodes": ["C00", "C03", "C04", "D01", "D15", "X01", "X02", "X70", "X74", "X78"]
+    },
+    {
+      "applicationCode": "SDU20",
+      "name": "Sư phạm Tiếng Trung Quốc",
+      "majorCode": "7140234",
+      "combinationCodes": ["C00", "C03", "C04", "D01", "D15", "X01", "X02", "X70", "X74", "X78"]
+    },
+    {
+      "applicationCode": "SDU21",
+      "name": "Sư phạm công nghệ",
+      "majorCode": "7140246",
+      "combinationCodes": ["A00", "A01", "A07", "D01", "C01", "C04", "X01", "X02", "X03", "X04"]
+    }
+  ],
+  "notes": [
+    "Danh sách ngành và tổ hợp môn lấy từ file người dùng cung cấp: Tổ hợp xét tuyển đại học năm 2026.docx.",
+    "Phương thức tuyển sinh và danh sách khoa được đối chiếu từ website chính thức saodo.edu.vn."
+  ],
+  "sources": [
+    {
+      "label": "Các khoa đào tạo",
+      "url": "https://saodo.edu.vn/vi/about/Cac-khoa-dao-tao.html"
+    },
+    {
+      "label": "Thông tin tuyển sinh ngành Công nghệ kỹ thuật cơ khí",
+      "url": "https://saodo.edu.vn/vi/about/THONG-TIN-TUYEN-SINH-NGANH-CONG-NGHE-KY-THUAT-CO-KHI.html"
+    },
+    {
+      "label": "Thông tin tuyển sinh ngành Quản trị kinh doanh",
+      "url": "https://saodo.edu.vn/vi/about/THONG-TIN-TUYEN-SINH-NGANH-QUAN-TRI-KINH-DOANH.html"
+    },
+    {
+      "label": "Thông tin tuyển sinh đại học chính quy năm 2026",
+      "url": "https://saodo.edu.vn/vi/news/tuyen-sinh/truong-dai-hoc-sao-do-ban-hanh-thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026-2844.html"
+    }
+  ]
+}

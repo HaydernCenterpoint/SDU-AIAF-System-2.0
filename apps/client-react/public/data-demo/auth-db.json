@@ -1,0 +1,440 @@
+{
+  "users": [
+    {
+      "id": "demo-an-001",
+      "studentId": "SV2024001",
+      "password": "f3bf34e9e614c1c1874e285c0c9569ba:b1d50345a2761ac17a6ab11c33577f5cb63cd0debf6f0deb8104457ad90088fb3d6bd2e98ad0ee564b742d49f36acec6cdb9581842c59438dedc9ba84b0fdf44",
+      "email": "an.nguyen@saodo.edu.vn",
+      "fullName": "Nguyễn Văn An",
+      "dateOfBirth": "2004-05-15",
+      "faculty": "Công nghệ thông tin",
+      "phone": "0912345678",
+      "createdAt": "2026-05-09T18:07:56.595Z",
+      "profileComplete": true,
+      "schoolId": "sdu",
+      "role": "student",
+      "status": "active"
+    },
+    {
+      "id": "demo-sdu-001",
+      "studentId": "SV2024001",
+      "password": "39ba8897f1942dfc549c7042a060877c:8887a48d38bbbde97971acff6aea7ca78bee774bed0c78990dcc602d25e6fca537b197836a0dbaa7ddaec907d93c0066dfc7588e49a242a21c68e90100f39fa1",
+      "email": "an.nguyen@saodo.edu.vn",
+      "fullName": "Nguyễn Văn An",
+      "dateOfBirth": "2004-05-15",
+      "faculty": "Công nghệ thông tin",
+      "phone": "0912345678",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-002",
+      "studentId": "SV2024002",
+      "password": "ecaa7964fb63632463c0c8973cc48ca2:38ce1f00d3cd954aa00c2d3bce458dbc96becefad213fb25864b1021d395b28ca79576f66118775c88b01f76b4e629823a028b667aca72f6741f58f92f3ec36f",
+      "email": "binh.tran@saodo.edu.vn",
+      "fullName": "Trần Thị Bình",
+      "dateOfBirth": "2004-08-20",
+      "faculty": "Kế toán",
+      "phone": "0987654321",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-003",
+      "studentId": "SV2024003",
+      "password": "030f909c0a5f325eb70d72a4fc27b646:b5d078d76cfaf9170a486c597dbb083498d73215d89810ff76eb41809962b1da7df4b51cac267dc821185d853d5612f8e3cab32d5032ce8114ac79999a31c460",
+      "email": "cuong.le@saodo.edu.vn",
+      "fullName": "Lê Minh Cường",
+      "dateOfBirth": "2003-11-02",
+      "faculty": "Cơ khí",
+      "phone": "0901122334",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-004",
+      "studentId": "SV2024004",
+      "password": "55b5e56a107e1078da3a38f095418050:f2412389f70d2aaf588627cdfc21dd6226b6b214f3621c4c11f09c3ae938bddba4ed2dc07a0bdaf3f819ef370b28925a9eaa36f6d590476dbaf898216628fae6",
+      "email": "dung.pham@saodo.edu.vn",
+      "fullName": "Phạm Đức Dũng",
+      "dateOfBirth": "2004-01-10",
+      "faculty": "Điện - Điện tử",
+      "phone": "0911223344",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-005",
+      "studentId": "SV2024005",
+      "password": "54683c05e52ee18d4a81d3edfe8a2cd5:185a6add93b27d22a3602c64bba51354d508053e20692c5ed3bd94257d0ec3d6cb0c8a2a1130b4a829f51820cbfabab682fbfb3f8771a289399e79d9dbffa43d",
+      "email": "hoa.bui@saodo.edu.vn",
+      "fullName": "Bùi Thanh Hoa",
+      "dateOfBirth": "2005-02-28",
+      "faculty": "Kinh tế",
+      "phone": "0922334455",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-006",
+      "studentId": "SV2024006",
+      "password": "94babc91ed87e7ca5dd685b71ec87183:a22c9d367edb39988c78d4a4a7e6e2633803c9d48cfc71a3ae89f840b9133c8dbdea3044fe81fac353bdedbf60b2ec753e32f4253f3e8bab0fbf1169ab3fbfd9",
+      "email": "khoa.dang@saodo.edu.vn",
+      "fullName": "Đặng Anh Khoa",
+      "dateOfBirth": "2003-09-15",
+      "faculty": "Công nghệ thông tin",
+      "phone": "0933445566",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-007",
+      "studentId": "SV2024007",
+      "password": "931c8a4f15efa3438cdfd60a9dd8e876:d506bd43dd21976e9ef408105f51036c562fb7d8ec49c5a3056ab926645b1137a45575317647a672735fa0cf053b64bf2ce5cd9ac5244c2b4c59c5e4e11d6a84",
+      "email": "ngoc.vu@saodo.edu.vn",
+      "fullName": "Vũ Minh Ngọc",
+      "dateOfBirth": "2004-12-05",
+      "faculty": "Du lịch",
+      "phone": "0944556677",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-008",
+      "studentId": "SV2024008",
+      "password": "6e7c14a3c623da66084b780c0ac5ac69:e690174532c302c709a114d9c269a1eaedfc5973709b0dd9468620edd23f24e159d44019600b0af0f3882af398bc1f0d3661a363bf09d47a47d1d128d179abf0",
+      "email": "hieu.do@saodo.edu.vn",
+      "fullName": "Đỗ Trung Hiếu",
+      "dateOfBirth": "2005-07-14",
+      "faculty": "Cơ khí",
+      "phone": "0955667788",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-009",
+      "studentId": "SV2024009",
+      "password": "525977eda265bd8e2797386f2ad98be5:1705f43f3a5e786f67c23f4017716b6da333d2182946d65154e6818ea3b9e05947de04336789675cd6a5cc684e61524aea429715f0d5c5c503f608d8011797a5",
+      "email": "trang.hoang@saodo.edu.vn",
+      "fullName": "Hoàng Thu Trang",
+      "dateOfBirth": "2004-04-30",
+      "faculty": "Ngoại ngữ",
+      "phone": "0966778899",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "demo-sdu-010",
+      "studentId": "SV2024010",
+      "password": "451b475e620bbe3ff0e8fd5d588a7fc2:67534e3f5292b49d2c34f06147d9e4df725175c996627f13ad216b004300814873cbc7e028532a4a25b483e951e0e26acea8e50093899c9981c4e4b6d59bddef",
+      "email": "thang.ngo@saodo.edu.vn",
+      "fullName": "Ngô Đức Thắng",
+      "dateOfBirth": "2003-02-20",
+      "faculty": "Điện - Điện tử",
+      "phone": "0977889900",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "profileComplete": true,
+      "schoolId": "sdu"
+    },
+    {
+      "id": "admin-sdu-001",
+      "studentId": "adminsdu",
+      "password": "3c7a1dc709ad4da574d66de3bf641aae:6b30dcb0cd9913603886a774690cf5e2e3c9c47be2cc4e99242f351eefa70579c8e473ed5ef5bc86a808eb50eec139851e75a16c613d38a3fe7e64ff1342d8e0",
+      "email": "admin@saodo.edu.vn",
+      "fullName": "Quản trị viên Sao Đỏ",
+      "role": "admin",
+      "faculty": "Ban giám hiệu",
+      "createdAt": "2026-05-03T10:13:54.639Z",
+      "schoolId": "sdu"
+    },
+    {
+      "id": "user-1777935074096",
+      "studentId": "TMP001",
+      "schoolId": "sao-do",
+      "accountType": "university_student",
+      "password": "ed8afbd67dde882b856437c0fcea008f:dac535661a985310d48d29ef7b8995b09180110462251ada2aac10fe3f9a1f69105a9407a7b3c87978adfd0380dab08e6ba0df5f6c7728f5b12928fd335271fa",
+      "email": "tmp001@saodo.edu.vn",
+      "fullName": "Test User",
+      "dateOfBirth": "2004-01-01",
+      "faculty": "CNTT",
+      "phone": "0912",
+      "createdAt": "2026-05-04T22:51:14.096Z",
+      "profileComplete": true,
+      "role": "student",
+      "status": "active"
+    },
+    {
+      "id": "user-1777962799221",
+      "studentId": "HLT1777962799",
+      "schoolId": "sao-do",
+      "accountType": "university_student",
+      "password": "19fa8ab8b3b1a7191d83b979957341a9:a534edd9f22a8d51b5c49b6717182f7f17075eb45b727c9e3d42f99a6d10cc6663b3556a7c165db112b4d95071c2880b68dc32a2f27e5051f18b837bfc923989",
+      "email": "hlt1777962799@saodo.edu.vn",
+      "fullName": "Sinh vien HLT1777962799",
+      "dateOfBirth": "2004-01-01",
+      "faculty": "Cong nghe thong tin",
+      "phone": "0912345678",
+      "createdAt": "2026-05-05T06:33:19.221Z",
+      "profileComplete": true,
+      "role": "student",
+      "status": "active"
+    },
+    {
+      "id": "user-1777967863367",
+      "studentId": "GUEST-0001",
+      "schoolId": "sao-do",
+      "accountType": "guest_public",
+      "password": "568a40ab6978db4f95f7092a8f618033:5b8ced1afe00d658386c6a6839a02b971ba7c5391e8fc9bac627cddc5cc14f248a60892e6dd59782a0158be05b225ffdd954cde15b90d44adfc13b22082dc46e",
+      "email": "guest.runtime.1777967863185@example.com",
+      "fullName": "Khach Runtime",
+      "dateOfBirth": "",
+      "faculty": "CNTT",
+      "phone": "",
+      "createdAt": "2026-05-05T07:57:43.405Z",
+      "profileComplete": true,
+      "role": "student",
+      "status": "active"
+    },
+    {
+      "id": "user-1777968578688",
+      "studentId": "GUEST-0002",
+      "schoolId": "sao-do",
+      "accountType": "guest_public",
+      "password": "29d89294bab68c643db78d04ed713d19:0b186b2d2e70847b044b4c1276550a5a85f29c3fabd14e0c0441b0ecabb316f2c966f4385b293ab3b3c6a84d0dd97590c94b402cc71349d1c35a7b1dad555dd8",
+      "email": "guest.public.verify@example.com",
+      "fullName": "Khach Cong Khai",
+      "dateOfBirth": "",
+      "faculty": "Tim hieu cong dong truong",
+      "phone": "",
+      "createdAt": "2026-05-05T08:09:38.756Z",
+      "profileComplete": true,
+      "role": "student",
+      "status": "active"
+    },
+    {
+      "id": "user-1778423491061",
+      "studentId": "TEST001",
+      "schoolId": "sao-do",
+      "accountType": "university_student",
+      "password": "5fbed3f16ada1dc2ead7c343651010ad:46e1937fb4f08f097750f0dc2ef52ad257941c182cb2c409f1ad0ba87ca2f07ee67b118ea5f7f7dc63d3eb1e2f005d68a467d9cf5dfaad762dfca016fcf9363e",
+      "email": "test@example.com",
+      "fullName": "Test User",
+      "dateOfBirth": "2004-01-01",
+      "faculty": "Cong nghe thong tin",
+      "phone": "0912345678",
+      "createdAt": "2026-05-10T14:31:31.061Z",
+      "profileComplete": true,
+      "role": "student",
+      "status": "active"
+    }
+  ],
+  "pendingRegistrations": [
+    {
+      "studentId": "SV001",
+      "schoolId": "sao-do",
+      "password": "6cf9a1b84a086ff288dda7191a8df7fd:6ac1c262773f62ed6618b3fb98e68d8e1c93f466a044bc570afe5214cc29bb9eab69aaad94080fae827c020647b4693e44d006b0cff65221f7b69d05cc9248e1",
+      "email": "sv001@example.com",
+      "createdAt": "2026-05-03T11:51:46.122Z"
+    }
+  ],
+  "resetTokens": [
+    {
+      "token": "4def93c0313df4aacbcc31c8bf8888e50c7944e6df681bc22aa5bad0768197f1",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-03T10:56:40.616Z",
+      "expiresAt": "2026-05-10T10:56:40.616Z"
+    },
+    {
+      "token": "6151d8c289480c9a3c4adb57b5d0f9904668ed1ed4b025c5d829c427e928c0fa",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-03T12:14:55.072Z",
+      "expiresAt": "2026-05-10T12:14:55.072Z"
+    },
+    {
+      "token": "2f839bd98cddfd599e2d925a005ed7341f7a896f0ad8646fc9d0c0e05579bcc7",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-03T12:15:09.639Z",
+      "expiresAt": "2026-05-10T12:15:09.639Z"
+    },
+    {
+      "token": "b85a37a85dd3e14fbb37f9b3c7d017ff03b9bfd2e2fa09d7a8ca9b0691d52dd4",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-03T12:15:32.448Z",
+      "expiresAt": "2026-05-10T12:15:32.448Z"
+    },
+    {
+      "token": "096ec980618579abbb7babcd07e8d90ac7070c9d979600424623aeea48e2acfb",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-03T12:15:53.513Z",
+      "expiresAt": "2026-05-10T12:15:53.513Z"
+    },
+    {
+      "token": "84b316aa5cf33898e4810f68fe66cff1f0b5d8ae69e8cb8690b17306a56b9871",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-03T12:32:19.715Z",
+      "expiresAt": "2026-05-10T12:32:19.715Z"
+    },
+    {
+      "token": "e22d16e60f147fc8a51418be00167c1ab350685ea3a6036515c87b021009693e",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-04T06:50:34.717Z",
+      "expiresAt": "2026-05-11T06:50:34.717Z"
+    },
+    {
+      "token": "2df0c0e44ceffdfdadb38982129e5f4cdfccde648006c932132c77be444c376c",
+      "userId": "user-1777935074096",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-04T22:51:14.097Z",
+      "expiresAt": "2026-05-11T22:51:14.097Z"
+    },
+    {
+      "token": "d97d06132a691cbe575859e12fd5294094045e52d783efd2048c2305cee55a92",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T01:09:04.585Z",
+      "expiresAt": "2026-05-12T01:09:04.585Z"
+    },
+    {
+      "token": "b785e41cbf8e0c10de5e6c979b03c801b63dea7a0442e4c658bdb920f65bfb0c",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T01:09:08.997Z",
+      "expiresAt": "2026-05-12T01:09:08.997Z"
+    },
+    {
+      "token": "9ca504a401b98c6f5bd9e548e9f27e72765c1dae4386f68aafe9e130cfe3e8f7",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T01:09:10.245Z",
+      "expiresAt": "2026-05-12T01:09:10.245Z"
+    },
+    {
+      "token": "e7e109dc262f39006b9b876f3f826f9ed8c22e0b955cd9d04bd13d018b053c53",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T02:44:14.874Z",
+      "expiresAt": "2026-05-12T02:44:14.874Z"
+    },
+    {
+      "token": "4edde1a07a926ff80e85680459556c4aeabd9a3d8c4a52fa83413e44148ca0a7",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T02:44:15.748Z",
+      "expiresAt": "2026-05-12T02:44:15.749Z"
+    },
+    {
+      "token": "75e577b1ec2b8f2f6eef0d4fb2dd62f885f5cb7b51008042cc9148049a2c1df7",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T02:44:21.754Z",
+      "expiresAt": "2026-05-12T02:44:21.754Z"
+    },
+    {
+      "token": "a343cc739dcd9b234f9c955b7adb924fa152b13b4a3af9948c65e277536e1aa4",
+      "userId": "user-1777962799221",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T06:33:19.222Z",
+      "expiresAt": "2026-05-12T06:33:19.222Z"
+    },
+    {
+      "token": "64d057e75e41c42a342663f060d185bf2b8088e8d8965bef6d1d993cf702111e",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T07:54:35.758Z",
+      "expiresAt": "2026-05-12T07:54:35.758Z"
+    },
+    {
+      "token": "e9a0f068df14d4c36013f2b62b2086fd4c4a976955e5f0002dece02a81bf55e6",
+      "userId": "user-1777967863367",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T07:57:43.405Z",
+      "expiresAt": "2026-05-12T07:57:43.406Z"
+    },
+    {
+      "token": "fd90dbba4bd3406759eed5cc34270733e04ae629318c25e1d6135e8f42f9a0a0",
+      "userId": "user-1777968578688",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T08:09:38.756Z",
+      "expiresAt": "2026-05-12T08:09:38.757Z"
+    },
+    {
+      "token": "3d962a2a834cc222224e807ba04a6d40a208201e483797e1edf4f274f12d98f9",
+      "userId": "user-1777968578688",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T08:09:38.890Z",
+      "expiresAt": "2026-05-12T08:09:38.890Z"
+    },
+    {
+      "token": "a52d2aa4f91fed265bc1172bea3b95bec38d54be4726cc5c8d194601e6a43dd7",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T08:47:38.234Z",
+      "expiresAt": "2026-05-12T08:47:38.234Z"
+    },
+    {
+      "token": "7ea01c432445bc882b02eedc1f4cf2ba7847677730235f559833d8d22240bb0a",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T08:50:58.550Z",
+      "expiresAt": "2026-05-12T08:50:58.550Z"
+    },
+    {
+      "token": "3f311e9c60a5c726d7384b8de316efe55de661480f77e51eaca854561f8515d2",
+      "userId": "demo-sdu-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-05T09:02:37.432Z",
+      "expiresAt": "2026-05-12T09:02:37.432Z"
+    },
+    {
+      "token": "25a4341f98dec1e91ab7edebe426b55db40b374dbc7951a5f6d707902968c757",
+      "userId": "demo-an-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-09T18:14:06.580Z",
+      "expiresAt": "2026-05-16T18:14:06.580Z"
+    },
+    {
+      "token": "0684c645991a4d796df78fe47e917c1f11842ce9534bd7fd1fc46cf9315ac861",
+      "userId": "demo-an-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-09T18:14:08.224Z",
+      "expiresAt": "2026-05-16T18:14:08.224Z"
+    },
+    {
+      "token": "b45e448d56bd09ce9988690df09c88d4e717c1ec87d8c85a0023e86247619f17",
+      "userId": "demo-an-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-09T18:14:08.841Z",
+      "expiresAt": "2026-05-16T18:14:08.841Z"
+    },
+    {
+      "token": "608f57304ed97e1a36b48ff06b356c970e6197a37b5199cc3bc50fec54144721",
+      "userId": "demo-an-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-09T18:20:46.959Z",
+      "expiresAt": "2026-05-16T18:20:46.959Z"
+    },
+    {
+      "token": "3295fc5dab7f3e4ebdff1394f95d8fbe1e0fd02e8cebdde18b89febcec79f479",
+      "userId": "user-1778423491061",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-10T14:31:31.062Z",
+      "expiresAt": "2026-05-17T14:31:31.062Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+> dev
+> node --watch src/server.mjs
+
+Sao Do assistant backend running at http://localhost:9797
+Failed running 'src/server.mjs'. Waiting for file changes before restarting...

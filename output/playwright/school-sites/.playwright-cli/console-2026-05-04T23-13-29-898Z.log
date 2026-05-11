@@ -1,0 +1,38 @@
+[    7178ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3200/ntd/login:0
+[    7681ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:28004
+[    7878ms] TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\.next\server\webpack-runtime.js:25:42)
+    at Object.require (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:28541)
+    at globalThis.__next_require__ (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:29364)
+    at requireModule (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:318257)
+    at initializeModuleChunk (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:347649)
+    at getOutlinedModel (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:357408)
+    at <unknown> (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:365361)
+    at ResponseInstance._fromJSON (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:365452)
+    at JSON.parse (<anonymous>)
+    at initializeModelChunk (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:347040)
+    at resolveModelChunk (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:345328)
+    at processFullStringRow (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:384472)
+    at <unknown> (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:386875)
+    at processBinaryChunk (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:386947)
+    at progress (file://C:\Users\datmk\OneDrive\Desktop\Workspace\NemoClaw\apps\client-react\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:2:388475)
+[    7872ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    7900ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3200/favicon.ico:0
+[  672377ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[  673556ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[  675793ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  689648ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  690422ms] [LOG] [Fast Refresh] done in 774ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  715749ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  716379ms] [LOG] [Fast Refresh] done in 630ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  766782ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  767514ms] [LOG] [Fast Refresh] done in 733ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  767733ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3200/ntd/login?_rsc=1huez:0
+[  769060ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  860931ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  861556ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  861904ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3200/_next/static/webpack/910b4e42f6b47f4e.webpack.hot-update.json:0
+[  863930ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  876845ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  878430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3200/_next/static/webpack/3297d3bd4130bf72.webpack.hot-update.json:0
+[  879757ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630

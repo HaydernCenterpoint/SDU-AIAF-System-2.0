@@ -1,0 +1,300 @@
+{
+  "users": [
+    {
+      "id": "ntd-admin-001",
+      "studentId": "adminntd",
+      "fullName": "Quản trị viên NTD",
+      "email": "admin.ntd@test.com",
+      "faculty": "Ban giám hiệu",
+      "role": "admin",
+      "password": "fe7d1dd7faaaec6cfd40bf316bbb859c:02e3c089c905b5d3240481e2295fca9c5c38af37c0a94a6f21d2b89fa2a5300dc6b97a3768fe6081a4363700a830b1857fb6d66a0cdc91d312554d56fd026b84",
+      "dateOfBirth": "2008-01-01",
+      "phone": "0912345678",
+      "createdAt": "2026-05-10T02:06:20.841Z",
+      "profileComplete": true,
+      "schoolId": "nguyen-thi-due",
+      "status": "active"
+    },
+    {
+      "id": "ntd-demo-002",
+      "studentId": "NTD002",
+      "fullName": "Trần Anh Tuấn",
+      "email": "tuan.ntd@test.com",
+      "faculty": "Khối 11",
+      "role": "student",
+      "password": "6fdd691147ff7891fe9b8b460f978d81:45da7b0c29c5121d2d3d85b11f97447d543d54484908368af56876c9736df73ad48f30f07d8c3c65c3c6bfec293066467f9af3e80b26b9084c3e99eb49db6ec2",
+      "dateOfBirth": "2008-01-01",
+      "phone": "0912345678",
+      "createdAt": "2026-05-10T02:06:20.799Z",
+      "profileComplete": true,
+      "schoolId": "nguyen-thi-due",
+      "status": "active"
+    },
+    {
+      "id": "ntd-demo-001",
+      "studentId": "NTD001",
+      "fullName": "Nguyễn Trần Trúc Mai",
+      "email": "mai.ntd@test.com",
+      "faculty": "Khối 12",
+      "role": "student",
+      "password": "a5a60b927db5f6fb1f3fb0a5b55b459a:81c9887e587a9d47024f4b2021c368332015327117f137e025d9cb49c1ffff4c3d5363bca331e74784cd24f004417da9e69f6e7caa98fcffcbd6d50805ef48ff",
+      "dateOfBirth": "2008-01-01",
+      "phone": "0912345678",
+      "createdAt": "2026-05-10T02:06:20.757Z",
+      "profileComplete": true,
+      "schoolId": "nguyen-thi-due",
+      "status": "active"
+    },
+    {
+      "id": "demo-ntd-fallback",
+      "studentId": "2025324AK02",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "2025324ak02@ntd.edu.vn",
+      "fullName": "Học sinh 2025324AK02",
+      "dateOfBirth": "2007-09-18",
+      "faculty": "Lớp 12A1",
+      "phone": "0912002202",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "nguyen-thi-due",
+      "accountType": "highschool_student",
+      "role": "student",
+      "status": "active"
+    },
+    {
+      "id": "demo-ntd-001",
+      "studentId": "HS2024001",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "mai.nguyen@ntd.edu.vn",
+      "fullName": "Nguyễn Trần Trúc Mai",
+      "dateOfBirth": "2008-05-12",
+      "faculty": "Khối 10",
+      "phone": "0912345678",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-002",
+      "studentId": "HS2024002",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "tuan.tran@ntd.edu.vn",
+      "fullName": "Trần Anh Tuấn",
+      "dateOfBirth": "2007-08-20",
+      "faculty": "Khối 11",
+      "phone": "0987654321",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-003",
+      "studentId": "HS2024003",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "lan.le@ntd.edu.vn",
+      "fullName": "Lê Phương Lan",
+      "dateOfBirth": "2006-11-02",
+      "faculty": "Khối 12",
+      "phone": "0901122334",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-004",
+      "studentId": "HS2024004",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "dung.pham@ntd.edu.vn",
+      "fullName": "Phạm Trí Dũng",
+      "dateOfBirth": "2008-01-15",
+      "faculty": "Khối 10",
+      "phone": "0911223344",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-005",
+      "studentId": "HS2024005",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "hoa.bui@ntd.edu.vn",
+      "fullName": "Bùi Thị Thanh Hoa",
+      "dateOfBirth": "2007-03-25",
+      "faculty": "Khối 11",
+      "phone": "0922334455",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-006",
+      "studentId": "HS2024006",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "khoa.dang@ntd.edu.vn",
+      "fullName": "Đặng Minh Khoa",
+      "dateOfBirth": "2006-09-10",
+      "faculty": "Khối 12",
+      "phone": "0933445566",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-007",
+      "studentId": "HS2024007",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "ngoc.vu@ntd.edu.vn",
+      "fullName": "Vũ Bích Ngọc",
+      "dateOfBirth": "2008-12-05",
+      "faculty": "Khối 10",
+      "phone": "0944556677",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-008",
+      "studentId": "HS2024008",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "hieu.do@ntd.edu.vn",
+      "fullName": "Đỗ Trung Hiếu",
+      "dateOfBirth": "2007-07-14",
+      "faculty": "Khối 11",
+      "phone": "0955667788",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-009",
+      "studentId": "HS2024009",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "trang.hoang@ntd.edu.vn",
+      "fullName": "Hoàng Thu Trang",
+      "dateOfBirth": "2006-04-30",
+      "faculty": "Khối 12",
+      "phone": "0966778899",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "demo-ntd-010",
+      "studentId": "HS2024010",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "thang.ngo@ntd.edu.vn",
+      "fullName": "Ngô Đức Thắng",
+      "dateOfBirth": "2008-02-28",
+      "faculty": "Khối 10",
+      "phone": "0977889900",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "profileComplete": true,
+      "schoolId": "ntd"
+    },
+    {
+      "id": "admin-ntd-001",
+      "studentId": "adminntd",
+      "password": "69740048929981776413bc4fcbec9e02:7aa370b0e735eb59326615605af0a423c875f7906a09403c29b72260b54e4c1a9de36388eff0e404d2849f139d9b30fde7bf9718123cd26bfce70e8a0beddbb4",
+      "email": "admin@ntd.edu.vn",
+      "fullName": "Quản trị viên Nguyễn Thị Duệ",
+      "role": "admin",
+      "faculty": "Ban giám hiệu",
+      "createdAt": "2026-05-03T10:13:12.968Z",
+      "schoolId": "ntd"
+    }
+  ],
+  "pendingRegistrations": [],
+  "resetTokens": [
+    {
+      "token": "c5ac0bff7b3af9a2e871d2c8ea386f87074c0c40b18d0605f199f1c333c84914",
+      "userId": "demo-ntd-fallback",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-04T23:07:53.362Z",
+      "expiresAt": "2026-05-11T23:07:53.362Z"
+    },
+    {
+      "token": "cfaf24209edeee8381a586e768d42e518c2dba10f1044640f3d58c8bbffcdd35",
+      "userId": "demo-ntd-fallback",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-04T23:15:15.668Z",
+      "expiresAt": "2026-05-11T23:15:15.668Z"
+    },
+    {
+      "token": "e471a021dddb58c2c1f443a3fe744274c8e79f936d47459247be1016ea0572cb",
+      "userId": "demo-ntd-fallback",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-05T00:43:06.158Z",
+      "expiresAt": "2026-05-12T00:43:06.158Z"
+    },
+    {
+      "token": "da5d9f55c85125ad0428053b1215db966ff6b1b85e7bcfe0d99f1f61d2782342",
+      "userId": "demo-ntd-fallback",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-05T01:49:36.813Z",
+      "expiresAt": "2026-05-12T01:49:36.813Z"
+    },
+    {
+      "token": "2c79bb876822c43c20a3e42d267c4f6db6fd48e3f09045adfcac24673827b9c2",
+      "userId": "demo-ntd-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-05T02:09:33.385Z",
+      "expiresAt": "2026-05-12T02:09:33.385Z"
+    },
+    {
+      "token": "ec72c2f6554ff30621b31d43b0f919286ff9b0466183ea74423ad15cf27c3f85",
+      "userId": "ntd-demo-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-10T02:10:13.962Z",
+      "expiresAt": "2026-05-17T02:10:13.962Z"
+    },
+    {
+      "token": "7a97fcad78512cefd269573e7625759e4a5cc898a9c2c373f8acca8407b21b1f",
+      "userId": "ntd-demo-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-10T02:10:16.650Z",
+      "expiresAt": "2026-05-17T02:10:16.650Z"
+    },
+    {
+      "token": "9258ef2669d894c5dd8b67019a2fef8470c357e32e972cb1b1cdc899f0d1f8b6",
+      "userId": "ntd-demo-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-10T04:15:37.350Z",
+      "expiresAt": "2026-05-17T04:15:37.350Z"
+    },
+    {
+      "token": "0c8867fcd5918211f3589920f66f55b88b301e1f2e611789974b6fb0ab32a2e2",
+      "userId": "ntd-demo-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-10T04:15:38.193Z",
+      "expiresAt": "2026-05-17T04:15:38.193Z"
+    },
+    {
+      "token": "08139824732312d6d2ca4d6f5918aba896067899fae269e955fdddf8c7b6ba03",
+      "userId": "ntd-demo-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-10T04:16:06.118Z",
+      "expiresAt": "2026-05-17T04:16:06.118Z"
+    },
+    {
+      "token": "7b805a4c50f52a42161fb1f5e559dcb32e70e5629ebf06b8680bbd23a1e09bac",
+      "userId": "ntd-demo-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-10T04:58:37.145Z",
+      "expiresAt": "2026-05-17T04:58:37.145Z"
+    },
+    {
+      "token": "be119c1f9feb03b4bc15ebea98bcd77211a04cd53eabb265359f611c3f700dc4",
+      "userId": "ntd-demo-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-10T05:09:53.775Z",
+      "expiresAt": "2026-05-17T05:09:53.775Z"
+    },
+    {
+      "token": "9b82e81c7b733f1db36487ef16ab048fc0548686a3783be03636c9ab6dd59966",
+      "userId": "ntd-demo-001",
+      "schoolId": "nguyen-thi-due",
+      "createdAt": "2026-05-10T07:56:13.176Z",
+      "expiresAt": "2026-05-17T07:56:13.176Z"
+    }
+  ]
+}
