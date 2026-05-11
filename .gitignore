@@ -9,6 +9,7 @@ dist/
 docs/_build/
 node_modules/
 .worktrees/
+.next/
 
 # OS metadata
 .DS_Store
