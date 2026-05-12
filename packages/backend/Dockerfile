@@ -1,14 +1,15 @@
-# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
-# SPDX-License-Identifier: Apache-2.0
-
 FROM node:22-alpine
 
 WORKDIR /app
 
-COPY package.json ./
-COPY src ./src
+COPY package*.json ./
+RUN npm ci --only=production
 
-ENV PORT=9191
+COPY prisma ./prisma
+RUN npx prisma generate
+
+COPY . .
+
 EXPOSE 9191
 
-CMD ["npm", "run", "start"]
+CMD ["node", "src/server.mjs"]

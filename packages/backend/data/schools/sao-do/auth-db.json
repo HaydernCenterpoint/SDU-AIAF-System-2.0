@@ -1,6 +1,21 @@
 {
   "users": [
     {
+      "id": "demo-full-001",
+      "studentId": "SV2026001",
+      "password": "38b1ca9d2791b72e4c2977ee142dde63:257d286ede49c6252d8c637288a8b9b46ff5a4914e32d66f02b4bccf36b7642cc7330b78e09525c7706b39b2f3f6b8b5deb1957979686657a441ec4bfede4a55",
+      "email": "demo@sdu",
+      "fullName": "Trần Minh Demo",
+      "dateOfBirth": "2004-06-15",
+      "faculty": "Công nghệ thông tin",
+      "phone": "0969123456",
+      "createdAt": "2026-05-12T03:00:40.328Z",
+      "profileComplete": true,
+      "schoolId": "sdu",
+      "role": "student",
+      "status": "active"
+    },
+    {
       "id": "demo-an-001",
       "studentId": "SV2024001",
       "password": "f3bf34e9e614c1c1874e285c0c9569ba:b1d50345a2761ac17a6ab11c33577f5cb63cd0debf6f0deb8104457ad90088fb3d6bd2e98ad0ee564b742d49f36acec6cdb9581842c59438dedc9ba84b0fdf44",
@@ -435,6 +450,69 @@
       "schoolId": "sao-do",
       "createdAt": "2026-05-10T14:31:31.062Z",
       "expiresAt": "2026-05-17T14:31:31.062Z"
+    },
+    {
+      "token": "a06386e55cf13902537bbd1f4de9c48ba69fb948658140af28ba3472560a691a",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T03:02:50.629Z",
+      "expiresAt": "2026-05-19T03:02:50.629Z"
+    },
+    {
+      "token": "d196d05cfc83b6ccffd23754bd5253f98a0ff62c56644df22484e8916e6737f8",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T03:02:53.865Z",
+      "expiresAt": "2026-05-19T03:02:53.865Z"
+    },
+    {
+      "token": "77ac92745b3cecb2201ef6a9662262fb6ca656ca7faefb1d7fae0dc534a4e105",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T03:02:56.278Z",
+      "expiresAt": "2026-05-19T03:02:56.278Z"
+    },
+    {
+      "token": "4171f6b5627024d14a93ebb1eeb1c5e6bcbc5d1bcc422099613b213c4a4349d9",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T03:02:56.513Z",
+      "expiresAt": "2026-05-19T03:02:56.513Z"
+    },
+    {
+      "token": "e82686b1e9dcf6ae5d06272ef7e31a100f58808e092075f144a38dc04e575a43",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T03:02:56.772Z",
+      "expiresAt": "2026-05-19T03:02:56.772Z"
+    },
+    {
+      "token": "a0ff4101629981bb5825efce5c722f5727fa0adfcee690291b0dc8358788bd46",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T03:02:57.025Z",
+      "expiresAt": "2026-05-19T03:02:57.025Z"
+    },
+    {
+      "token": "e0513eb0d6c697e405c3e096fdcb3a4c53f1f4f2d1a8a37a6d60cb4fa0dafee4",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T03:03:08.844Z",
+      "expiresAt": "2026-05-19T03:03:08.844Z"
+    },
+    {
+      "token": "fce59489c37feefdc3a3ceec475ce5caf6df40420cd669005be3e5160a835cd3",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T03:44:53.649Z",
+      "expiresAt": "2026-05-19T03:44:53.649Z"
+    },
+    {
+      "token": "c8935605ff318004fea324b6ca468b3ab18733c5e47cce960da0819aa88e63a6",
+      "userId": "demo-full-001",
+      "schoolId": "sao-do",
+      "createdAt": "2026-05-12T04:10:35.196Z",
+      "expiresAt": "2026-05-19T04:10:35.196Z"
     }
   ]
 }

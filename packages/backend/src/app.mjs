@@ -468,8 +468,17 @@ export function createAppServer(options = {}) {
         if (conversationId) {
           if (!user) return sendJson(res, 401, { error: 'Unauthorized' });
           const userData = getUserData(user);
-          const conversation = userData.conversations.find((item) => item.id === conversationId);
-          if (!conversation) return sendJson(res, 404, { error: 'Conversation not found' });
+          let conversation = userData.conversations.find((item) => item.id === conversationId);
+          if (!conversation) {
+            conversation = {
+              id: conversationId,
+              title: 'Hỏi đáp mới',
+              updatedAt: new Date().toISOString(),
+              messages: [],
+            };
+            userData.conversations.unshift(conversation);
+            saveUserDataForUser(user, userData);
+          }
           return sendJson(res, 200, {
             conversation: summarizeConversation(conversation),
             messages: conversation.messages,

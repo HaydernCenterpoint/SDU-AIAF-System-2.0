@@ -1,6 +1,21 @@
 {
   "users": [
     {
+      "id": "demo-full-001",
+      "studentId": "SV2026001",
+      "password": "a88c23d07469650edf19478a79c5f949:0f5f85ca4730a6807a1dd42a4600ecb4ebc09cd438958c5879ab8d9fa39cade8b5fff299a2df62ddc5e5a1b0b3d2798787eedb9c4b0d6eb50d278528709363d0",
+      "email": "demo@sdu",
+      "fullName": "Trần Minh Demo",
+      "dateOfBirth": "2004-06-15",
+      "faculty": "Công nghệ thông tin",
+      "phone": "0969123456",
+      "createdAt": "2026-05-12T03:01:06.170Z",
+      "profileComplete": true,
+      "schoolId": "sdu",
+      "role": "student",
+      "status": "active"
+    },
+    {
       "id": "demo-an-001",
       "studentId": "SV2024001",
       "password": "f3bf34e9e614c1c1874e285c0c9569ba:b1d50345a2761ac17a6ab11c33577f5cb63cd0debf6f0deb8104457ad90088fb3d6bd2e98ad0ee564b742d49f36acec6cdb9581842c59438dedc9ba84b0fdf44",

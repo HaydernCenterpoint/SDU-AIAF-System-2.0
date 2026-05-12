@@ -3,3 +3,4 @@
 {"userId":"demo-sdu-001","assistantType":"career","conversationId":"9a4bf3fb-b668-425d-8ec1-98048d92d919","latencyMs":30012,"status":"success","createdAt":"2026-05-05T08:16:52.264Z"}
 {"userId":"demo-sdu-001","assistantType":"career","conversationId":"9a4bf3fb-b668-425d-8ec1-98048d92d919","latencyMs":30012,"status":"success","createdAt":"2026-05-05T08:17:50.448Z"}
 {"userId":"demo-sdu-001","assistantType":"career","conversationId":"9a4bf3fb-b668-425d-8ec1-98048d92d919","latencyMs":2467,"status":"success","createdAt":"2026-05-05T08:17:57.618Z"}
+{"userId":"demo-full-001","assistantType":"career","conversationId":"91c29ffb-5bb3-445a-b658-e0ec07e30573","latencyMs":25965,"status":"success","createdAt":"2026-05-12T03:27:21.765Z"}

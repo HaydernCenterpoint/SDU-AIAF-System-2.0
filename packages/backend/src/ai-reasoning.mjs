@@ -2,7 +2,10 @@
 import { getAssistantRuntimeStatus } from './nemoclaw-client.mjs';
 
 const KROUTER_API_KEY = process.env.KROUTER_API_KEY;
-const KROUTER_API_URL = process.env.KROUTER_API_URL || 'https://api.krouter.net/v1/chat/completions';
+const KROUTER_API_URL_RAW = process.env.KROUTER_API_URL || 'https://api.krouter.net/v1';
+const KROUTER_API_URL = KROUTER_API_URL_RAW.endsWith('/chat/completions')
+  ? KROUTER_API_URL_RAW
+  : `${KROUTER_API_URL_RAW.replace(/\/+$/, '')}/chat/completions`;
 const KROUTER_MODEL = process.env.KROUTER_MODEL || 'cx/gpt-5.4';
 const NEMOCLAW_TIMEOUT_MS = Number(process.env.NEMOCLAW_TIMEOUT_MS || 30000);
 
@@ -114,7 +117,7 @@ async function handlePersonalized(req, res) {
 async function handleRecommendations(req, res) {
   try {
     const body = await readJson(req);
-    const { profile } = body;
+    const profile = body.profile || body.studentProfile;
 
     if (!profile) {
       return sendJson(res, 400, { error: 'profile is required' });
@@ -133,7 +136,10 @@ async function handleRecommendations(req, res) {
     });
 
     if (response.error) {
-      return sendJson(res, 502, { error: response.error });
+      // KRouter unavailable — return smart fallback recommendations
+      console.warn('[ai-reasoning] KRouter unavailable, using fallback recommendations:', response.error);
+      const fallback = buildFallbackRecommendations(profile);
+      return sendJson(res, 200, fallback);
     }
 
     // Try to parse JSON recommendations from response
@@ -161,6 +167,80 @@ async function handleRecommendations(req, res) {
     console.error('[ai-reasoning] Recommendations error:', error);
     return sendJson(res, 500, { error: 'Internal server error' });
   }
+}
+
+function buildFallbackRecommendations(profile) {
+  const student = profile?.student || {};
+  const metrics = profile?.metrics || {};
+  const goals = profile?.goals || {};
+  const recs = [];
+
+  if (metrics.weakestSubjects?.length > 0) {
+    recs.push({
+      type: 'improvement',
+      priority: 'high',
+      title: `Cải thiện môn ${metrics.weakestSubjects[0]}`,
+      description: `Em cần tập trung cải thiện các môn: ${metrics.weakestSubjects.join(', ')}. Đây là những môn ảnh hưởng nhiều đến GPA chung.`,
+      subject: metrics.weakestSubjects[0],
+      actionableSteps: [
+        'Xem lại bài giảng và ghi chép của các môn yếu',
+        'Tìm tài liệu bổ sung hoặc nhờ bạn giỏi hỗ trợ',
+        'Luyện thêm bài tập từ cơ bản đến nâng cao',
+      ],
+      expectedImpact: 'Nâng điểm lên 1-2 bậc trong kỳ thi tới',
+    });
+  }
+
+  recs.push({
+    type: 'study_plan',
+    priority: 'medium',
+    title: 'Xây dựng thời gian biểu học tập',
+    description: 'Lên kế hoạch học tập cụ thể theo tuần, ưu tiên các môn sắp thi và các môn cần cải thiện.',
+    actionableSteps: [
+      'Chia thời gian học thành các block 45 phút + 10 phút nghỉ',
+      'Ưu tiên học môn khó khi tinh thần còn tỉnh táo',
+      'Học nhóm 1-2 lần/tuần để trao đổi kiến thức',
+    ],
+    expectedImpact: 'Tăng 20-30% hiệu quả ghi nhớ',
+  });
+
+  if (goals.targetGPA > 0 && metrics.overallGPA > 0 && goals.targetGPA > metrics.overallGPA) {
+    recs.push({
+      type: 'motivation',
+      priority: 'medium',
+      title: `Hướng tới GPA ${goals.targetGPA}/10`,
+      description: `Hiện tại em đang ở ${metrics.overallGPA}/10, cần cải thiện thêm ${(goals.targetGPA - metrics.overallGPA).toFixed(1)} điểm.`,
+      actionableSteps: [
+        'Tham gia đầy đủ các buổi học và nộp bài đúng hạn',
+        'Chủ động hỏi giảng viên khi chưa hiểu bài',
+        'Ôn tập đều đặn, không dồn bài trước thi',
+      ],
+      expectedImpact: `Đạt GPA mục tiêu ${goals.targetGPA}/10`,
+    });
+  }
+
+  recs.push({
+    type: 'resource',
+    priority: 'low',
+    title: 'Tận dụng tài nguyên học tập',
+    description: 'Khám phá kho tài liệu và sử dụng AI Companion để hỗ trợ học tập hàng ngày.',
+    actionableSteps: [
+      'Truy cập mục Tài liệu để tìm bài giảng, đề cương',
+      'Sử dụng AI Companion để giải đáp thắc mắc 24/7',
+      'Đặt nhắc nhở deadline để không bỏ lỡ bài tập',
+    ],
+    expectedImpact: 'Mở rộng kiến thức, hỗ trợ tốt hơn trong học tập',
+  });
+
+  return {
+    recommendations: recs,
+    summary: {
+      totalRecommendations: recs.length,
+      highPriority: recs.filter((r) => r.priority === 'high').length,
+      generatedAt: new Date().toISOString(),
+    },
+    fallback: true,
+  };
 }
 
 async function handleNemoClaw(req, res) {

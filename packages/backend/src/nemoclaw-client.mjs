@@ -31,7 +31,10 @@ const XAI_API_KEY = process.env.XAI_API_KEY;
 const XAI_API_URL = process.env.XAI_API_URL || 'https://api.x.ai/v1/chat/completions';
 const XAI_MODEL = process.env.XAI_MODEL || 'grok-4.20';
 const KROUTER_API_KEY = process.env.KROUTER_API_KEY;
-const KROUTER_API_URL = process.env.KROUTER_API_URL || 'https://sv1.krouter.net/v1/chat/completions';
+const KROUTER_API_URL_RAW = process.env.KROUTER_API_URL || 'https://sv1.krouter.net/v1';
+const KROUTER_API_URL = KROUTER_API_URL_RAW.endsWith('/chat/completions')
+  ? KROUTER_API_URL_RAW
+  : `${KROUTER_API_URL_RAW.replace(/\/+$/, '')}/chat/completions`;
 const KROUTER_MODEL = process.env.KROUTER_MODEL || 'cx/gpt-5.4';
 
 export function getAssistantRuntimeStatus() {
