@@ -404,6 +404,16 @@ export function createAppServer(options = {}) {
         });
       }
 
+      // Temporary debug endpoint - remove after verifying deployment
+      if (req.method === 'GET' && url.pathname === '/api/debug/users') {
+        const db = loadDb('sao-do');
+        return sendJson(res, 200, {
+          userCount: db.users.length,
+          userEmails: db.users.map(u => u.email),
+          userIds: db.users.map(u => u.studentId),
+        });
+      }
+
       const user = requireAuth(req);
 
       if (url.pathname.startsWith('/api/groups')) {
